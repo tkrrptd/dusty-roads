@@ -1,0 +1,2433 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../utilities/">
+      
+      
+        <link rel="next" href="../ui/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../images/tunneler.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Bug Fixes - DUSTY ROADS</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier+Prime:300,300i,400,400i,700,700i%7CShare+Tech+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Courier Prime";--md-code-font:"Share Tech Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/custom.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#bug-fixes" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="DUSTY ROADS" class="md-header__button md-logo" aria-label="DUSTY ROADS" data-md-component="logo">
+      
+  <img src="../images/tunneler.ico" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DUSTY ROADS
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Bug Fixes
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="DUSTY ROADS" class="md-nav__button md-logo" aria-label="DUSTY ROADS" data-md-component="logo">
+      
+  <img src="../images/tunneler.ico" alt="logo">
+
+    </a>
+    DUSTY ROADS
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../preparation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preparation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mo2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mod Organizer 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../manual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utilities - Manual
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../utilities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utilities - MO2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bug Fixes
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bug Fixes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#nope-nv-optimized-patching-endeavor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NOPE - NV Optimized Patching Endeavor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unofficial-patch-nvse-plus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unofficial Patch NVSE Plus
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lstewieals-tweaks-and-engine-fixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        lStewieAl's Tweaks and Engine Fixes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stewie-tweaks-vnv-extended-ini" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stewie Tweaks - VNV Extended INI
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lstewieals-engine-optimizations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        lStewieAl's Engine Optimizations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#combat-lag-fix-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combat Lag Fix (NVSE)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vats-lag-fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VATS Lag Fix
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actorcause-save-bloat-fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ActorCause Save Bloat Fix
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viewmodel-shake-fix-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Viewmodel Shake Fix - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#climate-control-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Climate Control NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#misc-audio-tweaks-and-fixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Misc Audio Tweaks and Fixes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fallout-alpha-rendering-tweaks-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fallout Alpha Rendering Tweaks - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-emittance-fix-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        External Emittance Fix - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lod-fixes-and-improvements-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LOD Fixes and Improvements - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lod-flicker-fix-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LOD Flicker Fix - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#impostors-and-lod-flicker-fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Impostors and LOD Flicker Fix
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3rd-person-animation-fixpack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3rd Person Animation Fixpack
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#third-person-aim-fix-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Third Person Aim Fix NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#muzzle-flash-light-fix-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Muzzle Flash Light Fix - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viewmodel-shading-fix-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Viewmodel Shading Fix - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blood-decal-flashing-fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blood Decal Flashing Fix
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#depth-of-field-fix-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Depth of Field Fix - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#depth-resolve-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Depth Resolve - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moonlightnvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MoonlightNVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#high-resolution-water-fog-water-aliasing-fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        High Resolution Water Fog - Water Aliasing Fix
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#audio-region-fix-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Audio Region Fix - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#armor-damage-fix-espless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armor Damage Fix (ESPless)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#collision-meshes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Collision Meshes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#new-vegas-mesh-improvement-mod-nvmim" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        New Vegas Mesh Improvement Mod - NVMIM
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#skinned-mesh-improvement-mod-redone-redux-remake-retry-revengeance-retopology-refridgerator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        skinned mesh improvement mod - redone redux remake retry revengeance retopology refridgerator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pipboyon-node-fixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PipBoyOn Node Fixes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#meshes-and-collision-totally-enhanced-nifs-mac-ten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Meshes and Collision - Totally Enhanced Nifs (MAC-TEN)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#items-transformed-enhanced-meshes-item" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Items Transformed - Enhanced Meshes (ITEM)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#landscape-texture-improvements-fnv-ttw" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Landscape Texture Improvements (FNV - TTW)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#landscape-disposition-fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Landscape Disposition Fix
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vanilla-placement-fixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vanilla Placement Fixes
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ui/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Interface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gameplay/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gameplay
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Content
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../animations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Animations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../audio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Audio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visuals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visuals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dust/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DUST Mods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lod/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LOD Generation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../finish/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Finishing Touch
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional Mods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-ui/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional - User Interface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-gameplay/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional - Gameplay
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-content/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional - Content
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-animations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional - Animations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-audio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional - Audio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-visuals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional - Visuals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#nope-nv-optimized-patching-endeavor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NOPE - NV Optimized Patching Endeavor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unofficial-patch-nvse-plus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unofficial Patch NVSE Plus
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lstewieals-tweaks-and-engine-fixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        lStewieAl's Tweaks and Engine Fixes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stewie-tweaks-vnv-extended-ini" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stewie Tweaks - VNV Extended INI
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lstewieals-engine-optimizations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        lStewieAl's Engine Optimizations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#combat-lag-fix-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combat Lag Fix (NVSE)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vats-lag-fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VATS Lag Fix
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actorcause-save-bloat-fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ActorCause Save Bloat Fix
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viewmodel-shake-fix-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Viewmodel Shake Fix - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#climate-control-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Climate Control NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#misc-audio-tweaks-and-fixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Misc Audio Tweaks and Fixes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fallout-alpha-rendering-tweaks-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fallout Alpha Rendering Tweaks - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-emittance-fix-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        External Emittance Fix - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lod-fixes-and-improvements-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LOD Fixes and Improvements - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lod-flicker-fix-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LOD Flicker Fix - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#impostors-and-lod-flicker-fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Impostors and LOD Flicker Fix
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3rd-person-animation-fixpack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3rd Person Animation Fixpack
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#third-person-aim-fix-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Third Person Aim Fix NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#muzzle-flash-light-fix-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Muzzle Flash Light Fix - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viewmodel-shading-fix-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Viewmodel Shading Fix - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blood-decal-flashing-fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blood Decal Flashing Fix
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#depth-of-field-fix-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Depth of Field Fix - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#depth-resolve-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Depth Resolve - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moonlightnvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MoonlightNVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#high-resolution-water-fog-water-aliasing-fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        High Resolution Water Fog - Water Aliasing Fix
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#audio-region-fix-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Audio Region Fix - NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#armor-damage-fix-espless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armor Damage Fix (ESPless)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#collision-meshes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Collision Meshes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#new-vegas-mesh-improvement-mod-nvmim" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        New Vegas Mesh Improvement Mod - NVMIM
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#skinned-mesh-improvement-mod-redone-redux-remake-retry-revengeance-retopology-refridgerator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        skinned mesh improvement mod - redone redux remake retry revengeance retopology refridgerator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pipboyon-node-fixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PipBoyOn Node Fixes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#meshes-and-collision-totally-enhanced-nifs-mac-ten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Meshes and Collision - Totally Enhanced Nifs (MAC-TEN)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#items-transformed-enhanced-meshes-item" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Items Transformed - Enhanced Meshes (ITEM)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#landscape-texture-improvements-fnv-ttw" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Landscape Texture Improvements (FNV - TTW)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#landscape-disposition-fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Landscape Disposition Fix
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vanilla-placement-fixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vanilla Placement Fixes
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="bug-fixes">BUG FIXES</h1>
+<p class="fake-h3">Create a separator</p>
+<p>Right-click in the left pane of MO2 and select <code>Create separator</code>. Name it <span class="fake-h3">BUG FIXES</span>.</p>
+<h2 id="nope-nv-optimized-patching-endeavor"><a href="https://www.nexusmods.com/newvegas/mods/96050" target="_blank">NOPE - NV Optimized Patching Endeavor</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/96050/96050-1769637947-358366924.png" alt="NOPE">
+
+  <div style="margin-top: 0;">
+    <p>A modernized bug fixing mod for FNV.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">NOPE</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="unofficial-patch-nvse-plus"><a href="https://www.nexusmods.com/newvegas/mods/71239" target="_blank">Unofficial Patch NVSE Plus</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/71239/71239-1613150758-1586974762.png" alt="UPNVSE Plus">
+
+  <div style="margin-top: 0;">
+    <p>A refined selection of bugfixes.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Unofficial Patch NVSE Plus</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="lstewieals-tweaks-and-engine-fixes"><a href="https://www.nexusmods.com/newvegas/mods/66347" target="_blank">lStewieAl's Tweaks and Engine Fixes</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/66347/66347-1683057776-1599366088.png" alt="lStewieAl Tweaks">
+
+  <div style="margin-top: 0;">
+    <p>An engine-level collection of Quality-of-Life improvements in one file with INI settings to enable tweaks.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Stewie Tweaks</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="stewie-tweaks-vnv-extended-ini"><a href="https://github.com/ModdingLinked/Stewie-Tweaks-INIs/releases" target="_blank">Stewie Tweaks - VNV Extended INI</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/79358/79358-1746463362-1395686885.png" alt="VNV Extended INI">
+
+  <div style="margin-top: 0;">
+    <p>Viva New Vegas' configuration for lStewieAl's Tweaks and Engine Fixes.</p>
+
+    <ul>
+      <li>Download the latest version of <span class="highlight">Stewie_Tweaks-VNV_Extended_INI.7z</span></li>
+    </ul>
+
+    <div class="infobox-info">
+      <div class="infobox-title"><span class="icon-info"></span> Information</div>
+      <div class="infobox-content">
+        <img class="icon-16" src="/images/archive.png" alt="MO2 Install from archive">Mods downloaded from sources other than Nexus won’t appear in the <code>Downloads</code> tab. Install them manually using the <code>Install from archive</code> button in MO2’s toolbar.
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<h2 id="lstewieals-engine-optimizations"><a href="https://www.nexusmods.com/newvegas/mods/80993" target="_blank">lStewieAl's Engine Optimizations</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/80993/80993-1689186430-169071598.jpeg" alt="lStewieAl Optimizations">
+
+  <div style="margin-top: 0;">
+    <p>This mod rewrites functions in the game, improving algorithms and in-game performance.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Engine Optimizations</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="combat-lag-fix-nvse"><a href="https://www.nexusmods.com/newvegas/mods/71973" target="_blank">Combat Lag Fix (NVSE)</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/71973/71973-1617922595-907583889.png" alt="Combat Lag Fix">
+
+  <div style="margin-top: 0;">
+    <p>Improves framerate in combat by fixing an engine bug that lowers performance when attacking enemies with visible health bars.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Fast Weapon Lag Fix</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="vats-lag-fix"><a href="https://www.nexusmods.com/newvegas/mods/84823" target="_blank">VATS Lag Fix</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/84823/84823-1706984974-200413691.png" alt="VATS Lag Fix">
+
+  <div style="margin-top: 0;">
+    <p>Fixes VATS code that resulted in a 2 second delay before hit percentages were shown.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">VATS Lag Fix</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="actorcause-save-bloat-fix"><a href="https://www.nexusmods.com/newvegas/mods/80666" target="_blank">ActorCause Save Bloat Fix</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/80666/80666-1680642398-193203938.png" alt="ActorCause Save Bloat Fix">
+
+  <div style="margin-top: 0;">
+    <p>Fixes a save bloating issue related to actors detecting the player, improving save/load speed.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">ActorCause Save Bloat Fix</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="viewmodel-shake-fix-nvse"><a href="https://www.nexusmods.com/newvegas/mods/84443" target="_blank">Viewmodel Shake Fix - NVSE</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/84443/84443-1704739236-1536261728.png" alt="Viewmodel Shake Fix">
+
+  <div style="margin-top: 0;">
+    <p>Fixes severe shaking during aiming caused by floating-point precision loss.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Viewmodel Shake Fix - NVSE</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="climate-control-nvse"><a href="https://www.nexusmods.com/newvegas/mods/77205" target="_blank">Climate Control NVSE</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/77205/77205-1656184473-585639839.png" alt="Climate Control">
+
+  <div style="margin-top: 0;">
+    <p>NVSE plugin which fixes bugs and adds utilities for weather mods.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Climate Control NVSE</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="misc-audio-tweaks-and-fixes"><a href="https://www.nexusmods.com/newvegas/mods/77073" target="_blank">Misc Audio Tweaks and Fixes</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/77073/77073-1707232806-1610659128.jpeg" alt="Misc Audio Tweaks">
+
+  <div style="margin-top: 0;">
+    <p>A collection of tweaks for certain audio files to fix popping issues.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Assorted Voice Popping Fixes</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="fallout-alpha-rendering-tweaks-nvse"><a href="https://www.nexusmods.com/newvegas/mods/80316" target="_blank">Fallout Alpha Rendering Tweaks - NVSE</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/80316/80316-1678301895-342759583.png" alt="Alpha Rendering Tweaks">
+
+  <div style="margin-top: 0;">
+    <p>Mod fixes alpha rendering issues like broken effects when using Transparency Multisampling.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Fallout Alpha Rendering Tweaks</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="external-emittance-fix-nvse"><a href="https://www.nexusmods.com/newvegas/mods/80443" target="_blank">External Emittance Fix - NVSE</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/80443/80443-1678994473-359516554.png" alt="External Emittance Fix">
+
+  <div style="margin-top: 0;">
+    <p>Mod fixes incorrect external emittance handling which causes particles to render black.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">External Emittance Fix</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="lod-fixes-and-improvements-nvse"><a href="https://www.nexusmods.com/newvegas/mods/84171" target="_blank">LOD Fixes and Improvements - NVSE</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/84171/84171-1702972117-1681706951.png" alt="LOD Fixes">
+
+  <div style="margin-top: 0;">
+    <p>Mod improves various parts of the game's LOD system and fixes other issues.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">LOD Fixes and Improvements</span></li>
+      <li>Download the main file <span class="highlight">LOD Fixes and Improvements - INI</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="lod-flicker-fix-nvse"><a href="https://www.nexusmods.com/newvegas/mods/91705" target="_blank">LOD Flicker Fix - NVSE</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/91705/91705-1743877015-941586892.png" alt="LOD Flicker Fix">
+
+  <div style="margin-top: 0;">
+    <p>Fixes flickering objects caused by lack of depth buffer precision.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">LOD Flicker Fix - NVSE</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="impostors-and-lod-flicker-fix"><a href="https://www.nexusmods.com/newvegas/mods/83691" target="_blank">Impostors and LOD Flicker Fix</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/83691/83691-1699204856-336194630.png" alt="Impostor LOD Flicker Fix">
+
+  <div style="margin-top: 0;">
+    <p>Fixes the Z-flicker between impostor references and LOD meshes by disabling those impostor refs.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Impostors and LOD Flicker Fix</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="3rd-person-animation-fixpack"><a href="https://www.nexusmods.com/newvegas/mods/85198" target="_blank">3rd Person Animation Fixpack</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/85198/85198-1708935340-638382848.jpeg" alt="3rd Person Animation Fix">
+
+  <div style="margin-top: 0;">
+    <p>Fixes gliding, stuttering, limb popping, broken fingers, animation bugs, bad blending, etc, of 3rd person animations.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">3rd Person Animation Fixpack</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="third-person-aim-fix-nvse"><a href="https://www.nexusmods.com/newvegas/mods/96007" target="_blank">Third Person Aim Fix NVSE</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/96007/96007-1769452686-532811375.png" alt="3rd Person Aim Fix">
+
+  <div style="margin-top: 0;">
+    <p>Fix close-range shots being misaligned in third-person camera.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Third Person Aim Fix</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="muzzle-flash-light-fix-nvse"><a href="https://www.nexusmods.com/newvegas/mods/81201" target="_blank">Muzzle Flash Light Fix - NVSE</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/81201/81201-1684517868-2078010282.png" alt="Muzzle Flash Light Fix">
+
+  <div style="margin-top: 0;">
+    <p>Fixes muzzle flash lights not being culled after shot, leading to game still using them for illumination.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Muzzle Flash Light Fix</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="viewmodel-shading-fix-nvse"><a href="https://www.nexusmods.com/newvegas/mods/84781" target="_blank">Viewmodel Shading Fix - NVSE</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/84781/84781-1706803094-145264700.png" alt="Viewmodel Shading Fix">
+
+  <div style="margin-top: 0;">
+    <p>Mod fixes totally wrong specular lighting, and lack of muzzle flash lights on viewmodel.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Viewmodel Shading Fix - NVSE</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="blood-decal-flashing-fix"><a href="https://www.nexusmods.com/newvegas/mods/87830" target="_blank">Blood Decal Flashing Fix</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/87830/87830-1718906292-2002433615.png" alt="Blood Decal Fix">
+
+  <div style="margin-top: 0;">
+    <p>Fixes color overflow in blood decal shaders, which caused colorful flashes.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Blood Decal Flashing Fix</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="depth-of-field-fix-nvse"><a href="https://www.nexusmods.com/newvegas/mods/81200" target="_blank">Depth of Field Fix - NVSE</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/81200/81200-1684511070-828022971.png" alt="DOF Fix">
+
+  <div style="margin-top: 0;">
+    <p>Fix for depth of field bleeding over onto player's viewmodel.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Depth of Field Fix</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="depth-resolve-nvse"><a href="https://www.nexusmods.com/newvegas/mods/93991" target="_blank">Depth Resolve - NVSE</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/93991/93991-1758755354-1802518229.png" alt="Depth Resolve">
+
+  <div style="margin-top: 0;">
+    <p>Improves performance when Depth of Field is used.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Depth Resolve - NVSE</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="moonlightnvse"><a href="https://www.nexusmods.com/newvegas/mods/77683" target="_blank">MoonlightNVSE</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/77683/77683-1659029839-698389419.png" alt="MoonlightNVSE">
+
+  <div style="margin-top: 0;">
+    <p>Fixes moonlight, making the moon the light caster instead of the sun.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">MoonlightNVSE</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="high-resolution-water-fog-water-aliasing-fix"><a href="https://www.nexusmods.com/newvegas/mods/78400" target="_blank">High Resolution Water Fog - Water Aliasing Fix</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/78400/78400-1663376853-1559233769.png" alt="Water Aliasing Fix">
+
+  <div style="margin-top: 0;">
+    <p>Increases resolution of water depth render target, thus significantly reducing aliasing.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">High Resolution Water Fog</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="audio-region-fix-nvse"><a href="https://www.nexusmods.com/newvegas/mods/91241" target="_blank">Audio Region Fix - NVSE</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/91241/91241-1741041902-296096976.png" alt="Audio Region Fix">
+
+  <div style="margin-top: 0;">
+    <p>Fixes acoustic spaces not changing with exterior regions.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Audio Region Fix - NVSE</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="armor-damage-fix-espless"><a href="https://www.nexusmods.com/newvegas/mods/97255" target="_blank">Armor Damage Fix (ESPless)</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/97255/97255-1775500595-964817476.png" alt="Armor Damage Fix (ESPless)">
+
+  <div style="margin-top: 0;">
+    <p>Fixes the broken armor damage system.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Armor Damage Fix</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="collision-meshes"><a href="https://www.nexusmods.com/newvegas/mods/59149" target="_blank">Collision Meshes</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/59149-0-1433424635.png" alt="Collision Meshes">
+
+  <div style="margin-top: 0;">
+    <p>Fixes some of the worst collision meshes in the game.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Collision Meshes FNV</span></li>
+      <li>Download the update file <span class="highlight">update Collision Meshes FNV 1.6.3 to 1.6.4</span></li>
+    </ul>
+
+    <div class="infobox-info">
+      <div class="infobox-title"><span class="icon-info"></span> Information</div>
+      <div class="infobox-content">
+        <ul>
+          <li>When installing the update file, you can use the <span class="highlight">Merge</span> option</li>
+        </ul>
+      </div>        
+    </div>
+
+  </div>
+
+</div>
+
+<h2 id="new-vegas-mesh-improvement-mod-nvmim"><a href="https://www.nexusmods.com/newvegas/mods/74295" target="_blank">New Vegas Mesh Improvement Mod - NVMIM</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/74295/74295-1636252114-355964858.png" alt="NVMIM">
+
+  <div style="margin-top: 0;">
+    <p>Optimizations and fixes for a large selection of meshes in the base game and DLC.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">New Vegas Mesh Improvement Mod</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="skinned-mesh-improvement-mod-redone-redux-remake-retry-revengeance-retopology-refridgerator"><a href="https://www.nexusmods.com/newvegas/mods/82042" target="_blank">skinned mesh improvement mod - redone redux remake retry revengeance retopology refridgerator</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/82042/82042-1694116149-931191762.gif" alt="SMIM">
+
+  <div style="margin-top: 0;">
+    <p>More optimizations and fixes for various meshes.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">skinned mesh improvement mod</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="pipboyon-node-fixes"><a href="https://www.nexusmods.com/newvegas/mods/81775" target="_blank">PipBoyOn Node Fixes</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/81775/81775-1687576252-1592102725.png" alt="PipBoyOn Node Fixes">
+
+  <div style="margin-top: 0;">
+    <p>Fixes multiple pipboy:on nodes in the vanilla game armor meshes.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">PipBoyOn Node Fixes SMIM</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="meshes-and-collision-totally-enhanced-nifs-mac-ten"><a href="https://www.nexusmods.com/newvegas/mods/83815" target="_blank">Meshes and Collision - Totally Enhanced Nifs (MAC-TEN)</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/83815/83815-1700346730-1363304637.png" alt="MAC-10">
+
+  <div style="margin-top: 0;">
+    <p>MAC-TEN is a general bug fixing mod for hundreds of game models across the base game and DLCs.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">MAC-10</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="items-transformed-enhanced-meshes-item"><a href="https://www.nexusmods.com/newvegas/mods/85622" target="_blank">Items Transformed - Enhanced Meshes (ITEM)</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/85622/85622-1711328462-1640986773.png" alt="ITEM">
+
+  <div style="margin-top: 0;">
+    <p>ITEM is a general bug fixing mod for dozens of item and collectible models across the base game and DLCs.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">ITEM</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="landscape-texture-improvements-fnv-ttw"><a href="https://www.nexusmods.com/newvegas/mods/83425" target="_blank">Landscape Texture Improvements (FNV - TTW)</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/83425/83425-1761526816-894347725.jpg" alt="Landscape Improvements">
+
+  <div style="margin-top: 0;">
+    <p>Improves many aspects of the landscape, most notably reducing texture seams.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Landscape Texture Improvements</span></li>
+    </ul>
+
+    <div class="infobox-fomod">
+      <div class="infobox-title"><span class="icon-fomod"></span> FOMOD Installer</div>
+      <div class="infobox-content">
+        <ol>
+          <li><span class="highlight">Game Selection</span>: FNV</li>
+          <li><span class="highlight">FNV Patches</span>:<br> 
+          &#9745; AWOLP Patch</li>
+        </ol>  
+    </div>
+</div>
+
+  </div>
+
+</div>
+
+<h2 id="landscape-disposition-fix"><a href="https://www.nexusmods.com/newvegas/mods/73937" target="_blank">Landscape Disposition Fix</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/73937/73937-1633558299-1596366845.jpeg" alt="Landscape Disposition Fix">
+
+  <div style="margin-top: 0;">
+    <p>Fixes several hundred vanilla floating objects.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Landscape Disposition Fix</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="vanilla-placement-fixes"><a href="https://www.nexusmods.com/newvegas/mods/90593" target="_blank">Vanilla Placement Fixes</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/90593/90593-1736817229-264963264.png" alt="Placement Fixes">
+
+  <div style="margin-top: 0;">
+    <p>Fixes hundreds of clipping/floating/misaligned objects in the base game and DLCs.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Placement Fixes</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../utilities/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Utilities - MO2">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Utilities - MO2
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../ui/" class="md-footer__link md-footer__link--next" aria-label="Next: User Interface">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                User Interface
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.footer"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

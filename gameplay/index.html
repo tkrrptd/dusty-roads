@@ -1,0 +1,1471 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../ui/">
+      
+      
+        <link rel="next" href="../content/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../images/tunneler.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Gameplay - DUSTY ROADS</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier+Prime:300,300i,400,400i,700,700i%7CShare+Tech+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Courier Prime";--md-code-font:"Share Tech Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/custom.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#gameplay" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="DUSTY ROADS" class="md-header__button md-logo" aria-label="DUSTY ROADS" data-md-component="logo">
+      
+  <img src="../images/tunneler.ico" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DUSTY ROADS
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Gameplay
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="DUSTY ROADS" class="md-nav__button md-logo" aria-label="DUSTY ROADS" data-md-component="logo">
+      
+  <img src="../images/tunneler.ico" alt="logo">
+
+    </a>
+    DUSTY ROADS
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../preparation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preparation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mo2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mod Organizer 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../manual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utilities - Manual
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../utilities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utilities - MO2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fixes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bug Fixes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ui/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Interface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gameplay
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gameplay
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#jam-just-assorted-mods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JAM - Just Assorted Mods
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jlm-grab-tweaks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JLM Grab Tweaks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clean-just-assorted-mods-jam" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clean Just Assorted Mods (JAM)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#b42-recoil-espless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        B42 Recoil - ESPless
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manual-reload-and-ammo-memory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Manual Reload and Ammo Memory
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cookable-grenades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cookable Grenades
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bad-touch-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bad Touch NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bad-touch-nvse-extended" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bad Touch NVSE - Extended
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#simple-ai-merge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Simple AI Merge
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#npcs-sprint-knvse-espless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NPCs Sprint kNVSE - ESPless
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enhanced-creatures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enhanced Creatures
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Content
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../animations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Animations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../audio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Audio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visuals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visuals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dust/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DUST Mods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lod/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LOD Generation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../finish/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Finishing Touch
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional Mods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-ui/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional - User Interface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-gameplay/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional - Gameplay
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-content/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional - Content
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-animations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional - Animations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-audio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional - Audio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-visuals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional - Visuals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#jam-just-assorted-mods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JAM - Just Assorted Mods
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jlm-grab-tweaks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JLM Grab Tweaks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clean-just-assorted-mods-jam" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clean Just Assorted Mods (JAM)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#b42-recoil-espless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        B42 Recoil - ESPless
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manual-reload-and-ammo-memory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Manual Reload and Ammo Memory
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cookable-grenades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cookable Grenades
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bad-touch-nvse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bad Touch NVSE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bad-touch-nvse-extended" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bad Touch NVSE - Extended
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#simple-ai-merge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Simple AI Merge
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#npcs-sprint-knvse-espless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NPCs Sprint kNVSE - ESPless
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enhanced-creatures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enhanced Creatures
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="gameplay">GAMEPLAY</h1>
+<p class="fake-h3">Create a separator</p>
+<p>Right-click in the left pane of MO2 and select <code>Create separator</code>. Name it <span class="fake-h3">GAMEPLAY</span>.</p>
+<h2 id="jam-just-assorted-mods"><a href="https://www.nexusmods.com/newvegas/mods/66666" target="_blank">JAM - Just Assorted Mods</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/66666/66666-1605545881-1902299479.png" alt="JAM">
+
+  <div style="margin-top: 0;">
+    <p>A collection of modern features, such as sprinting, dynamic crosshair, etc.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Just Assorted Mods</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="jlm-grab-tweaks"><a href="https://www.nexusmods.com/newvegas/mods/83847" target="_blank">JLM Grab Tweaks</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/83847/83847-1700593554-203613125.png" alt="JLM Tweaks">
+
+  <div style="margin-top: 0;">
+    <p>Tweak for Just Loot Menu so the activator text and loot menu are hidden when you "grab" an object.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">JLM Grab Tweak</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="clean-just-assorted-mods-jam"><a href="https://www.nexusmods.com/newvegas/mods/82724" target="_blank">Clean Just Assorted Mods (JAM)</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/82724/82724-1692834554-1351220069.png" alt="Clean JAM">
+
+  <div style="margin-top: 0;">
+    <p>Replaces all Just Assorted Mods (JAM) textures with cleaned up versions.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Clean Just Assorted Mods</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="b42-recoil-espless"><a href="https://www.nexusmods.com/newvegas/mods/90536" target="_blank">B42 Recoil - ESPless</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/90536/90536-1736533997-964503676.png" alt="B42 Recoil">
+
+  <div style="margin-top: 0;">
+    <p>This mod adds a modern recoil implementation.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">B42 Recoil</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="manual-reload-and-ammo-memory"><a href="https://www.nexusmods.com/newvegas/mods/65853" target="_blank">Manual Reload and Ammo Memory</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/65853/65853-1693171840-386546490.png" alt="Manual Reload">
+
+  <div style="margin-top: 0;">
+    <p>Stop the player automatically reloading when the clip is emptied.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Manual Reload and Ammo Count Memory</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="cookable-grenades"><a href="https://www.nexusmods.com/newvegas/mods/81678" target="_blank">Cookable Grenades</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/81678/81678-1692228202-414293437.png" alt="Cookable Grenades">
+
+  <div style="margin-top: 0;">
+    <p>Holding a grenade before throwing it decreases its fuse.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">lStewieAl - Cookable Grenades</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="bad-touch-nvse"><a href="https://www.nexusmods.com/newvegas/mods/83782" target="_blank">Bad Touch NVSE</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/83782/83782-1699943761-1018082612.png" alt="Bad Touch">
+
+  <div style="margin-top: 0;">
+    <p>Fire burns, electricity shocks, cacti poke, and more!</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Bad Touch NVSE</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="bad-touch-nvse-extended"><a href="https://www.nexusmods.com/newvegas/mods/84726" target="_blank">Bad Touch NVSE - Extended</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/84726/84726-1706577365-1183665654.png" alt="Bad Touch Extended">
+
+  <div style="margin-top: 0;">
+    <p>Extends Bad Touch NVSE functionality.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Bad Touch NVSE - Extended</span></li>
+    </ul>
+
+    <div class="infobox-fomod">
+      <div class="infobox-title"><span class="icon-fomod"></span> FOMOD Installer</div>
+      <div class="infobox-content">
+        <span class="highlight">Default Hazards</span><br>
+        &#9745; Fire<br>
+        &#9745; Shock<br>
+        &#9745; Barbed Wire<br>
+        <span class="highlight">Extra Hazards</span><br>
+        &#9745; Toxic Gas<br>
+        &#9745; Toxic Goo<br>
+        &#9745; Toxic Sludge<br>
+        <span class="highlight">Mesh Patches</span><br>
+        &#9745; MAC-TEN<br>
+
+      </div>    
+    </div>
+
+  </div>
+
+</div>
+
+<h2 id="simple-ai-merge"><a href="https://www.nexusmods.com/newvegas/mods/86691" target="_blank">Simple AI Merge</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/86691/86691-1715200525-1193361764.jpg" alt="AI Merge">
+
+  <div style="margin-top: 0;">
+    <p>Collection of AI tweaks to make your game a lot harder while not breaking scripted sequences.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">The AI Merge Lite - No Guard Rails</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="npcs-sprint-knvse-espless"><a href="https://www.nexusmods.com/newvegas/mods/83745" target="_blank">NPCs Sprint kNVSE - ESPless</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/83745/83745-1699700847-1417295514.jpeg" alt="NPCs Sprint">
+
+  <div style="margin-top: 0;">
+    <p>Simple kNVSE implementation of combat sprinting for melee NPCs.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">NPCs Sprint kNVSE - ESPless</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h2 id="enhanced-creatures"><a href="https://www.nexusmods.com/newvegas/mods/92824" target="_blank">Enhanced Creatures</a></h2>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/92824/92824-1751682668-1288051904.jpg" alt="Enhanced Creatures">
+
+  <div style="margin-top: 0;">
+    <p>Creature combat overhaul, fixing animations, improving attack patterns, restoring content.</p>
+
+    <ul>
+      <li>Download the main file <span class="highlight">Enhanced Creatures</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../ui/" class="md-footer__link md-footer__link--prev" aria-label="Previous: User Interface">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                User Interface
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../content/" class="md-footer__link md-footer__link--next" aria-label="Next: Content">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Content
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.footer"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
