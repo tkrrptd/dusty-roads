@@ -1,0 +1,48 @@
+site_name: DUSTY ROADS
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: orange
+    accent: orange
+  favicon: 'images/tunneler.ico' 
+  logo: 'images/tunneler.ico'
+  font:
+    text: Courier Prime
+    code: Share Tech Mono
+  features:
+    - navigation.footer  
+    
+extra_css:
+  - css/custom.css
+
+markdown_extensions:
+  - attr_list
+
+nav:
+  - Welcome: index.md
+  - Preparation: preparation.md
+  - Mod Organizer 2: mo2.md
+  - Utilities - Manual: manual.md
+  - Utilities - MO2: utilities.md
+  - Bug Fixes: fixes.md
+  - User Interface: ui.md
+  - Gameplay: gameplay.md
+  - Content: content.md
+  - Animations: animations.md
+  - Audio: audio.md
+  - Visuals: visuals.md
+  - DUST Mods: dust.md
+  - LOD Generation: lod.md
+  - Finishing Touch: finish.md
+  - Optional Mods: optional.md
+  - Optional - User Interface: optional-ui.md
+  - Optional - Gameplay: optional-gameplay.md
+  - Optional - Content: optional-content.md
+  - Optional - Animations: optional-animations.md
+  - Optional - Audio: optional-audio.md
+  - Optional - Visuals: optional-visuals.md
+  - Resources: resources.md
+  - Changelog: changelog.md
+  

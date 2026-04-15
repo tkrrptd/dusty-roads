@@ -1,0 +1,411 @@
+/* ─── Fonts ──────────────────────────────────────────────────────────────── */
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Courier+Prime:wght@400;700&family=Bebas+Neue&display=swap');
+
+/* ─── Layout ─────────────────────────────────────────────────────────────── */
+
+p {
+  text-align: justify;
+}
+
+.md-grid {
+  max-width: min(90%, 1600px);
+}
+
+.md-header__button.md-logo img {
+  height: 32px;
+}
+
+/*.spacer-sm {
+  display: block;
+  height: 0.1em;
+  line-height: 0;
+}*/
+
+/* ─── Color scheme ───────────────────────────────────────────────────────── */
+
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color:          hsl(20, 8%, 10%);
+  --md-default-fg-color:          hsl(30, 15%, 72%);
+  --md-default-fg-color--light:   hsl(30, 10%, 50%);
+  --md-default-fg-color--lighter: hsl(30, 8%, 35%);
+  --md-primary-fg-color:          hsl(22, 70%, 45%);
+  --md-primary-bg-color:          hsl(20, 8%, 10%);
+  --md-accent-fg-color:           hsl(35, 80%, 55%);
+  --md-code-bg-color:             hsl(20, 8%, 14%);
+  --md-code-fg-color:             hsl(30, 15%, 65%);
+}
+
+/* ─── Header ─────────────────────────────────────────────────────────────── */
+
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: hsl(20, 8%, 8%);
+}
+
+[data-md-color-scheme="slate"] .md-header__title {
+  color: hsl(30, 25%, 85%);
+  font-size: 1.2rem;
+}
+
+/* ─── Sidebars ───────────────────────────────────────────────────────────── */
+
+[data-md-color-scheme="slate"] .md-sidebar--primary,
+[data-md-color-scheme="slate"] .md-sidebar--primary .md-sidebar__scrollwrap,
+[data-md-color-scheme="slate"] .md-sidebar--primary .md-nav,
+[data-md-color-scheme="slate"] .md-sidebar--primary .md-nav__list,
+[data-md-color-scheme="slate"] .md-sidebar--secondary,
+[data-md-color-scheme="slate"] .md-sidebar--secondary .md-sidebar__scrollwrap,
+[data-md-color-scheme="slate"] .md-sidebar--secondary .md-nav,
+[data-md-color-scheme="slate"] .md-sidebar--secondary .md-nav__list {
+  background-color: hsl(20, 8%, 12%);
+}
+
+[data-md-color-scheme="slate"] .md-sidebar .md-nav__item,
+[data-md-color-scheme="slate"] .md-sidebar .md-nav__link {
+  background-color: transparent;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+  color: hsl(35, 80%, 55%);
+}
+
+/* ─── Typography ─────────────────────────────────────────────────────────── */
+
+h1, h2, h3, h4, h5, h6,
+.md-header__title,
+.md-nav__title {
+  font-family: 'Special Elite', cursive;
+  letter-spacing: 0.03em;
+}
+
+[data-md-color-scheme="slate"] h2 {
+  color: hsl(35, 80%, 55%);
+}
+
+.md-typeset h2 a::after,
+.md-typeset h3 a::after,
+.md-typeset h4 a::after {
+  content: " \2913";
+  font-size: 1.2em;
+  opacity: 0.6;
+}
+
+.md-typeset code,
+.md-typeset pre code {
+  font-size: 0.9em;
+}
+
+.md-typeset hr {
+  border-color: hsl(35, 80%, 55%);
+  opacity: 0.4;
+}
+
+/* ─── Lists ──────────────────────────────────────────────────────────────── */
+
+.md-typeset ul,
+.md-typeset ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.md-typeset ul li,
+.md-typeset ol li {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+
+/* ─── Inline text highlights ────────────────────────────────────────────────── */
+
+.highlight {
+  color: hsl(35, 80%, 55%);
+}
+
+.warn {
+  color: hsl(0, 90%, 65%);
+}
+
+/* ─── Fake headings (excluded from TOC) ──────────────────────────────────── */
+
+.fake-h1 {
+  font-family: 'Special Elite', cursive;
+  font-size: 2em;
+  font-weight: normal;
+  letter-spacing: 0.04em;
+  color: hsl(30, 15%, 72%);
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.fake-h2 {
+  font-family: 'Special Elite', cursive;
+  font-size: 1.5em;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+  color: hsl(35, 80%, 55%);
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.fake-h3 {
+  font-family: 'Special Elite', cursive;
+  font-size: 1.1em;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+  color: hsl(30, 15%, 72%);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ─── Footer ─────────────────────────────────────────────────────────────── */
+
+.md-footer__title {
+  font-family: 'Special Elite', cursive;
+  font-size: 3em;
+}
+
+.md-footer__direction {
+  display: none;
+}
+
+/* ─── Quote ──────────────────────────────────────────────────────────────── */
+
+.dust-quote-wrapper {
+  text-align: center;
+}
+
+.dust-quote {
+  display: inline-block;
+  text-align: left;
+  border-left: 2px solid hsl(35, 80%, 55%);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem auto;
+  font-family: 'Special Elite', cursive;
+  font-style: italic;
+  font-size: 1em;
+  line-height: 1.8;
+  color: hsl(30, 15%, 65%);
+  opacity: 0.75;
+  background: linear-gradient(to right, hsla(35, 80%, 55%, 0.08), transparent 60%);
+}
+
+/* ─── Changelog ──────────────────────────────────────────────────────────── */
+
+.changelog {
+  border-left: 2px solid hsl(35, 80%, 55%);
+  margin-left: 10px;
+  padding-left: 20px;
+}
+
+.changelog-entry {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.changelog-dot {
+  position: absolute;
+  left: -27px;
+  width: 12px;
+  height: 12px;
+  border: 2px solid hsl(35, 80%, 55%);
+  border-radius: 50%;
+  background: hsl(20, 8%, 10%);
+}
+
+.changelog-version {
+  margin: 0;
+  font-family: 'Special Elite', cursive;
+  font-size: 1em;
+  color: hsl(35, 80%, 55%);
+}
+
+/* ─── Infoboxes ──────────────────────────────────────────────────────────── */
+
+.infobox,
+.infobox-info,
+.infobox-fomod,
+.infobox-decision,
+.infobox-requirement {
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+.infobox .infobox-title,
+.infobox-info .infobox-title,
+.infobox-fomod .infobox-title,
+.infobox-decision .infobox-title,
+.infobox-requirement .infobox-title {
+  padding: 0.3rem 0.8rem;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.infobox .infobox-content,
+.infobox-info .infobox-content,
+.infobox-fomod .infobox-content,
+.infobox-decision .infobox-content,
+.infobox-requirement .infobox-content {
+  padding: 0.8rem;
+}
+
+/* warning */
+.infobox {
+  border: 1px solid hsl(35, 80%, 55%);
+}
+.infobox .infobox-title {
+  background-color: hsl(35, 80%, 20%);
+  color: hsl(35, 80%, 75%);
+}
+
+/* info */
+.infobox-info {
+  border: 1px solid hsl(210, 70%, 50%);
+}
+.infobox-info .infobox-title {
+  background-color: hsl(210, 70%, 20%);
+  color: hsl(210, 70%, 75%);
+}
+
+/* fomod instructions */
+.infobox-fomod {
+  border: 1px solid hsl(150, 50%, 40%);
+}
+.infobox-fomod .infobox-title {
+  background-color: hsl(150, 50%, 15%);
+  color: hsl(150, 50%, 70%);
+}
+
+/* decision */
+.infobox-decision {
+  border: 1px solid hsl(0, 70%, 45%);
+}
+.infobox-decision .infobox-title {
+  background-color: hsl(0, 70%, 18%);
+  color: hsl(0, 70%, 75%);
+}
+
+/* requirement */
+.infobox-requirement {
+  border: 1px solid hsl(50, 80%, 45%);
+}
+.infobox-requirement .infobox-title {
+  background-color: hsl(50, 80%, 15%);
+  color: hsl(50, 80%, 70%);
+}
+
+/* ─── Guidebox ────────────────────────────────────────────────────────────── */
+
+.guide-box {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  background: #2b2925;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.guide-box img {
+  width: 80px;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.guide-box p {
+  margin-top: 0;
+}
+
+.icon-16 {
+  width: 16px !important;
+  height: 16px;
+}
+
+/* ─── TextArea ───────────────────────────────────────────────────────────── */
+
+.dust-textarea {
+  width: 100%;
+  max-width: 600px;
+  background-color: hsl(20, 8%, 14%);
+  color: hsl(30, 15%, 65%);
+  border: 1px solid hsl(35, 80%, 35%);
+  border-radius: 4px;
+  padding: 0.6rem 0.8rem;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.9em;
+  resize: none;
+  outline: none;
+  overflow: hidden;
+}
+
+/* ─── Discord links ──────────────────────────────────────────────────────── */
+
+.md-typeset a[href*="discord"] {
+  color: hsl(235, 86%, 65%);
+}
+
+.md-typeset a[href*="discord"]:hover {
+  color: hsl(235, 86%, 75%);
+}
+
+.md-typeset a[href*="discord"]::after {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-left: 4px;
+  vertical-align: middle;
+  background-image: url("https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e3d80db9971f10a9757c99_Symbol.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  filter: invert(40%) sepia(80%) saturate(500%) hue-rotate(200deg) brightness(65%);
+}
+
+/* ─── SVG icons ──────────────────────────────────────────────────────────── */
+
+.icon-warning::before,
+.icon-info::before,
+.icon-fomod::before,
+.icon-decision::before,
+.icon-requirement::before,
+.icon-path-right::before,
+.icon-path-left::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  vertical-align: middle;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icon-warning::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23f0a054'%3E%3Cpath d='M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z'/%3E%3C/svg%3E");
+}
+
+.icon-info::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%237ab8f5'%3E%3Cpath d='M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z'/%3E%3C/svg%3E");
+}
+
+.icon-fomod::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%236ecfa3'%3E%3Cpath d='M0 2.75C0 1.784.784 1 1.75 1h12.5c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25Zm1.75-.25a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V2.75a.25.25 0 0 0-.25-.25ZM7.25 8a.749.749 0 0 1-.22.53l-2.25 2.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L5.44 8 3.72 6.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.25 2.25c.141.14.22.331.22.53Zm1.5 1.5h3a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5Z'/%3E%3C/svg%3E");
+}
+
+.icon-decision::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23f07070'%3E%3Cpath d='M5.22 14.78a.75.75 0 0 0 1.06-1.06L4.56 12h8.69a.75.75 0 0 0 0-1.5H4.56l1.72-1.72a.75.75 0 0 0-1.06-1.06l-3 3a.75.75 0 0 0 0 1.06l3 3Zm5.56-6.5a.75.75 0 1 1-1.06-1.06l1.72-1.72H2.75a.75.75 0 0 1 0-1.5h8.69L9.72 2.28a.75.75 0 0 1 1.06-1.06l3 3a.75.75 0 0 1 0 1.06l-3 3Z'/%3E%3C/svg%3E");
+}
+
+.icon-requirement::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23d4a820'%3E%3Cpath d='M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z'/%3E%3Cpath d='M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z'/%3E%3C/svg%3E");
+}
+
+.icon-path-right::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23d4a034'%3E%3Cpath d='M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 0 1 0 1.5h-2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 0 1 0 1.5h-2.5A1.75 1.75 0 0 1 2 13.25Zm10.44 4.5-1.97-1.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l3.25 3.25a.75.75 0 0 1 0 1.06l-3.25 3.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734l1.97-1.97H6.75a.75.75 0 0 1 0-1.5Z'/%3E%3C/svg%3E");
+}
+
+.icon-path-left::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23d4a034'%3E%3Cpath d='M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 0 1 0 1.5h-2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 0 1 0 1.5h-2.5A1.75 1.75 0 0 1 2 13.25Zm6.56 4.5h5.69a.75.75 0 0 1 0 1.5H8.56l1.97 1.97a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L6.22 8.53a.75.75 0 0 1 0-1.06l3.25-3.25a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734Z'/%3E%3C/svg%3E");
+}

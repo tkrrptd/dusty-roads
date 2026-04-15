@@ -1,0 +1,2176 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../dust/">
+      
+      
+        <link rel="next" href="../finish/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../images/tunneler.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>LOD Generation - DUSTY ROADS</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier+Prime:300,300i,400,400i,700,700i%7CShare+Tech+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Courier Prime";--md-code-font:"Share Tech Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/custom.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lod-generation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="DUSTY ROADS" class="md-header__button md-logo" aria-label="DUSTY ROADS" data-md-component="logo">
+      
+  <img src="../images/tunneler.ico" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DUSTY ROADS
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              LOD Generation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="DUSTY ROADS" class="md-nav__button md-logo" aria-label="DUSTY ROADS" data-md-component="logo">
+      
+  <img src="../images/tunneler.ico" alt="logo">
+
+    </a>
+    DUSTY ROADS
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../preparation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preparation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mo2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mod Organizer 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../manual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utilities - Manual
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../utilities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utilities - MO2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fixes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bug Fixes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ui/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Interface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gameplay/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gameplay
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Content
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../animations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Animations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../audio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Audio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visuals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visuals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dust/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DUST Mods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LOD Generation
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LOD Generation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#required-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Required Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Required Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fnvlodgen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FNVLODGen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#much-needed-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Much Needed LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#much-needed-lod-fixed-rocks-color" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Much Needed LOD fixed rocks color
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lod-additions-and-improvements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LOD additions and improvements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fnv-lod-supplementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FNV LOD Supplementation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tcms-lod-overhaul" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TCM's LOD Overhaul
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#more-lods-additions-and-fixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        More LODs Additions and fixes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wasted-lod-cliffs-of-mojave" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wasted LOD - Cliffs of Mojave
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#different-lod-mods-little-tweaks-and-additions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Different LOD mods little tweaks and additions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lodify-level-of-detail-improvement-for-your-fallout-ttw-and-nv-lods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LODIFY - Level of detail improvement for your Fallout (TTW And NV Lods)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decent-lod-kit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decent LOD Kit
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ttw-fallout-3-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TTW Fallout 3 LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#physically-based-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Physically Based LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nuclear-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nuclear LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#high-priority-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        High Priority LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dusty-roads-lod-plugin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DUSTy Roads - LOD Plugin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dusty-roads-pregenerated-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DUSTy Roads - Pregenerated LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generate-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Generate LOD
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Generate LOD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#xlodgen-terrain-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        xLODGen - Terrain LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#terrain-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Terrain LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#objects-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objects LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disabling-mods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disabling Mods
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#packing-lod-in-bsa-archives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Packing LOD in bsa Archives
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Packing LOD in bsa Archives">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bsarchpro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BSArchPro
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#packing-object-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Packing Object LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#packing-terrain-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Packing Terrain LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../finish/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Finishing Touch
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional Mods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-ui/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional - User Interface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-gameplay/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional - Gameplay
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-content/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional - Content
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-animations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional - Animations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-audio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional - Audio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-visuals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optional - Visuals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#required-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Required Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Required Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fnvlodgen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FNVLODGen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#much-needed-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Much Needed LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#much-needed-lod-fixed-rocks-color" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Much Needed LOD fixed rocks color
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lod-additions-and-improvements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LOD additions and improvements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fnv-lod-supplementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FNV LOD Supplementation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tcms-lod-overhaul" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TCM's LOD Overhaul
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#more-lods-additions-and-fixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        More LODs Additions and fixes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wasted-lod-cliffs-of-mojave" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wasted LOD - Cliffs of Mojave
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#different-lod-mods-little-tweaks-and-additions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Different LOD mods little tweaks and additions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lodify-level-of-detail-improvement-for-your-fallout-ttw-and-nv-lods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LODIFY - Level of detail improvement for your Fallout (TTW And NV Lods)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decent-lod-kit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decent LOD Kit
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ttw-fallout-3-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TTW Fallout 3 LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#physically-based-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Physically Based LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nuclear-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nuclear LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#high-priority-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        High Priority LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dusty-roads-lod-plugin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DUSTy Roads - LOD Plugin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dusty-roads-pregenerated-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DUSTy Roads - Pregenerated LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generate-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Generate LOD
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Generate LOD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#xlodgen-terrain-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        xLODGen - Terrain LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#terrain-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Terrain LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#objects-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objects LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disabling-mods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disabling Mods
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#packing-lod-in-bsa-archives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Packing LOD in bsa Archives
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Packing LOD in bsa Archives">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bsarchpro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BSArchPro
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#packing-object-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Packing Object LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#packing-terrain-lod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Packing Terrain LOD
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="lod-generation">LOD GENERATION</h1>
+<p><span class="highlight">LOD</span> (Level of Detail) refers to simplified versions of distant objects in the game world, such as terrain, buildings, and trees. Instead of rendering full-detail models far away, the game uses lower-detail versions to improve performance. As you move closer, these objects gradually switch to their full-detail versions. Proper LOD ensures distant landscapes look consistent and reduces visual pop-in while keeping the game running smoothly.</p>
+
+<ol>
+    <li><span class="highlight">Objects</span> LOD: Displays simplified versions of distant structures and objects (like buildings and ruins).</li>
+    <li><span class="highlight">Terrain</span> LOD: Renders the distant landscape (hills, ground, roads) as a lower-detail mesh to create a seamless horizon.</li>
+    <li><span class="highlight">Tree</span> LOD: Primarily used for small flora (bushes, shrubs), while larger trees are often handled by objects LOD.</li>
+</ol>
+
+<p>Why generate LOD if it’s already included in a mod or in this guide? Because LOD is static and does not account for changes made by other mods. By generating LOD yourself, you ensure the visuals accurately reflect your specific mod setup. <span class="highlight">Dust Community Fixes and Tweaks</span> only includes terrain LOD for the Wasteland, primarily to address water LOD in the drained Colorado River and Lake Mead, but it does not provide object or tree LOD. For that reason, generating LOD yourself is always recommended.</p>
+
+<p class="fake-h3">Create a separator</p>
+<p>Right-click in the left pane of MO2 and select <code>Create separator</code>. Name it <span class="fake-h3">LOD</span>.</p>
+<h2 id="required-resources">Required Resources</h2>
+<h3 id="fnvlodgen"><a href="https://www.nexusmods.com/newvegas/mods/58562" target="_blank">FNVLODGen</a></h3>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/58562-1-1432921531.jpg" alt="FNVLODGen">
+
+  <div style="margin-top: 0;">
+    <ol>
+      <li>Download the main file <span class="highlight">FNVLODGen Resources</span></li>
+      <li>Hide the <code>FNVLODGen.esp</code> plugin</li>
+    </ol>
+
+    <div class="infobox-info">
+      <div class="infobox-title"><span class="icon-info"></span> Information</div>
+      <div class="infobox-content">
+        You can either delete the file, hide the file, or move it away. We'll do the latter, so you can easily retrieve it when required:<br>
+          <ol>
+            <li>Double click the mod in the left pane</li>
+            <li>Go to the <span class="highlight">Optional Plugins</span> tab</li>
+            <li>Select the plugin in the right table (<span class="highlight">Available Plugins</span>) and click on the green arrow pointing left</li>
+            <li>The plugin is now moved to <span class="highlight">Optional Plugins</span></li>
+          </ol>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<h3 id="much-needed-lod"><a href="https://www.nexusmods.com/newvegas/mods/64805" target="_blank">Much Needed LOD</a></h3>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/64805/64805-1523055451-793332593.jpeg" alt="Much Needed LOD">
+
+  <div style="margin-top: 0;">
+    <ol>
+      <li>Download the main file <span class="highlight">Much Needed LOD</span></li>
+      <li>Hide the <code>MuchNeededLOD.esp</code> plugin</li>
+    </ol>
+
+  </div>
+
+</div>
+
+<h3 id="much-needed-lod-fixed-rocks-color"><a href="https://www.nexusmods.com/newvegas/mods/81524" target="_blank">Much Needed LOD fixed rocks color</a></h3>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/81524/81524-1686493430-941294059.png" alt="Much Needed LOD fixed">
+
+  <div style="margin-top: 0;">
+    <ul>
+      <li>Download the main file <span class="highlight">Much Needed LOD fixed rocks color</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h3 id="lod-additions-and-improvements"><a href="https://www.nexusmods.com/newvegas/mods/61206" target="_blank">LOD additions and improvements</a></h3>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/61206-0-1451845583.jpg" alt="LOD additions">
+
+  <div style="margin-top: 0;">
+    <ol>
+      <li>Download the main file <span class="highlight">LODadditions</span></li>
+      <li>Hide the <code>tmzLODadditions.esp</code> plugin</li>
+    </ol>
+
+  </div>
+
+</div>
+
+<h3 id="fnv-lod-supplementation"><a href="https://www.nexusmods.com/newvegas/mods/72099" target="_blank">FNV LOD Supplementation</a></h3>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/72099/72099-1618781091-585013970.png" alt="LOD Supplementation">
+
+  <div style="margin-top: 0;">
+    <ul>
+      <li>Download the main file <span class="highlight">FNV LOD Supplementation</span></li>
+      <li>Download the optional file <span class="highlight">Optional Overpasses</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h3 id="tcms-lod-overhaul"><a href="https://www.nexusmods.com/newvegas/mods/70155" target="_blank">TCM's LOD Overhaul</a></h3>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/70155/70155-1729410224-769051876.png" alt="TCM LOD">
+
+  <div style="margin-top: 0;">
+    <ul>
+      <li>Download the main file <span class="highlight">TCM's LOD Overhaul</span></li>
+
+    </ul>
+
+  </div>
+
+</div>
+
+<h3 id="more-lods-additions-and-fixes"><a href="https://www.nexusmods.com/newvegas/mods/81751" target="_blank">More LODs Additions and fixes</a></h3>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/81751/81751-1687463780-454868802.png" alt="More LOD Additions">
+
+  <div style="margin-top: 0;">
+    <ul>
+      <li>Download the main file <span class="highlight">More LODs Additions and fixes</span></li>
+
+    </ul>
+
+  </div>
+
+</div>
+
+<h3 id="wasted-lod-cliffs-of-mojave"><a href="https://www.nexusmods.com/newvegas/mods/83316" target="_blank">Wasted LOD - Cliffs of Mojave</a></h3>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/83316/83316-1696324892-1114409732.png" alt="Wasted LOD">
+
+  <div style="margin-top: 0;">
+    <ol>
+      <li>Download the main file <span class="highlight">Version 1.0</span></li>
+      <li>Hide the <code>Wasted Mojave Rock LOD.esp</code> plugin</li>
+    </ol>
+
+  </div>
+
+</div>
+
+<h3 id="different-lod-mods-little-tweaks-and-additions"><a href="https://www.nexusmods.com/newvegas/mods/81981" target="_blank">Different LOD mods little tweaks and additions</a></h3>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/81981/81981-1688571392-935523143.png" alt="Different LOD tweaks">
+
+  <div style="margin-top: 0;">
+    <ul>
+      <li>Download the main file <span class="highlight">Different LOD mods little tweaks and additions</span></li>
+
+    </ul>
+
+  </div>
+
+</div>
+
+<h3 id="lodify-level-of-detail-improvement-for-your-fallout-ttw-and-nv-lods"><a href="https://www.nexusmods.com/newvegas/mods/84165" target="_blank">LODIFY - Level of detail improvement for your Fallout (TTW And NV Lods)</a></h3>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/84165/84165-1702935954-1498962530.png" alt="LODIFY">
+
+  <div style="margin-top: 0;">
+    <ol>
+      <li>Download the main file <span class="highlight">LODIFY</span></li>
+      <li>Download the optional file <span class="highlight">LODIFY FNV Wall_SoGB Editon</span></li>
+      <li>Hide the <code>TTWLods.esp</code> and <code>LODIFY_FNV.esp</code> plugins</li>
+    </ol>
+
+  </div>
+
+</div>
+
+<h3 id="decent-lod-kit"><a href="https://www.nexusmods.com/newvegas/mods/88979" target="_blank">Decent LOD Kit</a></h3>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/88979/88979-1735939651-1623842502.jpeg" alt="Decent LOD">
+
+  <div style="margin-top: 0;">
+    <ol>
+      <li>Download the main file <span class="highlight">Decent LOD Kit</span></li>
+      <li>Hide the <code>Decent LOD Kit.esp</code> plugin</li>
+    </ol>
+
+  </div>
+
+</div>
+
+<h3 id="ttw-fallout-3-lod"><a href="https://www.nexusmods.com/newvegas/mods/90327" target="_blank">TTW Fallout 3 LOD</a></h3>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/90327/90327-1741509621-1210897503.png" alt="TTW LOD">
+
+  <div style="margin-top: 0;">
+    <ol>
+      <li>Download the main file <span class="highlight">TTW Fallout 3 LOD</span>. Yes, it says <span class="highlight">TTW</span>, and yes you need it.</li>
+      <li>Hide the <code>TTW Fallout 3 LOD.esp</code> plugin</li>
+    </ol>
+
+  </div>
+
+</div>
+
+<h3 id="physically-based-lod"><a href="https://www.nexusmods.com/newvegas/mods/93393" target="_blank">Physically Based LOD</a></h3>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/93393/93393-1755391477-2075757264.png" alt="Physically Based LOD">
+
+  <div style="margin-top: 0;">
+    <ul>
+      <li>Download the main file <span class="highlight">Physically Based LOD</span></li>
+
+    </ul>
+
+  </div>
+
+</div>
+
+<h3 id="nuclear-lod"><a href="https://www.nexusmods.com/newvegas/mods/88902" target="_blank">Nuclear LOD</a></h3>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/88902/88902-1728923685-628362077.png" alt="Nuclear LOD">
+
+  <div style="margin-top: 0;">
+    <ol>
+      <li>Download the main file <span class="highlight">Nuclear Core</span></li>
+      <li>Download the main file <span class="highlight">Nuclear Trees - Vanilla</span></li>
+      <li>Hide the <code>Nuclear_LOD.esp</code> and <code>TreeLOD_Vanilla.esp</code> plugins</li>
+    </ol>
+
+  </div>
+
+</div>
+
+<h3 id="high-priority-lod"><a href="https://www.nexusmods.com/newvegas/mods/88898" target="_blank">High Priority LOD</a></h3>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/88898/88898-1724768957-801881589.png" alt="High Priority LOD">
+
+  <div style="margin-top: 0;">
+    <ul>
+      <li>Download the main file <span class="highlight">High Priority Core - with NVMIM</span></li>
+      <li>Download the main file <span class="highlight">High Priority Trees - Vanilla</span></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<h3 id="dusty-roads-lod-plugin"><a href="https://www.nexusmods.com/newvegas/mods/97094" target="_blank">DUSTy Roads - LOD Plugin</a></h3>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/97094/97094-1775140780-122210232.png" alt="DUSTy Roads">
+
+  <div style="margin-top: 0;">
+    <ul>
+      <li>Download the main file <span class="highlight">DUSTy Roads - LOD Plugin</span>. This will overwrite the LOD plugin shipped with <span class="highlight">DUST Community Fixes & Tweaks</span></li>
+
+    </ul>
+
+  </div>
+
+</div>
+
+<div class="infobox-decision">
+  <div class="infobox-title"><span class="icon-decision"></span> Decision</div>
+  <div class="infobox-content" style="padding: 1rem; font-size: 1.1em;">
+    <p style="margin-top:0; font-family: 'Bebas Neue', cursive; font-size: 1.2em; letter-spacing: 0.05em;">To LOD or not to LOD?</p>
+    <ul style="margin-bottom:0; list-style:none; padding-left:0;">
+      <li style="margin-bottom: 0.6em;"><span class="icon-path-right"></span> If you've followed this guide closely and haven't added (or don't plan to add) mods that alter textures or the game world, you can skip generating LOD and simply use the <a href="../lod/#dusty-roads-pregenerated-lod">Pregenerated LOD</a> below.</li>
+      <li><span class="icon-path-left"></span> If you didn't, or prefer to generate it yourself, skip the pregenerated LOD and proceed to <a href="../lod/#generate-lod">Generate LOD</a>.</li>
+    </ul>
+  </div>
+</div>
+
+<h3 id="dusty-roads-pregenerated-lod"><a href="https://www.nexusmods.com/newvegas/mods/97094" target="_blank">DUSTy Roads - Pregenerated LOD</a></h3>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/97094/97094-1775140780-122210232.png" alt="DUSTy Road">
+
+  <div style="margin-top: 0;">
+    <ul>
+      <li>Download the optional file <span class="highlight">DUSTy Road - Pregenerated Objects LOD</span></li>
+      <li>Download the optional file <span class="highlight">DUSTy Road - Pregenerated Terrain LOD</span></li>
+    </ul>
+
+    <p>You still need the installed LOD resources, but you should disable these two in the left pane of <span class="highlight">MO2</span>:</p>
+      <ul>
+        <li><span class="highlight">High Priority Core</span></li>  
+        <li><span class="highlight">High Priority Trees - Vanilla</span></li>
+      </ul>
+
+  </div>
+
+</div>
+<p><br></p>
+<h2 id="generate-lod">Generate LOD</h2>
+<h3 id="xlodgen-terrain-lod"><a href="https://stepmodifications.org/forum/topic/13451-xlodgen-terrain-lod-beta-132-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal-enderalse/" target="_blank">xLODGen - Terrain LOD</a></h3>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/58562-1-1432921531.jpg" alt="xLODGen">
+
+  <div style="margin-top: 0;">
+    <ol>
+      <li>Download the file <span class="highlight">xLODGen beta 132</span></li>
+      <li>Extract the 7z-archive to a folder on the same drive as <span class="highlight">FNV</span> and <span class="highlight">MO2</span> (and not a default Windows folder!)</li>
+      <li>Add <code>xLODGenx64.exe</code> as an executable to <span class="highlight">MO2</span> (see <a href="../mo2/#adding-executables">Adding Executables</a>)</li>
+      <li>Add <code>-fnv -O:"D:\xLODGen Output"</code> in the arguments field. Pick a location of your choice - generated LOD will be written to this folder</li>
+    </ol>
+
+    <div class="infobox">
+      <div class="infobox-title"><span class="icon-warning"></span> Warning</div>
+      <div class="infobox-content">
+        Do not use the <span class="highlight">FNVLODGen</span> version on <span class="highlight">Nexus Mods</span>. It is outdated and may produce broken LOD.
+      </div>    
+    </div>
+
+  </div>
+
+</div>
+
+<h3 id="terrain-lod">Terrain LOD</h3>
+<div style="display: flex; gap: 0; margin-bottom: 20px;">
+  <div style="flex: 1; background:#2b2925; padding:10px; border-radius:5px 0 0 5px;">
+    <p style="margin-top: 0;">When generating LOD, you always start with terrain LOD. Whenever a new mod is installed that modifies terrain, or terrain textures, terrain LOD needs regenerating.</p>
+
+    <div class="infobox">
+      <div class="infobox-title"><span class="icon-warning"></span> Warning</div>
+      <div class="infobox-content">
+        Before starting, make sure the output folder is empty!
+      </div>    
+    </div>
+
+    <ol>
+      <li>Select <span class="highlight">xLODGen</span> from the executables drop-down in <span class="highlight">MO2</span> and run it</li>
+      <li>Right click in the <span class="highlight">worldspaces</span> pane and choose <code>Select All</code></li>
+      <li>In the right pane make sure only <span class="highlight">Terrain LOD</span> is enabled</li>
+      <li>There are 4 quality levels: <span class="highlight">LOD4</span>, <span class="highlight">LOD8</span>, <span class="highlight">LOD16</span>, and <span class="highlight">LOD32</span>. By toggling the <code>Settings for</code> drop-down, you can set settings per quality level. Use the same settings as in the screenshots below.</li>
+      <li>Click <code>Generate</code> and wait until you get notified <code>LOD generation done</code>. Close <span class="highlight">xLODGen</span></li>
+      <li><img src="/images/settings.png" alt="Open list options"> Click the <code>Open list options...</code> button on top of the left pane in <span class="highlight">MO2</span> (not the toolbar!), and select <code>Create empty mod</code></li>
+      <li>Name the newly created mod <span class="highlight">FNVLODGen Output - Terrain</span>, and make sure it is placed last in the left pane</li>
+      <li>Navigate to the output folder (the one set in the <span class="highlight">xLODGen</span> arguments), and move both folders (<code>Meshes</code> and <code>Textures</code>) to the <span class="highlight">FNVLODGen Output - Terrain</span> mod</li>
+      <li>Make sure the mod is enabled by clicking the checkbox</li>
+    </ol>
+  </div>
+
+  <div style="flex: 1; background:#2b2925; padding:10px; border-radius:0 5px 5px 0; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/xlodgen-worldspaces.png" style="max-width: 100%; height: auto;">
+
+  </div>
+</div>
+
+<div style="background:#2b2925; padding:10px; border-radius:5px; margin-bottom:20px;">
+
+  <div style="display: flex; gap: 0; margin-bottom: 10px;">
+    <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
+      <img src="/images/xlodgen-lod4.png" alt="LOD4" style="max-width: 100%; height: auto;">
+    </div>
+    <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
+      <img src="/images/xlodgen-lod8.png" alt="LOD8" style="max-width: 100%; height: auto;">
+    </div>
+  </div>
+
+  <div style="display: flex; gap: 0;">
+    <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
+      <img src="/images/xlodgen-lod16.png" alt="LOD16" style="max-width: 100%; height: auto;">
+    </div>
+    <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
+      <img src="/images/xlodgen-lod32.png" alt="LOD32" style="max-width: 100%; height: auto;">
+    </div>
+  </div>
+
+</div>
+
+<h3 id="objects-lod">Objects LOD</h3>
+<div style="display: flex; gap: 0; margin-bottom: 20px;">
+  <div style="flex: 1; background:#2b2925; padding:10px; border-radius:5px 0 0 5px;">
+    <p style="margin-top: 0;">As with terrain LOD, any mod that alters world objects or textures requires regenerating Objects LOD.</p>
+
+    <div class="infobox">
+      <div class="infobox-title"><span class="icon-warning"></span> Warning</div>
+      <div class="infobox-content">
+        Before starting, make sure the output folder is empty!
+      </div>    
+    </div>
+
+    <ol>
+      <li>Select <span class="highlight">xLODGen</span> from the executables drop-down in <span class="highlight">MO2</span> and run it</li>
+      <li>Right click in the <span class="highlight">worlspaces</span> pane and choose <code>Select All</code></li>
+      <li>In the right pane make sure only <span class="highlight">Objects LOD</span> and <span class="highlight">Trees LOD</span> are enabled</li>
+      <li>Use the same settings as the screenshot on the right</li>
+      <li>Click <code>Generate</code> and wait until you get notified <code>LOD generation done</code>. Close <span class="highlight">xLODGen</span></li>
+      <li><img src="/images/settings.png" alt="Open list options"> Click the <code>Open list options...</code> button on top of the left pane in <span class="highlight">MO2</span> (not the toolbar!), and select <code>Create empty mod</code></li>
+      <li>Name the newly created mod <span class="highlight">FNVLODGen Output - Objects</span>, and make sure it is placed last in the left pane</li>
+      <li>Navigate to the output folder (the one set in the <span class="highlight">xLODGen</span> arguments), and move both folders (<code>Meshes</code> and <code>Textures</code>) to the <span class="highlight">FNVLODGen Output - Objects</span> mod</li>
+      <li>Make sure the mod is enabled by clicking the checkbox</li>
+    </ol>
+  </div>
+
+  <div style="flex: 1; background:#2b2925; padding:10px; border-radius:0 5px 5px 0; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/xlodgen-object.png" alt="Objects and Trees LOD" style="max-width: 100%; height: auto;">
+
+  </div>
+</div>
+
+<h3 id="disabling-mods">Disabling Mods</h3>
+<div style="display: flex; gap: 0; margin-bottom: 20px;">
+  <div style="flex: 1; background:#2b2925; padding:10px; border-radius:5px 0 0 5px;">
+    <p>Once LOD generation is complete, some mods that are only needed during the generation process can be disabled. Leaving them enabled may cause visual issues. But don’t forget to re-enable them before generating LOD again!</p>
+      <ul>
+        <li><span class="highlight">High Priority Core</span></li>  
+        <li><span class="highlight">High Priority Trees - Vanilla</span></li>
+      </ul>
+  </div>  
+</div>
+
+<h3 id="packing-lod-in-bsa-archives">Packing LOD in bsa Archives</h3>
+<div style="display: flex; gap: 0; margin-bottom: 20px;">
+  <div style="flex: 1; background:#2b2925; padding:10px; border-radius:5px 0 0 5px;">
+    <p>This step is optional, but strongly recommended. This will positively affect the loading times of LOD assets in-game. There are a few caveats however:</p>
+      <ul>
+        <li><span class="highlight">bsa</span> archives require a plugin to be loaded. So the name of the archive should equal that of the plugin, with the suffix <span class="highlight">- Objects</span> and <span class="highlight">- Terrain</span></li>
+        <li>Loose files will always override archived files! Check <span class="highlight">MO2</span>'s left pane for <a href="../mo2/#conflict-resolution">conflicts</a> and act accordingly to ensure the right file is conflict winner</li>
+        <li>An <code>.override</code> file is necessary to allow archived files to override other archived files (a <span class="highlight">JIP LN</span> feature)</li>
+      </ul> 
+
+    <div class="infobox-decision">
+      <div class="infobox-title"><span class="icon-decision"></span> Decision</div>
+      <div class="infobox-content" style="padding: 1rem;>
+        <span style="display:block; margin-bottom:4px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="hsl(150, 50%, 70%)" style="vertical-align: middle; margin-right: 4px;"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm1.5 0a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm10.28-1.72-4.5 4.5a.75.75 0 0 1-1.06 0l-2-2a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l1.47 1.47 3.97-3.97a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path></svg> <u>When to pack:</u></span>
+        <ul>
+          <li>I want an optimized game and avoid potential stuttering when loading new areas in-game</li>
+          <li>I am able to resolve asset conflicts and get rid of LOD included in other mods as loose files</li>
+        </ul>
+        <span style="display:block; margin-top:8px; margin-bottom:4px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="hsl(0, 70%, 75%)" style="vertical-align: middle; margin-right: 4px;"><path d="M2.344 2.343h-.001a8 8 0 0 1 11.314 11.314A8.002 8.002 0 0 1 .234 10.089a8 8 0 0 1 2.11-7.746Zm1.06 10.253a6.5 6.5 0 1 0 9.108-9.275 6.5 6.5 0 0 0-9.108 9.275ZM6.03 4.97 8 6.94l1.97-1.97a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l1.97 1.97a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-1.97 1.97a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L6.94 8 4.97 6.03a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018Z"></path></svg> <u>When not to pack:</u></span>
+        <ul>
+          <li>I don’t want to deal with checking file conflicts</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h4 id="bsarchpro"><a href="https://www.nexusmods.com/fallout4/mods/63243" target="_blank">BSArchPro</a></h4>
+<div class="guide-box">
+
+  <img src="https://staticdelivery.nexusmods.com/mods/1151/images/63243/63243-1769254695-1137142480.png" alt="BSArchPro">
+
+  <div style="margin-top: 0;">
+    <p style="margin-top: 0;">A tool for packing and unpacking Bethesda archives.</p>
+
+    <ol>
+      <li>Download the optional file <span class="highlight">BSArchPro</span></li>
+      <li>Extract the zip-archive to a folder of your choice and run <code>BSArchPro.exe</code></li>
+    </ol>
+
+  </div>
+
+</div>
+
+<h4 id="packing-object-lod">Packing Object LOD</h4>
+<div style="display: flex; gap: 0; margin-bottom: 20px;">
+  <div style="flex: 1; background:#2b2925; padding:10px; border-radius:5px 0 0 5px;">
+
+    <ol>
+      <li>In <span class="highlight">MO2</span>, right click on <span class="highlight">FNVLODGen Output - Objects</span> and select <code>Open in Explorer</code></li>
+      <li>Drag the <code>Textures</code> folder into <span class="highlight">BSArchPro</span></li>
+      <li>Object textures should be compressed (and <span class="warn">only</span> objects textures). In <span class="highlight">BSArchPro</span>'s main window, press <code>Ctrl + a</code> to select all files, use right click and select <code>Set Compressed Where Applicable</code></li>
+      <li>Drag now the <code>Meshes</code> folder into <span class="highlight">BSArchPro</span>, and click the <code>Pack</code> button</li>
+      <li>In the new window, make sure same options are selected as on the screenshot to the right</li>
+      <li>Use the <code>...</code> to select the <span class="highlight">FNVLODGen Output - Objects</span> folder, and use <code>DUST LOD - Objects.bsa</code> as file name</li>
+      <li>Click <code>OK</code> to pack</li>
+      <li>When done, a new window will appear. Click on the <code>Create .override file(s) for New Vegas</code> button, <span class="warn">not</span> the <code>OK</code> button</li>
+      <li>In <span class="highlight">BSArchPro</span>'s main window, click now the <code>Clear List</code>button</li>
+      <li>Delete now both <code>Meshes</code> and <code>Textures</code> folders</li>
+
+    </ol>
+  </div>
+
+  <div style="flex: 1; background:#2b2925; padding:10px; border-radius:0 5px 5px 0; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/bsarchpro-obj.png" alt="BSArchPro Settings" style="max-width: 75%; height: auto;">
+
+  </div>
+</div>
+
+<h4 id="packing-terrain-lod">Packing Terrain LOD</h4>
+<div style="display: flex; gap: 0; margin-bottom: 20px;">
+  <div style="flex: 1; background:#2b2925; padding:10px; border-radius:5px 0 0 5px;">
+
+    <ol>
+      <li>In <span class="highlight">MO2</span>, right click on <span class="highlight">FNVLODGen Output - Terrain</span> and select <code>Open in Explorer</code></li>
+      <li>Drag both <code>Meshes</code> and <code>Textures</code> folder into <span class="highlight">BSArchPro</span>. Terrain textures should <span class="warn">not</span> be compressed!</li>
+      <li>Click the <code>Pack</code> button</li>
+      <li>In the new window, make sure same options are selected as on the screenshot to the right</li>
+      <li>Use the <code>...</code> to select the <span class="highlight">FNVLODGen Output - Terrain</span> folder, and use <code>DUST LOD - Terrain.bsa</code> as file name</li>
+      <li>Click <code>OK</code> to pack</li>
+      <li>When done, a new window will appear. Click on the <code>Create .override file(s) for New Vegas</code> button, <span class="warn">not</span> the <code>OK</code> button</li>
+      <li>In <span class="highlight">BSArchPro</span>'s main window, click now the <code>Clear List</code>button</li>
+      <li>Delete now both <code>Meshes</code> and <code>Textures</code> folders</li>
+      <li>This archive will overwrite the terrain LOD archive included in <span class="highlight">DUST Community Fixes & Tweaks</span></li>
+    </ol>
+  </div>
+
+  <div style="flex: 1; background:#2b2925; padding:10px; border-radius:0 5px 5px 0; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/bsarchpro-ter.png" alt="BSArchPro Settings" style="max-width: 75%; height: auto;">
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../dust/" class="md-footer__link md-footer__link--prev" aria-label="Previous: DUST Mods">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                DUST Mods
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../finish/" class="md-footer__link md-footer__link--next" aria-label="Next: Finishing Touch">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Finishing Touch
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.footer"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
