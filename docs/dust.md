@@ -28,7 +28,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
     <p>The definitive AIO bug fixing and tweaks mod for DUST.</p>
     
     <ul>
-      <li>Download the main file <span class="highlight">DUST Community Fixes</span></li>
+      <li>Download the main file <span class="highlight">DUST Community Fixes and Tweaks</span></li>
     </ul>
   		
   </div>
@@ -61,6 +61,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
     
     <ul>
       <li>Download the main file <span class="highlight">DUST - Ink and Ash</span></li>
+	  <li>Download the main file <span class="highlight">DUST - Ink and Ash - Assets</span></li>
 	  
     </ul>
   		
