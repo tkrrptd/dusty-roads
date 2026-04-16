@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# MkDocs build output
+site/
+
+# Virtual environments
+.venv/
+env/
+
+# OS junk
+.DS_Store
+Thumbs.db
