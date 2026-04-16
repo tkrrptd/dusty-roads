@@ -29,7 +29,7 @@
    <div>
      <p>You will have the option to create either a <span class="highlight">global instance</span>, or a <span class="highlight">portable instance</span>. A global instance of <span class="highlight">MO2</span> shares settings, profiles, and mods, while a portable instance keeps everything self-contained in a single folder that can be moved or backed up independently. I recommend using a portable instance.</p>
 	 
-	 <img src="/images/instance.png" alt="MO2 instances" style="display:block; margin:0; width:300px;"><br>
+	 <img src="/dusty-roads/images/instance.png" alt="MO2 instances" style="display:block; margin:0; width:300px;"><br>
 	 
 	 <ol>
 	   <li>From the game list, select <span class="highlight">New Vegas</span></li>
@@ -66,7 +66,7 @@
         <div class="infobox-title"><span class="icon-info"></span> Information</div>
         <div class="infobox-content">
           If your resolution is not listed in the launcher, you can set it manually in <code>FalloutPrefs.ini</code>.<br>
-		  <img src="/images/tools.png" alt="MO2 tools"> Click the <code>Tools</code> button in the toolbar.<br>
+		  <img src="/dusty-roads/images/tools.png" alt="MO2 tools"> Click the <code>Tools</code> button in the toolbar.<br>
 		  <ol>
 		    <li>Select <code>INI Editor</code></li>
 			<li>Go to the <span class="highlight">FalloutPrefs.ini</span> tab</li>
@@ -80,7 +80,7 @@
       </div><br>
 	  
 	  <p>Thanks to <span class="highlight">JIP LN NVSE</span>, you can use a custom INI to add various settings without touching the main INIs. <span class="highlight">FalloutCustom.ini</span> takes precedence over the other INI files and cannot be modified by the game.<br>
-	  <img src="/images/tools.png" alt="MO2 tools"> Click the <code>Tools</code> button in the toolbar and paste these settings in the <span class="highlight">FalloutCustom.ini</span> tab:<br></p>
+	  <img src="/dusty-roads/images/tools.png" alt="MO2 tools"> Click the <code>Tools</code> button in the toolbar and paste these settings in the <span class="highlight">FalloutCustom.ini</span> tab:<br></p>
 	  
 	  <textarea readonly="readonly" class="dust-textarea" rows="54" onclick="this.focus();this.select()">
 [Audio]
@@ -149,7 +149,7 @@ bForceFullLOD=1</textarea>
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px; background:#2b2925; padding:10px; border-radius:5px;">
 
    <div>
-     <p><img src="/images/settings.png" alt="MO2 settings"> Click the <code>Settings</code> button in the toolbar to access <span class="highlight">MO2</span>'s settings.<br>
+     <p><img src="/dusty-roads/images/settings.png" alt="MO2 settings"> Click the <code>Settings</code> button in the toolbar to access <span class="highlight">MO2</span>'s settings.<br>
 	 There are various settings that let you customize how you interact with <span class="highlight">MO2</span>, as well as how it looks and feels (<span class="highlight">Theme</span> tab for example). To keep this guide concise, these options will not be covered, so feel free to explore them yourself. That said, do check these out:</p>
 	 <ul>
 	   <li><span class="highlight">Nexus</span> tab: here you can connect/disconnect to <span class="highlight">Nexus Mods</span>, and associate <span class="highlight">MO2</span> with <code>Download with manager</code> links. Here, you can also configure your preferred download server.</li>
@@ -163,7 +163,7 @@ bForceFullLOD=1</textarea>
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px; background:#2b2925; padding:10px; border-radius:5px;">
    <div>
       <p>There are several tools used for modding (such as <span class="highlight">xEdit</span> and the <span class="highlight">GECK</span>) or generate LOD (<span class="highlight">xLODGen</span>). These tools need to be added to <span class="highlight">MO2</span> so they can detect and work with your installed mods.</p>
-	  <img src="/images/exe.png" alt="MO2 configuring executables"> Click the <code>Configuring executables</code> button in the toolbar.
+	  <img src="/dusty-roads/images/exe.png" alt="MO2 configuring executables"> Click the <code>Configuring executables</code> button in the toolbar.
 	    <ol>
 	      <li>Add an executable by clicking the <code>+</code> button and select <code>Add from file...</code></li>
 		  <li>Navigate to the location where the tool is installed, and select the executable (<code>.exe</code> or <code>.bat</code>)</li>
@@ -179,10 +179,10 @@ bForceFullLOD=1</textarea>
    <div>
       <p>Just like plugin load order, the mod load order (<span class="highlight">MO2</span>’s left pane) is equally important. Assets such as textures and meshes are overridden by mods loaded below them (i.e. higher priority). <span class="highlight">MO2</span>’s <code>Flags</code> column provides visual indicators of file conflicts. Reordering mods (via simple drag and drop) may be necessary to resolve them:</p> 
 	  <ul>
-	    <li><img src="/images/winner.png" alt="Conflict winner"> means the mod has asset(s) overriding others (conflict winner)</li>
-		<li><img src="/images/loser.png" alt="Conflict loser"> means the mod has asset(s) being overridden by others (conflict loser)</li>
-		<li><img src="/images/both.png" alt="Conflict loser/winner"> means the mod has asset(s) both conflict winners as conflict losers</li>
-		<li><img src="/images/blue.png" alt="Archive conflict"> When a file in a <code>bsa</code> archive is conflicting, the lightning icon will be blue</li>
+	    <li><img src="/dusty-roads/images/winner.png" alt="Conflict winner"> means the mod has asset(s) overriding others (conflict winner)</li>
+		<li><img src="/dusty-roads/images/loser.png" alt="Conflict loser"> means the mod has asset(s) being overridden by others (conflict loser)</li>
+		<li><img src="/dusty-roads/images/both.png" alt="Conflict loser/winner"> means the mod has asset(s) both conflict winners as conflict losers</li>
+		<li><img src="/dusty-roads/images/blue.png" alt="Archive conflict"> When a file in a <code>bsa</code> archive is conflicting, the lightning icon will be blue</li>
 	  </ul>
 
 	  <p>To find out what file is conflicting, double-click the mod, and go to the <span class="highlight">Conflicts</span> tab:</p>

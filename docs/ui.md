@@ -75,7 +75,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 	<div class="infobox-info">
       <div class="infobox-title"><span class="icon-info"></span> Information</div>
       <div class="infobox-content">
-        <img class="icon-16" src="/images/archive.png" alt="MO2 Install from archive">Mods downloaded from sources other than Nexus won’t appear in the <code>Downloads</code> tab. Install them manually using the <code>Install from archive</code> button in MO2’s toolbar.
+        <img class="icon-16" src="/dusty-roads/images/archive.png" alt="MO2 Install from archive">Mods downloaded from sources other than Nexus won’t appear in the <code>Downloads</code> tab. Install them manually using the <code>Install from archive</code> button in MO2’s toolbar.
 	  </div>
     </div>
   	

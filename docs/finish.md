@@ -38,7 +38,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
     <ul>
       <li>Download the miscellaneous file <span class="highlight">DUSTy Roads Load Order</span></li>
 	  <li>Unpack the 7z-archive</li>
-	  <li><img class="icon-16" src="/images/folders.png" alt="Show Open Folders Menu...">Click the <code>Open Folders Menu</code> button at the top of the left pane in <span class="highlight">MO2</span>.</li>
+	  <li><img class="icon-16" src="/dusty-roads/images/folders.png" alt="Show Open Folders Menu...">Click the <code>Open Folders Menu</code> button at the top of the left pane in <span class="highlight">MO2</span>.</li>
 	  <li>Select <code>Open Profile folder</code></li>
 	  <li>Move the downloaded <code>loadorder.txt</code> to this folder and overwrite when prompted</li>
 	  <li>Refresh the <span class="highlight">Plugins</span> tab with <code>F5</code></li>
@@ -58,7 +58,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 	
 	<ul>
       <li>Compare or download one or both file(s)</li>
-	  <li><img class="icon-16" src="/images/folders.png" alt="Show Open Folders Menu...">Click the <code>Open Folders Menu</code> button at the top of the left pane in <span class="highlight">MO2</span>.</li>
+	  <li><img class="icon-16" src="/dusty-roads/images/folders.png" alt="Show Open Folders Menu...">Click the <code>Open Folders Menu</code> button at the top of the left pane in <span class="highlight">MO2</span>.</li>
 	  <li>Select <code>Open Profile folder</code></li>
 	  <li>Move the downloaded files to this folder and overwrite when prompted</li>
 	  <li>Refresh the <span class="highlight">Plugins</span> tab with <code>F5</code></li>
@@ -90,7 +90,8 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 </div>
 <br>
 ## Conclusion
-<p>The journey through this guide is over, but the Mojave Wasteland is still yours to explore. Use what you’ve learned to survive, mod, and shape the DUST experience your way.”<br>
+<p>The journey through this guide is over, but the Mojave Wasteland is still yours to explore. Use what you’ve learned to survive, mod, and shape the DUST experience your way.<br> 
+If you feel confident, you can have a look at the <a href="../optional/#optional-mods">optional section</a> for additional content.
 <br>
 If you have any suggestions or complaints, or just want to vent your frustration after being bitten in the ass by Tunnelers again, hop into the <a href="https://discord.gg/AJxH6mFTnE" target="_blank">DUST Discord server</a>.</p>
 <br>
