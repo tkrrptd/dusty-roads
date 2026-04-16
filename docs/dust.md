@@ -29,6 +29,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
     
     <ul>
       <li>Download the main file <span class="highlight">DUST Community Fixes and Tweaks</span></li>
+	  <li>Download the main file <span class="highlight">Temporary Expansion Project Plugin Replacer</span>. Make sure this is placed <span class="highlight">below</span> Expansion Project, in the left pane of MO2!</li>
     </ul>
   		
   </div>

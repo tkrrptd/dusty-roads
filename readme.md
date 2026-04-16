@@ -1,6 +1,6 @@
 # DUSTy Roads - A DUST Modding Guide
 
-A guide designed to help you navigate and get started in DUST Survival Simulator, while incorporating up-to-date an well-tested stability and performance improvements for Fallout: New Vegas.
+A guide designed to help you navigate and get started in DUST Survival Simulator, while incorporating up-to-date and well-tested stability and performance improvements for Fallout: New Vegas.
 
 ## Live Site
 https://tkrrptd.github.io/dusty-roads/
