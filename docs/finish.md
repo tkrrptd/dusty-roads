@@ -91,7 +91,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 <br>
 ## Conclusion
 <p>The journey through this guide is over, but the Mojave Wasteland is still yours to explore. Use what you’ve learned to survive, mod, and shape the DUST experience your way.<br> 
-If you feel confident, you can have a look at the <a href="../optional/#optional-mods">optional section</a> for additional content.
+If you feel confident, you can have a look at the <a href="../optional/#optional-mods">optional section</a> for additional content.<br>
 <br>
 If you have any suggestions or complaints, or just want to vent your frustration after being bitten in the ass by Tunnelers again, hop into the <a href="https://discord.gg/AJxH6mFTnE" target="_blank">DUST Discord server</a>.</p>
 <br>

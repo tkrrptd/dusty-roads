@@ -1,6 +1,6 @@
 # OPTIONAL MODS
 
-<img src="/images/sandstorm.png" alt="DUSTy Roads continued" style="display:block; margin:auto;">
+<img src="/dusty-roads/images/sandstorm.png" alt="DUSTy Roads continued" style="display:block; margin:auto;">
 
 <p>A few community favorites that didn’t quite fit the scope of the guide, but came close. So, they’re listed here as optional additions. To keep your setup organized, you can add them to existing separators or create new ones.</p>
 

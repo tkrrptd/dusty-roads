@@ -6,4 +6,4 @@ A guide designed to help you navigate and get started in DUST Survival Simulator
 https://tkrrptd.github.io/dusty-roads/
 
 ## Development
-This site was build with <a href="https://squidfunk.github.io/mkdocs-material/  target="_blank">mkdocs-material</a>.
+This site was build with <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank">mkdocs-material</a>.
