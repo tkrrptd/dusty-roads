@@ -304,6 +304,19 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 
 ## Generate LOD
 
+<div class="infobox">
+      <div class="infobox-title"><span class="icon-warning"></span> Warning</div>
+      <div class="infobox-content">
+        Before getting started, please verify if your load order looks like this at the end:
+		<ul>
+		  <li><code>DUSTy Roads Compatibility Patch.esp</code></li>
+		  <li><code>HighPriorityLOD.esp</code></li>
+		  <li><code>TreeLOD_Vanilla.esp</code></li>
+		  <li><code>DUST LOD.esp</code></li>
+		</ul>
+      </div>	
+</div>
+
 ### <a href="https://stepmodifications.org/forum/topic/13451-xlodgen-terrain-lod-beta-132-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal-enderalse/" target="_blank">xLODGen - Terrain LOD</a>
 <div class="guide-box">
   

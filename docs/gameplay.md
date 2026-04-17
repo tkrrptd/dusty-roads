@@ -78,6 +78,13 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
     <ul>
       <li>Download the main file <span class="highlight">Manual Reload and Ammo Count Memory</span></li>
     </ul>
+	
+	<div class="infobox-info">
+      <div class="infobox-title"><span class="icon-info"></span> Information</div>
+      <div class="infobox-content">
+        The custom <span class="highlight">DUSTy Roads</span> INI file will have the required <code>bManualReload</code> and <code>bRememberWeaponAmmos</code> enabled by default
+	  </div>		
+    </div>
   		
   </div>
   
@@ -190,6 +197,23 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
     
     <ul>
       <li>Download the main file <span class="highlight">Enhanced Creatures</span></li>
+    </ul>
+  		
+  </div>
+  
+</div>
+
+## <a href="https://www.nexusmods.com/newvegas/mods/82898" target="_blank">Weapon Jamming Tweaks - ESPless</a>
+<div class="guide-box">
+  
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/82898/82898-1693619531-1547336394.png" alt="Weapon Jamming Tweaks">
+
+  <div style="margin-top: 0;">
+    <p>Replaces the formulas for weapon jamming when firing and reloading with a scriptoid implementation.</p>
+    
+    <ul>
+      <li>Download the main file <span class="highlight">Weapon Jamming Tweaks</span></li>
+	  <li>Download the optional file <span class="highlight">Ammo Jam Values</span></li>
     </ul>
   		
   </div>

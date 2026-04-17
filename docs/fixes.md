@@ -38,7 +38,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 ## <a href="https://www.nexusmods.com/newvegas/mods/66347" target="_blank">lStewieAl's Tweaks and Engine Fixes</a>
 <div class="guide-box">
   
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/66347/66347-1683057776-1599366088.png" alt="lStewieAl Tweaks">
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/66347/66347-1683057776-1599366088.png" alt="lStewieAl's Tweaks">
 
   <div style="margin-top: 0;">
     <p>An engine-level collection of Quality-of-Life improvements in one file with INI settings to enable tweaks.</p>
@@ -46,30 +46,14 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
     <ul>
       <li>Download the main file <span class="highlight">Stewie Tweaks</span></li>
     </ul>
-  		
-  </div>
-  
-</div>
-
-## <a href="https://github.com/ModdingLinked/Stewie-Tweaks-INIs/releases" target="_blank">Stewie Tweaks - VNV Extended INI</a>
-<div class="guide-box">
-  
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/79358/79358-1746463362-1395686885.png" alt="VNV Extended INI">
-
-  <div style="margin-top: 0;">
-    <p>Viva New Vegas' configuration for lStewieAl's Tweaks and Engine Fixes.</p>
-    
-    <ul>
-      <li>Download the latest version of <span class="highlight">Stewie_Tweaks-VNV_Extended_INI.7z</span></li>
-    </ul>
-	
+  	
 	<div class="infobox-info">
       <div class="infobox-title"><span class="icon-info"></span> Information</div>
       <div class="infobox-content">
-        <img class="icon-16" src="/dusty-roads/images/archive.png" alt="MO2 Install from archive">Mods downloaded from sources other than Nexus won’t appear in the <code>Downloads</code> tab. Install them manually using the <code>Install from archive</code> button in MO2’s toolbar.
-	  </div>
+        At the end of the guide a custom <span class="highlight">DUSTy Roads</span> INI file can be downloaded
+	  </div>		
     </div>
-  		
+	
   </div>
   
 </div>

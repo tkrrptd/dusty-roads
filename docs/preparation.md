@@ -40,6 +40,30 @@ As a baseline, you should have at least:
 
 </div>
 
+## Enable File Extensions
+<div class="guide-box">
+  
+  <div>
+    <p>By default, Windows does not display file extensions. File extensions are the suffixes at the end of file names that indicate the file type (such as .exe, .dll, or .esp). These extensions are important when following this guide, so it is highly recommended to enable them.</p>
+	
+	<span class="highlight">Windows 11:</span>	
+	  <ol>
+	    <li>Open <span class="highlight">File Explorer</span></li>
+	    <li>Open the drop-down menu by clicking <code>View</code> in the menu bar at the top</li>
+	    <li>Under <code>Show</code>, enable <code>File name extensions</code>
+	  </ol>
+	<br>  
+	<span class="highlight">Windows 10:</span>
+	  <ol>
+	    <li>Open <span class="highlight">File Explorer</span></li>
+	    <li>Go to the <code>View</code> tab</li>
+	    <li>Enable <code>File name extensions</code>
+	  </ol>  
+  </div>
+  
+</div>  
+
+
 ## Fallout New Vegas Installation
 
 ### Uninstalling FNV
@@ -57,8 +81,15 @@ As a baseline, you should have at least:
 <div class="guide-box">  
   
   <div>
-    <p>Install or reinstall <span class="highlight">FNV</span> as usual, though make sure to select an installation folder outside any default Windows directories. Instead, install the game in the root of a drive, preferably on an SSD, for the best stability and performance.<br>
-	<br>
+    <p>Install or reinstall <span class="highlight">FNV</span> as usual, though make sure to select an installation folder outside any default Windows directories. Instead, install the game in the root of a drive, for example <code>D:\SteamLibrary\steamapps\common\Fallout New Vegas</code>, preferably on an SSD, for the best stability and performance.<br>
+	
+	<div class="infobox-info">
+      <div class="infobox-title"><span class="icon-info"></span> Information</div>
+      <div class="infobox-content">
+        The root of a drive is the top-level directory (e.g., <code>C:\</code>) that is not inside any other folder. 
+	  </div>	
+    </div>
+	
 	<span style="font-weight: bold;"><u>Steam specific:</u></span><br>
 	If your Steam Library is not located outside of any default Windows directories, or if you’re unsure how to set up a custom library location, you can use the <a href="https://github.com/LostDragonist/steam-library-setup-tool/releases" target="_blank">Steam Library Setup Tool &#10515;</a>.</p>
 	

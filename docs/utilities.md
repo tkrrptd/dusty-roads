@@ -311,3 +311,25 @@ Right-click in the left pane of <span class="highlight">MO2</span> and select <c
   
 </div>
 
+## <a href="https://www.nexusmods.com/newvegas/mods/67248" target="_blank">Auto-Save Manager</a>
+<div class="guide-box">
+  
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/67248/67248-1693069677-708051341.png" alt="Auto-Save Manager">
+
+  <div style="margin-top: 0;">
+    <p>Adds timed autosaves, save slots and incremental/full save hotkeys.</p>
+    
+    <ul>
+      <li>Download the main file <span class="highlight">Save Manager</span></li>
+    </ul>
+	
+	<div class="infobox-info">
+      <div class="infobox-title"><span class="icon-info"></span> Information</div>
+      <div class="infobox-content">
+        The custom <span class="highlight">DUSTy Roads</span> INI file will have the required <code>bImprovedAutosave</code> enabled by default
+	  </div>		
+    </div>
+  		
+  </div>
+  
+</div>

@@ -16,6 +16,8 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
     <ul>
       <li>Download the main file <span class="highlight">DUSTy Roads - Compatibility Patch</span></li>
 	  <li>Download the main file <span class="highlight">DUSTy Roads - JAM Config</span></li>
+	  <li>Download the main file <span class="highlight">DUSTy Roads - lStewieAl's Tweaks INI</span></li>
+	  <li>Download the main file <span class="highlight">DUSTy Roads - Weapon Jamming Config</span></li>
     </ul>
   		
   </div>
