@@ -13,7 +13,8 @@ theme:
     text: Courier Prime
     code: Share Tech Mono
   features:
-    - navigation.footer  
+    - navigation.footer
+  custom_dir: docs/overrides    
     
 extra_css:
   - css/custom.css
@@ -46,4 +47,3 @@ nav:
   - Optional - Visuals: optional-visuals.md
   - Resources: resources.md
   - Changelog: changelog.md
-  
