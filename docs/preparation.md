@@ -91,7 +91,7 @@ As a baseline, you should have at least:
     </div>
 	
 	<span style="font-weight: bold;"><u>Steam specific:</u></span><br>
-	If your Steam Library is not located outside of any default Windows directories, or if you’re unsure how to set up a custom library location, you can use the <a href="https://github.com/LostDragonist/steam-library-setup-tool/releases" target="_blank">Steam Library Setup Tool &#10515;</a>.</p>
+	If your Steam Library is currently located in a default Windows directory, or if you are unsure how to set up a custom library location, you can use the <a href="https://github.com/LostDragonist/steam-library-setup-tool/releases" target="_blank">Steam Library Setup Tool &#10515;</a>.</p>
 	
 	<ol>
 	  <li>Close <span class="highlight">Steam</span></li>

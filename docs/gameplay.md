@@ -82,7 +82,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 	<div class="infobox-info">
       <div class="infobox-title"><span class="icon-info"></span> Information</div>
       <div class="infobox-content">
-        The custom <span class="highlight">DUSTy Roads</span> INI file will have the required <code>bManualReload</code> and <code>bRememberWeaponAmmos</code> enabled by default
+        The custom <span class="highlight">DUSTy Roads - lStewieAl's Tweaks INI</span> file will have the required <code>bManualReload</code> and <code>bRememberWeaponAmmos</code> enabled by default.
 	  </div>		
     </div>
   		
@@ -101,7 +101,14 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
     <ul>
       <li>Download the main file <span class="highlight">lStewieAl - Cookable Grenades</span></li>
     </ul>
-  		
+  	
+	<div class="infobox-info">
+      <div class="infobox-title"><span class="icon-info"></span> Information</div>
+      <div class="infobox-content">
+        The custom <span class="highlight">DUSTy Roads - lStewieAl's Tweaks INI</span> file will have the required <code>bCookableGrenades</code> enabled by default.
+	  </div>		
+    </div>
+	
   </div>
   
 </div>

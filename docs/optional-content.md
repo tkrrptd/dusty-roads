@@ -60,6 +60,32 @@
   </div>
 </div>
 
+## <a href="https://www.nexusmods.com/newvegas/mods/97384" target="_blank">Kai-sars Last Champion Plugin Replacers</a>
+<div class="guide-box">
+  
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/97384/97384-1776239376-1169287646.png" alt="Kai-sars Last Champion Plugin Replacers">
+
+  <div style="margin-top: 0;">
+    <p>Temporary plugin replacers for Kai-sar's Last Champion, to make it compatible with DUST Community Fixes and Tweaks.</p>
+    
+    <ul>
+      <li>Download the optional file <span class="highlight">Kai-sars Last Champion Plugin Replacers</span></li>
+    </ul>
+  	
+	<div class="infobox-fomod">
+      <div class="infobox-title"><span class="icon-fomod"></span> FOMOD Installer</div>
+      <div class="infobox-content">
+        <ol>
+		  <li><span class="highlight">Choose Version</span>: Kai-sar's Last Champion - Ink and Ash</li>
+		  
+		</ol>  
+      </div>
+	</div>
+	
+  </div>
+  
+</div>
+
 ## <a href="https://www.nexusmods.com/newvegas/mods/79887" target="_blank">DUST Mobile Truck Base (DUSTy MTB)</a>
 <div class="guide-box">
   

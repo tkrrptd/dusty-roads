@@ -29,7 +29,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
     
     <ul>
       <li>Download the main file <span class="highlight">DUST Community Fixes and Tweaks</span></li>
-	  <li>Download the main file <span class="highlight">Temporary Expansion Project Plugin Replacer</span>. Make sure this is placed <span class="highlight">below</span> Expansion Project, in the left pane of MO2!</li>
+	  
     </ul>
   		
   </div>
@@ -46,6 +46,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
     
     <ul>
       <li>Download the main file <span class="highlight">DUST - Expansion Project</span></li>
+	  <li>Download the update file <span class="highlight">DUST Expansion Project - Updated Plugin</span></li>
     </ul>
   		
   </div>
@@ -124,7 +125,7 @@ Pick one:
 
   <div style="flex: 1; background:#2b2925; padding:10px; border-radius:5px;">
     <p class="fake-h3"; style="margin-top: 0;"><a href="https://www.nexusmods.com/newvegas/mods/85545" target="_blank"><b>DUST - Atmospheric Loading Screens &#10515;</b></a></p>
-	<img src="https://staticdelivery.nexusmods.com/mods/130/images/85545/85545-1710893120-960295848.png" alt="Atmospheric Loading Screens">
+	<img src="https://staticdelivery.nexusmods.com/mods/130/images/85545/85545-1710893120-960295848.png" alt="Atmospheric Loading Screens" style="width: 80px; margin-right: 15px; flex-shrink: 0; float: left;">
     <p style="margin-top: 0;">New Loading Screens for the intended use with DUST.</p>
     <ul>
       <li>Download the main file <span class="highlight">DUST - Atmospheric Loading Screens</span></li>
@@ -133,7 +134,7 @@ Pick one:
 
   <div style="flex: 1; background:#2b2925; padding:10px; border-radius:5px;">
     <p class="fake-h3"; style="margin-top: 0;"><a href="https://www.nexusmods.com/newvegas/mods/93001" target="_blank"><b>DUST - Menus REDONE &#10515;</b></a></p>
-	<img src="https://staticdelivery.nexusmods.com/mods/130/images/93001/93001-1752894538-1031191034.png" alt="Menus Redone">
+	<img src="https://staticdelivery.nexusmods.com/mods/130/images/93001/93001-1752894538-1031191034.png" alt="Menus Redone" style="width: 80px; margin-right: 15px; flex-shrink: 0; float: left;">
     <p style="margin-top: 0;">Loading screens and menu for DUST.</p>
     <ul>
       <li>Download the main file <span class="highlight">Dust - Menus Redone</span></li>
@@ -191,12 +192,11 @@ Pick one:
 </div>
 
 ## Rat Race - A DUST themed dungeon and home.
-
 <div style="display: flex; gap: 20px; margin-bottom: 20px;">
   <div style="flex: 1; background:#2b2925; padding:10px; border-radius:5px;">
     <p class="fake-h3" style="margin-top: 0;"><a href="https://www.nexusmods.com/newvegas/mods/61565" target="_blank"><b>Rat Race - A DUST themed dungeon and home. &#10515;</b></a></p>
-    <img src="https://staticdelivery.nexusmods.com/mods/130/images/61565-23-1458421299.jpg" alt="Rat Race">
-    <p>A multi-celled DUST themed player home.</p>
+    <img src="https://staticdelivery.nexusmods.com/mods/130/images/61565-23-1458421299.jpg" alt="Rat Race" style="width: 80px; margin-right: 15px; flex-shrink: 0; float: left;">
+    <p style="margin-top: 0;">A multi-celled DUST themed player home.</p>
     <ul>
       <li>Download the main file <span class="highlight">Rat Race v1.2</span></li>
       <li>Requires <span class="highlight">Speedy Resources</span></li>
@@ -208,8 +208,8 @@ Pick one:
       <div class="infobox-title"><span class="icon-requirement"></span> Additional Requirement</div>
       <div class="infobox-content" style="padding: 10px;">
         <p class="fake-h3" style="margin-top:0;"><a href="https://www.nexusmods.com/newvegas/mods/39551" target="_blank"><b>Speedy Resources &#10515;</b></a></p>
-        <img src="https://staticdelivery.nexusmods.com/mods/130/images/39551-5-1312876361.jpg" alt="Speedy Resources">
-        <p>A modder's resource containing several new building sets, a variety of clutter and other decorations.</p>
+        <img src="https://staticdelivery.nexusmods.com/mods/130/images/39551-5-1312876361.jpg" alt="Speedy Resources" style="width: 80px; margin-right: 15px; flex-shrink: 0; float: left;">
+        <p style="margin-top: 0;">A modder's resource containing several new building sets, a variety of clutter and other decorations.</p>
         <ul>
           <li>Download the main file <span class="highlight">Speedy Resource Pack V3_1</span></li>
         </ul>

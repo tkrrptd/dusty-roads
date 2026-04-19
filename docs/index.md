@@ -29,7 +29,11 @@
 ## Using the Guide
 
 <p>Take your time, read the guide in full and avoid skipping steps. If you need support with following the guide, or with your modded game, you can open a support ticket on the <a href="https://discord.gg/AJxH6mFTnE" target="_blank">DUST Discord</a> (<code>#support-and-bugs-dust</code>), but it’s expected that you’ve followed the instructions carefully and done your due diligence before asking for help.<br>
+<br>
+Each mod’s requirements and dependencies are accounted for. When a mod lists requirements on its download page, they are either already covered elsewhere in the guide or will be addressed later. Some may be recommendations rather than strict requirements, and may be omitted if not considered necessary. If a required dependency is not already included in the guide, it will be explicitly listed for download at the relevant step.<br>
+<br>
 The mod manager of choice is <span class="highlight">Mod Organizer 2</span>. Though that does not mean you cannot follow the guide as a <span class="highlight">Vortex</span> user, but you'll have to rely on other sources of information to set up <span class="highlight">Vortex</span>, or how to install and deploy mods.<br>
+<br>
 If you choose to add additional mods, always read their descriptions, instructions, and requirements. You may need to revisit earlier installations to enable compatibility options or install additional patches.</p>
 
 

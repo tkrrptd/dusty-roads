@@ -326,7 +326,7 @@ Right-click in the left pane of <span class="highlight">MO2</span> and select <c
 	<div class="infobox-info">
       <div class="infobox-title"><span class="icon-info"></span> Information</div>
       <div class="infobox-content">
-        The custom <span class="highlight">DUSTy Roads</span> INI file will have the required <code>bImprovedAutosave</code> enabled by default
+        The custom <span class="highlight">DUSTy Roads - lStewieAl's Tweaks INI</span> file will have the required <code>bImprovedAutosave</code> enabled by default.
 	  </div>		
     </div>
   		

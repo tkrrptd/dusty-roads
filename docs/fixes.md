@@ -553,8 +553,8 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 		  <li><span class="highlight">FNV Patches</span>:<br> 
 		  &#9745; AWOLP Patch</li>
 		</ol>  
-    </div>
-</div>
+      </div>
+	</div>
   		
   </div>
   
