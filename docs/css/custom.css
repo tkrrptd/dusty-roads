@@ -217,8 +217,30 @@ h1, h2, h3, h4, h5, h6,
 .changelog-version {
   margin: 0;
   font-family: 'Special Elite', cursive;
-  font-size: 1em;
+  font-size: 1.0em;
   color: hsl(35, 80%, 55%);
+}
+
+.expander-top {
+  font-family: 'Special Elite', cursive;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: hsl(35, 80%, 75%);
+  background-color: hsl(35, 80%, 20%);
+  border: 1px solid hsl(35, 80%, 55%);
+  border-radius: 4px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  user-select: none;
+  margin-bottom: 0;
+}
+
+.expander-content {
+  border: 1px solid hsl(35, 80%, 55%);
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
 }
 
 /* ─── Infoboxes ──────────────────────────────────────────────────────────── */

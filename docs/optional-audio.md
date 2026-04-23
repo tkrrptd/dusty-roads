@@ -61,26 +61,18 @@
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/85014" target="_blank">AWSOMER PATCH HUB</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/97384" target="_blank">AWSOMER - DUST Expansion Project Patch</a>
 <div class="guide-box">
   
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/85014/85014-1708265046-560774227.png" alt="AWSOMER Patch Hub">
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/97384/97384-1776239376-1169287646.png" alt="DUST Patch Hub">
 
   <div style="margin-top: 0;">
-    <p>This is a patch hub for AWSOMER.</p>
+    <p>Scriptrunner patch for AWSOMER and DUST Expansion Project (specifically weapons implemented from FO3 Weapons Restoration)</p>
     
     <ul>
-      <li>Download the main file <span class="highlight">Fallout 3 Weapons Restoration - AWSOMER Patch</span></li>
+      <li>Download the main file <span class="highlight">AWSOMER - DUST Expansion Project Patch</span></li>
     </ul>
-	
-	<div class="infobox-info">
-      <div class="infobox-title"><span class="icon-info"></span> Information</div>
-      <div class="infobox-content">
-        <span class="highlight">Fallout 3 Weapons Restoration</span> is integrated into <span class="highlight">Fallout DUST: Expansion Project</span>.
-		  
-	  </div>
-    </div>
-  		
+		  		
   </div>
   
 </div>
