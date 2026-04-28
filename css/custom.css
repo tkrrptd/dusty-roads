@@ -16,11 +16,9 @@ p {
   height: 32px;
 }
 
-/*.spacer-sm {
-  display: block;
-  height: 0.1em;
-  line-height: 0;
-}*/
+.md-footer-meta {
+  display: none;
+}
 
 /* ─── Color scheme ───────────────────────────────────────────────────────── */
 
