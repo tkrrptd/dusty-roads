@@ -29,9 +29,18 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
     
     <ul>
       <li>Download the main file <span class="highlight">DUST Community Fixes and Tweaks</span></li>
-	  
-    </ul>
-  		
+	</ul>
+		
+	<div class="infobox-fomod">
+      <div class="infobox-title"><span class="icon-fomod"></span> FOMOD Installer</div>
+      <div class="infobox-content">
+        <span class="highlight">DUST Comunity Fixes and Tweaks</span>: Main Files<br>
+		<span class="highlight">DUST - Expansion Project</span>: Install Patch<br>
+		<span class="highlight">Fast Travel</span>: none, unless you really really want to...<br>
+					 
+	  </div>	
+    </div>
+	
   </div>
   
 </div>

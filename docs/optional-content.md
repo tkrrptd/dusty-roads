@@ -164,7 +164,16 @@
     <ul>
       <li>Download the main file <span class="highlight">DUST - Distributed Necklaces Patch</span></li>
     </ul>
-  		
+  	
+	<div class="infobox-fomod">
+      <div class="infobox-title"><span class="icon-fomod"></span> FOMOD Installer</div>
+      <div class="infobox-content">
+        <span class="highlight">Distributed Necklaces Patch</span>: Main File<br>
+		<span class="highlight">ESPless Addons</span>: DUST - Ink and Ash (+ Expansion Project)<br>
+					 
+	  </div>	
+    </div>
+	
   </div>
   
 </div>
