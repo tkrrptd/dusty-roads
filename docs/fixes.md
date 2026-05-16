@@ -58,22 +58,6 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/97782" target="_blank">WeaponDamageStages UAF Crash Fix (NVSE)</a>
-<div class="guide-box">
-  
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/97782/97782-1778801871-1733480904.jpg" alt="WeaponDamageStages UAF Crash Fix">
-
-  <div style="margin-top: 0;">
-    <p>Fixes StewieAl's Tweaks WeaponDamageStagesFix UAF crash on weapon switch.</p>
-    
-    <ul>
-      <li>Download the main file <span class="highlight">WeaponDamageStages UAF Crash Fix</span></li>
-    </ul>
-  			
-  </div>
-  
-</div>
-
 ## <a href="https://www.nexusmods.com/newvegas/mods/80993" target="_blank">lStewieAl's Engine Optimizations</a>
 <div class="guide-box">
   

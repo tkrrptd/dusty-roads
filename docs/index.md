@@ -8,8 +8,6 @@
   <div class="dust-quote">
     "There was nowhere to go but everywhere,<br>
     so just keep wandering through the dust."
-	<br>
-	- John Kerouac (presumably eaten by cannibals)
   </div>
 </div>
 

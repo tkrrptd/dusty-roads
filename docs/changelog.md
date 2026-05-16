@@ -7,6 +7,23 @@
 
 	  <div class="changelog-entry">
 		<div class="changelog-dot"></div>
+		<p class="changelog-version">v1.1.5  |  xx May 2026</p>
+		
+		<b>BUG FIXES</b>
+		<ul>
+		  <li>Removed: <span class="highlight">WeaponDamageStages UAF Crash Fix</span> (no longer needed with updated <span class="highlight">lStewieAl's Tweaks</span>)</li>
+		</ul>
+		
+		
+		</ul>
+	  </div>
+
+	</div>
+    
+  <div class="changelog">
+
+	  <div class="changelog-entry">
+		<div class="changelog-dot"></div>
 		<p class="changelog-version">v1.1.4  |  15 May 2026</p>
 		
 		<b>BUG FIXES</b>
