@@ -20,6 +20,10 @@ p {
   display: none;
 }
 
+html {
+  font-size: 20px;
+}
+
 /* ─── Color scheme ───────────────────────────────────────────────────────── */
 
 [data-md-color-scheme="slate"] {
