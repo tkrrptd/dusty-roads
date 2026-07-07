@@ -14,7 +14,7 @@
         <link rel="prev" href="../ui/">
       
       
-        <link rel="next" href="../content/">
+        <link rel="next" href="../dust/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Gameplay - DUSTY ROADS - A DUST Modding Guide</title>
+        <title>Gameplay - DUSTY ROADS - A DUST Modding Guide & Wabbajack</title>
       
     
     
@@ -59,10 +59,20 @@
 
     
     
+  
+
   <meta name="google-site-verification" content="A0qMiQcPpJx6PvT2qT-BSxOHcoYOmsGu-Fg3R0Rz89Y" />
   <meta name="msvalidate.01" content="82971E846C817BC57121DD3F8615E40E" />
+
   <script>
     document.documentElement.setAttribute('data-md-color-scheme', 'slate');
+
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll('a[href^="http"]').forEach(link => {
+        link.setAttribute("target", "_blank");
+        link.setAttribute("rel", "noopener noreferrer");
+      });
+    });
   </script>
 
   </head>
@@ -82,7 +92,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#gameplay" class="md-skip">
+        <a href="#dusty-roads-base-gameplay" class="md-skip">
           Skip to content
         </a>
       
@@ -94,11 +104,9 @@
     
       
 
-  
-
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="DUSTY ROADS - A DUST Modding Guide" class="md-header__button md-logo" aria-label="DUSTY ROADS - A DUST Modding Guide" data-md-component="logo">
+    <a href=".." title="DUSTY ROADS - A DUST Modding Guide &amp; Wabbajack" class="md-header__button md-logo" aria-label="DUSTY ROADS - A DUST Modding Guide & Wabbajack" data-md-component="logo">
       
   <img src="../images/tunneler.ico" alt="logo">
 
@@ -111,7 +119,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            DUSTY ROADS - A DUST Modding Guide
+            DUSTY ROADS - A DUST Modding Guide & Wabbajack
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -179,6 +187,174 @@
       
         
           
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../guide/" class="md-tabs__link">
+          
+  
+  
+  DUSTY ROADS - BASE |
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../expanded/" class="md-tabs__link">
+          
+  
+  
+  DUSTY ROADS - EXPANDED |
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../lod/" class="md-tabs__link">
+          
+  
+  
+  END OF THE ROAD |
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../optional/" class="md-tabs__link">
+          
+  
+  
+  ADDITIONAL MODS |
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../wabbajack/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  WABBAJACK |
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../resources/" class="md-tabs__link">
+          
+  
+  
+  RESOURCES |
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../changelog/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  CHANGELOG
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
         
       
       <main class="md-main" data-md-component="main">
@@ -192,15 +368,17 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="DUSTY ROADS - A DUST Modding Guide" class="md-nav__button md-logo" aria-label="DUSTY ROADS - A DUST Modding Guide" data-md-component="logo">
+    <a href=".." title="DUSTY ROADS - A DUST Modding Guide &amp; Wabbajack" class="md-nav__button md-logo" aria-label="DUSTY ROADS - A DUST Modding Guide & Wabbajack" data-md-component="logo">
       
   <img src="../images/tunneler.ico" alt="logo">
 
     </a>
-    DUSTY ROADS - A DUST Modding Guide
+    DUSTY ROADS - A DUST Modding Guide & Wabbajack
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -219,7 +397,7 @@
   <span class="md-ellipsis">
     
   
-    Welcome
+    
   
 
     
@@ -234,6 +412,89 @@
     
       
       
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DUSTY ROADS - BASE |
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    DUSTY ROADS - BASE |
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
   
   
   
@@ -258,9 +519,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -285,36 +547,10 @@
     </li>
   
 
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../manual/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Utilities - Manual
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -327,7 +563,7 @@
   <span class="md-ellipsis">
     
   
-    Utilities - MO2
+    Utilities
   
 
     
@@ -339,9 +575,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -366,9 +603,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -393,9 +631,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
     
@@ -461,10 +700,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#jam-just-assorted-mods" class="md-nav__link">
+  <a href="#iron-sights-aligned" class="md-nav__link">
     <span class="md-ellipsis">
       
-        JAM - Just Assorted Mods
+        Iron Sights Aligned
       
     </span>
   </a>
@@ -472,120 +711,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#jlm-grab-tweaks" class="md-nav__link">
+  <a href="#smooth-true-iron-sights-camera" class="md-nav__link">
     <span class="md-ellipsis">
       
-        JLM Grab Tweaks
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#clean-just-assorted-mods-jam" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Clean Just Assorted Mods (JAM)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#b42-recoil-espless" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        B42 Recoil - ESPless
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#manual-reload-and-ammo-memory" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Manual Reload and Ammo Memory
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cookable-grenades" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cookable Grenades
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bad-touch-nvse" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Bad Touch NVSE
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bad-touch-nvse-extended" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Bad Touch NVSE - Extended
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#simple-ai-merge" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Simple AI Merge
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#npcs-sprint-knvse-espless" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        NPCs Sprint kNVSE - ESPless
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#enhanced-creatures" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Enhanced Creatures
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#weapon-jamming-tweaks-espless" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Weapon Jamming Tweaks - ESPless
+        Smooth True Iron Sights Camera
       
     </span>
   </a>
@@ -599,117 +728,10 @@
     </li>
   
 
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../content/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Content
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../animations/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Animations
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../audio/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Audio
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../visuals/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Visuals
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -734,9 +756,404 @@
     </li>
   
 
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crossroads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Choose your Road
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DUSTY ROADS - EXPANDED |
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    DUSTY ROADS - EXPANDED |
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../expanded/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../expanded-ui/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Interface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../expanded-gameplay/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gameplay
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../expanded-content/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Content
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../expanded-audio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Audio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../expanded-animations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Animations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../expanded-visuals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visuals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../expanded-dust/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DUST Mods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../expanded-patches/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DUST Patches
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    END OF THE ROAD |
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    END OF THE ROAD |
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
   
@@ -761,9 +1178,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -788,9 +1206,95 @@
     </li>
   
 
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Support & FAQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ADDITIONAL MODS |
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ADDITIONAL MODS |
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
   
@@ -803,7 +1307,7 @@
   <span class="md-ellipsis">
     
   
-    Optional Mods
+    
   
 
     
@@ -815,9 +1319,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -830,7 +1335,7 @@
   <span class="md-ellipsis">
     
   
-    Optional - User Interface
+    User Interface
   
 
     
@@ -842,9 +1347,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -857,7 +1363,7 @@
   <span class="md-ellipsis">
     
   
-    Optional - Gameplay
+    Gameplay
   
 
     
@@ -869,9 +1375,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -884,7 +1391,7 @@
   <span class="md-ellipsis">
     
   
-    Optional - Content
+    Content
   
 
     
@@ -896,36 +1403,10 @@
     </li>
   
 
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../optional-animations/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Optional - Animations
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -938,7 +1419,7 @@
   <span class="md-ellipsis">
     
   
-    Optional - Audio
+    Audio
   
 
     
@@ -950,9 +1431,38 @@
     </li>
   
 
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-animations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
-      
-      
+  
+    Animations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
   
   
   
@@ -965,7 +1475,70 @@
   <span class="md-ellipsis">
     
   
-    Optional - Visuals
+    Visuals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optional-nvr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    New Vegas Reloaded
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wabbajack/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    WABBAJACK |
   
 
     
@@ -980,6 +1553,56 @@
     
       
       
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RESOURCES |
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    RESOURCES |
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
   
@@ -1004,6 +1627,42 @@
     </li>
   
 
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://simonwdev.github.io/simonwdev/fnv/dust-planner/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DUST Perk Planner
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
@@ -1019,7 +1678,7 @@
   <span class="md-ellipsis">
     
   
-    Changelog
+    CHANGELOG
   
 
     
@@ -1059,10 +1718,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#jam-just-assorted-mods" class="md-nav__link">
+  <a href="#iron-sights-aligned" class="md-nav__link">
     <span class="md-ellipsis">
       
-        JAM - Just Assorted Mods
+        Iron Sights Aligned
       
     </span>
   </a>
@@ -1070,120 +1729,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#jlm-grab-tweaks" class="md-nav__link">
+  <a href="#smooth-true-iron-sights-camera" class="md-nav__link">
     <span class="md-ellipsis">
       
-        JLM Grab Tweaks
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#clean-just-assorted-mods-jam" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Clean Just Assorted Mods (JAM)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#b42-recoil-espless" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        B42 Recoil - ESPless
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#manual-reload-and-ammo-memory" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Manual Reload and Ammo Memory
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cookable-grenades" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cookable Grenades
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bad-touch-nvse" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Bad Touch NVSE
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bad-touch-nvse-extended" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Bad Touch NVSE - Extended
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#simple-ai-merge" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Simple AI Merge
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#npcs-sprint-knvse-espless" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        NPCs Sprint kNVSE - ESPless
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#enhanced-creatures" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Enhanced Creatures
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#weapon-jamming-tweaks-espless" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Weapon Jamming Tweaks - ESPless
+        Smooth True Iron Sights Camera
       
     </span>
   </a>
@@ -1207,160 +1756,30 @@
 
 
 
-<h1 id="gameplay">GAMEPLAY</h1>
+<h1 id="dusty-roads-base-gameplay">DUSTY ROADS BASE - GAMEPLAY</h1>
 <p class="fake-h3">Create a separator</p>
 <p>Right-click in the left pane of MO2 and select <code>Create separator</code>. Name it <span class="fake-h3">GAMEPLAY</span>.</p>
-<h2 id="jam-just-assorted-mods"><a href="https://www.nexusmods.com/newvegas/mods/66666" target="_blank">JAM - Just Assorted Mods</a></h2>
+<hr />
+<h2 id="iron-sights-aligned"><a href="https://www.nexusmods.com/newvegas/mods/81933">Iron Sights Aligned</a></h2>
 <div class="guide-box">
 
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/66666/66666-1605545881-1902299479.png" alt="JAM">
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/81933/81933-1690042832-1856529918.png" alt="Iron Sights Aligned">
 
   <div style="margin-top: 0;">
-    <p>A collection of modern features, such as sprinting, dynamic crosshair, etc.</p>
+    <p>Aligns iron sights for a number of different weapon mesh/animation combos.</p>
 
     <ul>
-      <li>Download the main file <span class="highlight">Just Assorted Mods</span></li>
-    </ul>
-
-  </div>
-
-</div>
-
-<h2 id="jlm-grab-tweaks"><a href="https://www.nexusmods.com/newvegas/mods/83847" target="_blank">JLM Grab Tweaks</a></h2>
-<div class="guide-box">
-
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/83847/83847-1700593554-203613125.png" alt="JLM Tweaks">
-
-  <div style="margin-top: 0;">
-    <p>Tweak for Just Loot Menu so the activator text and loot menu are hidden when you "grab" an object.</p>
-
-    <ul>
-      <li>Download the main file <span class="highlight">JLM Grab Tweak</span></li>
-    </ul>
-
-  </div>
-
-</div>
-
-<h2 id="clean-just-assorted-mods-jam"><a href="https://www.nexusmods.com/newvegas/mods/82724" target="_blank">Clean Just Assorted Mods (JAM)</a></h2>
-<div class="guide-box">
-
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/82724/82724-1692834554-1351220069.png" alt="Clean JAM">
-
-  <div style="margin-top: 0;">
-    <p>Replaces all Just Assorted Mods (JAM) textures with cleaned up versions.</p>
-
-    <ul>
-      <li>Download the main file <span class="highlight">Clean Just Assorted Mods</span></li>
-    </ul>
-
-  </div>
-
-</div>
-
-<h2 id="b42-recoil-espless"><a href="https://www.nexusmods.com/newvegas/mods/90536" target="_blank">B42 Recoil - ESPless</a></h2>
-<div class="guide-box">
-
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/90536/90536-1736533997-964503676.png" alt="B42 Recoil">
-
-  <div style="margin-top: 0;">
-    <p>This mod adds a modern recoil implementation.</p>
-
-    <ul>
-      <li>Download the main file <span class="highlight">B42 Recoil</span></li>
-    </ul>
-
-  </div>
-
-</div>
-
-<h2 id="manual-reload-and-ammo-memory"><a href="https://www.nexusmods.com/newvegas/mods/65853" target="_blank">Manual Reload and Ammo Memory</a></h2>
-<div class="guide-box">
-
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/65853/65853-1693171840-386546490.png" alt="Manual Reload">
-
-  <div style="margin-top: 0;">
-    <p>Stop the player automatically reloading when the clip is emptied.</p>
-
-    <ul>
-      <li>Download the main file <span class="highlight">Manual Reload and Ammo Count Memory</span></li>
-    </ul>
-
-    <div class="infobox-info">
-      <div class="infobox-title"><span class="icon-info"></span> Information</div>
-      <div class="infobox-content">
-        The custom <span class="highlight">DUSTy Roads - lStewieAl's Tweaks INI</span> file will have the required <code>bManualReload</code> and <code>bRememberWeaponAmmos</code> enabled by default.
-      </div>        
-    </div>
-
-  </div>
-
-</div>
-
-<h2 id="cookable-grenades"><a href="https://www.nexusmods.com/newvegas/mods/81678" target="_blank">Cookable Grenades</a></h2>
-<div class="guide-box">
-
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/81678/81678-1692228202-414293437.png" alt="Cookable Grenades">
-
-  <div style="margin-top: 0;">
-    <p>Holding a grenade before throwing it decreases its fuse.</p>
-
-    <ul>
-      <li>Download the main file <span class="highlight">lStewieAl - Cookable Grenades</span></li>
-    </ul>
-
-    <div class="infobox-info">
-      <div class="infobox-title"><span class="icon-info"></span> Information</div>
-      <div class="infobox-content">
-        The custom <span class="highlight">DUSTy Roads - lStewieAl's Tweaks INI</span> file will have the required <code>bCookableGrenades</code> enabled by default.
-      </div>        
-    </div>
-
-  </div>
-
-</div>
-
-<h2 id="bad-touch-nvse"><a href="https://www.nexusmods.com/newvegas/mods/83782" target="_blank">Bad Touch NVSE</a></h2>
-<div class="guide-box">
-
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/83782/83782-1699943761-1018082612.png" alt="Bad Touch">
-
-  <div style="margin-top: 0;">
-    <p>Fire burns, electricity shocks, cacti poke, and more!</p>
-
-    <ul>
-      <li>Download the main file <span class="highlight">Bad Touch NVSE</span></li>
-    </ul>
-
-  </div>
-
-</div>
-
-<h2 id="bad-touch-nvse-extended"><a href="https://www.nexusmods.com/newvegas/mods/84726" target="_blank">Bad Touch NVSE - Extended</a></h2>
-<div class="guide-box">
-
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/84726/84726-1706577365-1183665654.png" alt="Bad Touch Extended">
-
-  <div style="margin-top: 0;">
-    <p>Extends Bad Touch NVSE functionality.</p>
-
-    <ul>
-      <li>Download the main file <span class="highlight">Bad Touch NVSE - Extended</span></li>
+      <li>Download the main file <span class="highlight">Iron Sights Aligned</span></li>
     </ul>
 
     <div class="infobox-fomod">
       <div class="infobox-title"><span class="icon-fomod"></span> FOMOD Installer</div>
       <div class="infobox-content">
-        <span class="highlight">Default Hazards</span><br>
-        &#9745; Fire<br>
-        &#9745; Shock<br>
-        &#9745; Barbed Wire<br>
-        <span class="highlight">Extra Hazards</span><br>
-        &#9745; Toxic Gas<br>
-        &#9745; Toxic Goo<br>
-        &#9745; Toxic Sludge<br>
-        <span class="highlight">Mesh Patches</span><br>
-        &#9745; MAC-TEN<br>
+        <span class="highlight">Weapon Meshes</span>: Vanilla<br>
+        <span class="highlight">Base Animations</span>: none<br>
+        <span class="highlight">kNVSE Animations</span>: none<br>
+        <span class="highlight">Weapon Replacers</span>: none<br>
+        <span class="highlight">Additional Patches</span>: none<br>
 
       </div>    
     </div>
@@ -1369,65 +1788,17 @@
 
 </div>
 
-<h2 id="simple-ai-merge"><a href="https://www.nexusmods.com/newvegas/mods/86691" target="_blank">Simple AI Merge</a></h2>
+<h2 id="smooth-true-iron-sights-camera"><a href="https://www.nexusmods.com/newvegas/mods/69074">Smooth True Iron Sights Camera</a></h2>
+<p><span class="badge-settings">SETTINGS</span></p>
 <div class="guide-box">
 
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/86691/86691-1715200525-1193361764.jpg" alt="AI Merge">
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/69074/69074-1692286958-1726758396.png" alt="Smooth Iron Sights">
 
   <div style="margin-top: 0;">
-    <p>Collection of AI tweaks to make your game a lot harder while not breaking scripted sequences.</p>
+    <p>Smooths aiming down sights without the camera snapping into place.</p>
 
     <ul>
-      <li>Download the main file <span class="highlight">The AI Merge Lite - No Guard Rails</span></li>
-    </ul>
-
-  </div>
-
-</div>
-
-<h2 id="npcs-sprint-knvse-espless"><a href="https://www.nexusmods.com/newvegas/mods/83745" target="_blank">NPCs Sprint kNVSE - ESPless</a></h2>
-<div class="guide-box">
-
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/83745/83745-1699700847-1417295514.jpeg" alt="NPCs Sprint">
-
-  <div style="margin-top: 0;">
-    <p>Simple kNVSE implementation of combat sprinting for melee NPCs.</p>
-
-    <ul>
-      <li>Download the main file <span class="highlight">NPCs Sprint kNVSE - ESPless</span></li>
-    </ul>
-
-  </div>
-
-</div>
-
-<h2 id="enhanced-creatures"><a href="https://www.nexusmods.com/newvegas/mods/92824" target="_blank">Enhanced Creatures</a></h2>
-<div class="guide-box">
-
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/92824/92824-1751682668-1288051904.jpg" alt="Enhanced Creatures">
-
-  <div style="margin-top: 0;">
-    <p>Creature combat overhaul, fixing animations, improving attack patterns, restoring content.</p>
-
-    <ul>
-      <li>Download the main file <span class="highlight">Enhanced Creatures</span></li>
-    </ul>
-
-  </div>
-
-</div>
-
-<h2 id="weapon-jamming-tweaks-espless"><a href="https://www.nexusmods.com/newvegas/mods/82898" target="_blank">Weapon Jamming Tweaks - ESPless</a></h2>
-<div class="guide-box">
-
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/82898/82898-1693619531-1547336394.png" alt="Weapon Jamming Tweaks">
-
-  <div style="margin-top: 0;">
-    <p>Replaces the formulas for weapon jamming when firing and reloading with a scriptoid implementation.</p>
-
-    <ul>
-      <li>Download the main file <span class="highlight">Weapon Jamming Tweaks</span></li>
-      <li>Download the optional file <span class="highlight">Ammo Jam Values</span></li>
+      <li>Download the main file <span class="highlight">Smooth True Ironsights</span></li>
     </ul>
 
   </div>
@@ -1452,6 +1823,12 @@
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
         
       </main>
       
@@ -1479,13 +1856,13 @@
         
         
           
-          <a href="../content/" class="md-footer__link md-footer__link--next" aria-label="Next: Content">
+          <a href="../dust/" class="md-footer__link md-footer__link--next" aria-label="Next: DUST Mods">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Content
+                DUST Mods
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -1522,7 +1899,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.footer"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.footer", "navigation.tabs", "navigation.top"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
