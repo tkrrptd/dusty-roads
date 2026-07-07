@@ -1,4 +1,4 @@
-site_name: DUSTY ROADS - A DUST Modding Guide
+site_name: DUSTY ROADS - A DUST Modding Guide & Wabbajack
 site_url: https://tkrrptd.github.io/dusty-roads/
 
 theme:
@@ -14,6 +14,8 @@ theme:
     code: Share Tech Mono
   features:
     - navigation.footer
+    - navigation.tabs
+    - navigation.top
   custom_dir: docs/overrides    
     
 extra_css:
@@ -23,27 +25,42 @@ markdown_extensions:
   - attr_list
 
 nav:
-  - Welcome: index.md
-  - Preparation: preparation.md
-  - Mod Organizer 2: mo2.md
-  - Utilities - Manual: manual.md
-  - Utilities - MO2: utilities.md
-  - Bug Fixes: fixes.md
-  - User Interface: ui.md
-  - Gameplay: gameplay.md
-  - Content: content.md
-  - Animations: animations.md
-  - Audio: audio.md
-  - Visuals: visuals.md
-  - DUST Mods: dust.md
-  - LOD Generation: lod.md
-  - Finishing Touch: finish.md
-  - Optional Mods: optional.md
-  - Optional - User Interface: optional-ui.md
-  - Optional - Gameplay: optional-gameplay.md
-  - Optional - Content: optional-content.md
-  - Optional - Animations: optional-animations.md
-  - Optional - Audio: optional-audio.md
-  - Optional - Visuals: optional-visuals.md
-  - Resources: resources.md
-  - Changelog: changelog.md
+  - index.md
+  - DUSTY ROADS - BASE |:
+    - Introduction: guide.md
+    - Preparation: preparation.md
+    - Mod Organizer 2: mo2.md
+    - Utilities: utilities.md
+    - Bug Fixes: fixes.md
+    - User Interface: ui.md
+    - Gameplay: gameplay.md
+    - DUST Mods: dust.md
+    - Choose your Road: crossroads.md
+  - DUSTY ROADS - EXPANDED |:
+    - expanded.md
+    - User Interface: expanded-ui.md
+    - Gameplay: expanded-gameplay.md    
+    - Content: expanded-content.md
+    - Audio: expanded-audio.md
+    - Animations: expanded-animations.md
+    - Visuals: expanded-visuals.md
+    - DUST Mods: expanded-dust.md
+    - DUST Patches: expanded-patches.md
+  - END OF THE ROAD |:  
+    - LOD Generation: lod.md
+    - Finishing Touch: finish.md
+    - Support & FAQ: support.md
+  - ADDITIONAL MODS |:  
+    - optional.md
+    - User Interface: optional-ui.md
+    - Gameplay: optional-gameplay.md
+    - Content: optional-content.md
+    - Audio: optional-audio.md
+    - Animations: optional-animations.md
+    - Visuals: optional-visuals.md
+    - New Vegas Reloaded: optional-nvr.md
+  - WABBAJACK |: wabbajack.md
+  - RESOURCES |:  
+    - Resources: resources.md
+    - DUST Perk Planner: https://simonwdev.github.io/simonwdev/fnv/dust-planner/
+  - CHANGELOG: changelog.md

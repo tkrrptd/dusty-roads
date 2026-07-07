@@ -4,7 +4,9 @@
 
 <p><span class="highlight">MO2</span>’s interface is split into two panes (one for mods, one for plugins) making it easy to spot conflicts and manage load order. Unlike <span class="highlight">Vortex</span>, which relies on a convoluted group/rules system, <span class="highlight">MO2</span> gives you complete control over how mods interact. Additional perks include a fully portable setup, integrated <span class="highlight">Nexus Mods</span> support for direct downloads, and a plugin system that allows advanced users to extend functionality. While <span class="highlight">MO2</span> is generally the superior choice, this doesn’t mean <span class="highlight">Vortex</span> is a bad mod manager: use whichever tool best fits YOUR needs and comfort level. That said, it is <span class="warn">strongly advised</span> to avoid older or unsupported mod managers such as <span class="highlight">FOMM</span>, <span class="highlight">NMM</span> (even the Community Edition), <span class="highlight">Kortex</span>, or <span class="highlight">Wrye Bash</span>. This also includes <span class="highlight">MO1</span>.</p>
 
-## <a href="https://www.nexusmods.com/skyrimspecialedition/mods/6194" target="_blank">Installing Mod Organizer 2</a>
+---
+
+## <a href="https://www.nexusmods.com/skyrimspecialedition/mods/6194" >Installing Mod Organizer 2</a>
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px; background:#2b2925; padding:10px; border-radius:5px;">
 
   <div>
@@ -54,13 +56,13 @@
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px; background:#2b2925; padding:10px; border-radius:5px;">
    <div>
       <p><span class="highlight">New Vegas</span> is automatically selected to run (in the top-right corner). But to set a few game settings, change this to <span class="highlight">Fallout Launcher</span>.<br></p>
-	  <ul>
+	  <ol>
 	    <li>Run the game with <span class="highlight">Fallout Launcher</span></li>
 		<li>Click <code>Options</code></li>
 		<li>Select the <span class="highlight">Ultra</span> preset (or another preset accordingly to your system specifications)</li>
 		<li>Set the resolution to your monitor's native resolution</li>
 		<li>Exit the launcher, and change the program back to <span class="highlight">New Vegas</span></li>
-	  </ul>
+	  </ol>
 	 
 	  <div class="infobox-info">
         <div class="infobox-title"><span class="icon-info"></span> Information</div>
@@ -77,7 +79,7 @@
 			
 		  </ol>  
         </div>
-      </div><br>
+      </div>
 	  
 	  <p>Thanks to <span class="highlight">JIP LN NVSE</span>, you can use a custom INI to add various settings without touching the main INIs. <span class="highlight">FalloutCustom.ini</span> takes precedence over the other INI files and cannot be modified by the game.<br>
 	  <img src="/dusty-roads/images/tools.png" alt="MO2 tools"> Click the <code>Tools</code> button in the toolbar and paste these settings in the <span class="highlight">FalloutCustom.ini</span> tab:<br></p>
@@ -140,11 +142,6 @@ bForceFullLOD=1</textarea>
    </div>	
 </div>
  
-### Overwrite Folder
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px; background:#2b2925; padding:10px; border-radius:5px;">
-     <p>At the bottom of the left pane, you’ll find the <span class="highlight">Overwrite</span> folder. This folder contains all files generated during gameplay (such as configuration files) or created by modding tools. You can leave these files there, or keep your setup organized by creating a new mod from the <span class="highlight">Overwrite</span> contents. Keep in mind that files in <span class="highlight">Overwrite</span> will take priority over other mods, so make sure you know what’s in there and avoid unintentional conflicts. Leaving files unmanaged in <span class="highlight">Overwrite</span> is one of the most common sources of hidden issues!</p>
-</div>
-
 ### Settings and Workarounds
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px; background:#2b2925; padding:10px; border-radius:5px;">
 
@@ -172,6 +169,34 @@ bForceFullLOD=1</textarea>
 	    </ol>	
    </div>
 
+</div>
+
+## Using Mod Organizer 2
+
+### Installing Mods
+<div style="background:#2b2925; padding:10px; border-radius:5px; margin-bottom:20px;">
+  <p>To install a mod, first download the mod and locate it in the <span class="highlight">Downloads</span> tab (right pane). Double-click the downloaded archive to install. Once installed, the mod will appear in the left pane and can be enabled or disabled by ticking its checkbox. The guide will provide any additional instructions when special installation steps are required.</p>
+</div>
+
+### Updating Mods
+<div style="background:#2b2925; padding:10px; border-radius:5px; margin-bottom:20px;">
+	<p>When updating a mod, download the new version and install it the same way as a normal mod. <span class="highlight">MO2</span> will detect that a mod with the same name already exists and prompt you to either <span class="highlight">Replace</span>, <span class="highlight">Merge</span>, or <span class="highlight">Rename</span> it.</p>
+	<ul>
+      <li><span class="highlight">Rename</span> appears when you try to install a file with the same name as an already installed mod. If you're installing an additional or optional file for that mod, rename it accordingly, either by selecting a name from the dropdown or entering one manually. This also simplifies updates when only one of the files needs updating.</li>
+      <li>If you are updating a mod from an older version, select <span class="highlight">Replace</span>. This will replace <span class="warn">all</span> files from the previous version with the new ones.</li>
+      <li><span class="highlight">Merge</span> combines the newly downloaded files with the existing mod installation. It's generally best avoided unless you know exactly what you're doing.</li>
+    </ul>
+	<p>In most cases, updates should be installed using the <span class="highlight">Replace</span> option. However, some updates only contain a few files intended to be added to the existing installation, in which case <span class="highlight">Rename</span> or <span class="highlight">Merge</span> could be used instead. Always read the update instructions provided by the mod author, and if you are unsure which option to choose, just ask the author.</p>
+</div>
+
+### Left Pane vs Right Pane
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px; background:#2b2925; padding:10px; border-radius:5px;">
+	<p><span class="highlight">MO2</span> uses two panes to manage your modded setup. The <span class="highlight">left pane</span> controls installed mods and their file priority, determining which mod's assets (textures, meshes, scripts, etc.) take precedence when multiple mods contain the same files. The <span class="highlight">right pane</span> controls plugin load order, determining the order in which game plugins (<code>.esm</code> and <code>.esp</code>) are loaded. The two panes serve different purposes and should be managed independently. By following the guide's instructions in the order they are presented, mods will be installed with conflicts taken into account. Some conflicts are unavoidable and are handled by the guide's <span class="highlight">Compatibility Patch</span>. If you decide to add mods outside of the guide, be sure to read <a href="../mo2/#conflict-resolution">Conflict Resolution</a> thoroughly.</p>
+</div>
+
+### Overwrite Folder
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px; background:#2b2925; padding:10px; border-radius:5px;">
+    <p>At the bottom of the left pane, you’ll find the <span class="highlight">Overwrite</span> folder. This folder contains all files generated during gameplay (such as configuration files) or created by modding tools. You can leave these files there, or keep your setup organized by creating a new mod from the <span class="highlight">Overwrite</span> contents. Keep in mind that files in <span class="highlight">Overwrite</span> will take priority over other mods, so make sure you know what’s in there and avoid unintentional conflicts. Leaving files unmanaged in <span class="highlight">Overwrite</span> is one of the most common sources of hidden issues!</p>
 </div>
 
 ### Conflict Resolution
@@ -202,6 +227,7 @@ bForceFullLOD=1</textarea>
         </div>
       </div>
 	  
+	  <p>To resolve conflicts between plugins (<code>.esm</code> and <code>.esp</code> files), you need a tool like <a href="../resources/#xedit">xEdit</a>. On the <a href="../resources/" style="font-family: 'Special Elite', cursive; font-size: 1.2em; color: hsl(35, 80%, 55%);">Resources</a> page you can find further info on the basics of <span class="highlight">xEdit</span>.
 	  
    </div>
 

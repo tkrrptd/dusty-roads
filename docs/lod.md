@@ -13,9 +13,11 @@
 <p class="fake-h3">Create a separator</p> 
 Right-click in the left pane of MO2 and select <code>Create separator</code>. Name it <span class="fake-h3">LOD</span>.
 
+---
+
 ## Required Resources
 
-### <a href="https://www.nexusmods.com/newvegas/mods/58562" target="_blank">FNVLODGen</a>
+### <a href="https://www.nexusmods.com/newvegas/mods/58562">FNVLODGen</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/58562-1-1432921531.jpg" alt="FNVLODGen">
@@ -43,7 +45,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   
 </div>
 
-### <a href="https://www.nexusmods.com/newvegas/mods/64805" target="_blank">Much Needed LOD</a>
+### <a href="https://www.nexusmods.com/newvegas/mods/64805">Much Needed LOD</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/64805/64805-1523055451-793332593.jpeg" alt="Much Needed LOD">
@@ -58,7 +60,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   
 </div>
 
-### <a href="https://www.nexusmods.com/newvegas/mods/81524" target="_blank">Much Needed LOD fixed rocks color</a>
+### <a href="https://www.nexusmods.com/newvegas/mods/81524">Much Needed LOD fixed rocks color</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/81524/81524-1686493430-941294059.png" alt="Much Needed LOD fixed">
@@ -72,7 +74,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   
 </div>
 
-### <a href="https://www.nexusmods.com/newvegas/mods/61206" target="_blank">LOD additions and improvements</a>
+### <a href="https://www.nexusmods.com/newvegas/mods/61206">LOD additions and improvements</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/61206-0-1451845583.jpg" alt="LOD additions">
@@ -87,7 +89,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   
 </div>
 
-### <a href="https://www.nexusmods.com/newvegas/mods/72099" target="_blank">FNV LOD Supplementation</a>
+### <a href="https://www.nexusmods.com/newvegas/mods/72099">FNV LOD Supplementation</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/72099/72099-1618781091-585013970.png" alt="LOD Supplementation">
@@ -102,7 +104,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   
 </div>
 
-### <a href="https://www.nexusmods.com/newvegas/mods/70155" target="_blank">TCM's LOD Overhaul</a>
+### <a href="https://www.nexusmods.com/newvegas/mods/70155">TCM's LOD Overhaul</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/70155/70155-1729410224-769051876.png" alt="TCM LOD">
@@ -117,7 +119,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   
 </div>
 
-### <a href="https://www.nexusmods.com/newvegas/mods/81751" target="_blank">More LODs Additions and fixes</a>
+### <a href="https://www.nexusmods.com/newvegas/mods/81751">More LODs Additions and fixes</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/81751/81751-1687463780-454868802.png" alt="More LOD Additions">
@@ -132,7 +134,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   
 </div>
 
-### <a href="https://www.nexusmods.com/newvegas/mods/83316" target="_blank">Wasted LOD - Cliffs of Mojave</a>
+### <a href="https://www.nexusmods.com/newvegas/mods/83316">Wasted LOD - Cliffs of Mojave</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/83316/83316-1696324892-1114409732.png" alt="Wasted LOD">
@@ -147,7 +149,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   
 </div>
 
-### <a href="https://www.nexusmods.com/newvegas/mods/81981" target="_blank">Different LOD mods little tweaks and additions</a>
+### <a href="https://www.nexusmods.com/newvegas/mods/81981">Different LOD mods little tweaks and additions</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/81981/81981-1688571392-935523143.png" alt="Different LOD tweaks">
@@ -162,7 +164,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   
 </div>
 
-### <a href="https://www.nexusmods.com/newvegas/mods/84165" target="_blank">LODIFY - Level of detail improvement for your Fallout (TTW And NV Lods)</a>
+### <a href="https://www.nexusmods.com/newvegas/mods/84165">LODIFY - Level of detail improvement for your Fallout (TTW And NV Lods)</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/84165/84165-1702935954-1498962530.png" alt="LODIFY">
@@ -178,7 +180,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   
 </div>
 
-### <a href="https://www.nexusmods.com/newvegas/mods/88979" target="_blank">Decent LOD Kit</a>
+### <a href="https://www.nexusmods.com/newvegas/mods/88979">Decent LOD Kit</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/88979/88979-1735939651-1623842502.jpeg" alt="Decent LOD">
@@ -193,7 +195,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   
 </div>
 
-### <a href="https://www.nexusmods.com/newvegas/mods/90327" target="_blank">TTW Fallout 3 LOD</a>
+### <a href="https://www.nexusmods.com/newvegas/mods/90327">TTW Fallout 3 LOD</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/90327/90327-1741509621-1210897503.png" alt="TTW LOD">
@@ -208,7 +210,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   
 </div>
 
-### <a href="https://www.nexusmods.com/newvegas/mods/93393" target="_blank">Physically Based LOD</a>
+### <a href="https://www.nexusmods.com/newvegas/mods/93393">Physically Based LOD</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/93393/93393-1755391477-2075757264.png" alt="Physically Based LOD">
@@ -223,7 +225,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   
 </div>
 
-### <a href="https://www.nexusmods.com/newvegas/mods/88902" target="_blank">Nuclear LOD</a>
+### <a href="https://www.nexusmods.com/newvegas/mods/88902">Nuclear LOD</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/88902/88902-1728923685-628362077.png" alt="Nuclear LOD">
@@ -239,8 +241,23 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   
 </div>
 
+### <a href="https://www.nexusmods.com/newvegas/mods/92875">Special Series - LOD Noise Texture</a>
+<div class="guide-box">
+  
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/92875/92875-1751984978-1972138611.png" alt="LOD Noise Texture">
 
-### <a href="https://www.nexusmods.com/newvegas/mods/88898" target="_blank">High Priority LOD</a>
+  <div style="margin-top: 0;">
+    <p>Custom LOD noise texture that enhances and blends LOD terrain.</p>
+    
+    <ul>
+      <li>Download the main file <span class="highlight">LODN 1.0</span></li>
+    </ul>
+  		
+  </div>
+  
+</div>
+
+### <a href="https://www.nexusmods.com/newvegas/mods/88898">High Priority LOD</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/88898/88898-1724768957-801881589.png" alt="High Priority LOD">
@@ -255,7 +272,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   
 </div>
 
-### <a href="https://www.nexusmods.com/newvegas/mods/97094" target="_blank">DUSTy Roads - LOD Plugin</a>
+### <a href="https://www.nexusmods.com/newvegas/mods/97094">DUSTy Roads - LOD Plugin</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/97094/97094-1775140780-122210232.png" alt="DUSTy Roads">
@@ -276,31 +293,48 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
     <p style="margin-top:0; font-family: 'Bebas Neue', cursive; font-size: 1.2em; letter-spacing: 0.05em;">To LOD or not to LOD?</p>
     <ul style="margin-bottom:0; list-style:none; padding-left:0;">
       <li style="margin-bottom: 0.6em;"><span class="icon-path-right"></span> If you've followed this guide closely and haven't added (or don't plan to add) mods that alter textures or the game world, you can skip generating LOD and simply use the <a href="../lod/#dusty-roads-pregenerated-lod">Pregenerated LOD</a> below.</li>
-      <li><span class="icon-path-left"></span> If you didn't, or prefer to generate it yourself, skip the pregenerated LOD and proceed to <a href="../lod/#generate-lod">Generate LOD</a>.</li>
+      <li><span class="icon-path-left"></span> If you didn't follow the guide religiously, plan to add texture mods or mods that alter the landscape, or simply prefer to generate your own LOD, skip the pregenerated LOD and proceed to <a href="../lod/#generate-lod">Generate LOD</a>.</li>
     </ul>
   </div>
 </div>
 
-### <a href="https://www.nexusmods.com/newvegas/mods/97094" target="_blank">DUSTy Roads - Pregenerated LOD</a>
+### <a href="https://www.nexusmods.com/newvegas/mods/97094">DUSTy Roads - Pregenerated LOD</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/97094/97094-1775140780-122210232.png" alt="DUSTy Road">
 
   <div style="margin-top: 0;">
     <ul>
-      <li>Download the optional file <span class="highlight">DUSTy Road - Pregenerated Objects LOD</span></li>
-	  <li>Download the optional file <span class="highlight">DUSTy Road - Pregenerated Terrain LOD</span></li>
+      <li>Download the optional file <span class="highlight">DUSTy Road Base - Pregenerated LOD</span>, <span class="warn"><b>OR</b></span></li>
+	  <li>Download the optional file <span class="highlight">DUSTy Road Expanded - Pregenerated LOD</span> <span class="warn">(not both!!)</span></li>
 	</ul>
 	
-	<p>You still need the installed LOD resources, but you should disable these two in the left pane of <span class="highlight">MO2</span>:</p>
-	  <ul>
-		<li><span class="highlight">High Priority Core</span></li>	
-		<li><span class="highlight">High Priority Trees - Vanilla</span></li>
-	  </ul>
-  	
+	<div class="infobox">
+      <div class="infobox-title"><span class="icon-warning"></span> Warning</div>
+      <div class="infobox-content">
+        Keep all installed LOD resources, but disable the following two mods in the left pane of <span class="highlight">MO2</span>:
+	      <ul>
+		    <li><span class="highlight">High Priority Core</span></li>	
+		    <li><span class="highlight">High Priority Trees - Vanilla</span></li>
+	      </ul>
+	  </div>	
+    </div>
+	
+	<div class="infobox-info">
+      <div class="infobox-title"><span class="icon-info"></span> Information</div>
+      <div class="infobox-content">
+      You can skip directly to <a href="../finish/" style="font-family: 'Special Elite', cursive; font-size: 1.2em; color: hsl(35, 80%, 55%);">FINISHING TOUCH</a>.  
+		
+	  </div>
+    </div>
+		  	
   </div>
   
 </div><br>
+
+---
+
+---
 
 ## Generate LOD
 
@@ -309,6 +343,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
       <div class="infobox-content">
         Before getting started, please verify if your load order looks like this at the end:
 		<ul>
+		  <li>...</li> 
 		  <li><code>DUSTy Roads Compatibility Patch.esp</code></li>
 		  <li><code>HighPriorityLOD.esp</code></li>
 		  <li><code>TreeLOD_Vanilla.esp</code></li>
@@ -317,7 +352,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
       </div>	
 </div>
 
-### <a href="https://stepmodifications.org/forum/topic/13451-xlodgen-terrain-lod-beta-132-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal-enderalse/" target="_blank">xLODGen - Terrain LOD</a>
+### <a href="https://stepmodifications.org/forum/topic/13451-xlodgen-terrain-lod-beta-132-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal-enderalse/">xLODGen - Terrain LOD</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/58562-1-1432921531.jpg" alt="xLODGen">
@@ -438,10 +473,12 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 	  </ul>
   </div>  
 </div>
+
+---
  
-### Packing LOD in bsa Archives
-<div style="display: flex; gap: 0; margin-bottom: 20px;">
-  <div style="flex: 1; background:#2b2925; padding:10px; border-radius:5px 0 0 5px;">
+## Packing LOD in bsa Archives
+<div>
+  
 	<p>This step is optional, but strongly recommended. This will positively affect the loading times of LOD assets in-game. There are a few caveats however:</p>
 	  <ul>
 		<li><span class="highlight">bsa</span> archives require a plugin to be loaded. So the name of the archive should equal that of the plugin, with the suffix <span class="highlight">- Objects</span> and <span class="highlight">- Terrain</span></li>
@@ -452,21 +489,21 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 	<div class="infobox-decision">
 	  <div class="infobox-title"><span class="icon-decision"></span> Decision</div>
 	  <div class="infobox-content" style="padding: 1rem;>
-		<span style="display:block; margin-bottom:4px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="hsl(150, 50%, 70%)" style="vertical-align: middle; margin-right: 4px;"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm1.5 0a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm10.28-1.72-4.5 4.5a.75.75 0 0 1-1.06 0l-2-2a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l1.47 1.47 3.97-3.97a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path></svg> <u>When to pack:</u></span>
+		<span style="display:block; margin-bottom:4px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="24" height="24" fill="hsl(150, 50%, 70%)" style="vertical-align: middle; margin-right: 4px;"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm1.5 0a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm10.28-1.72-4.5 4.5a.75.75 0 0 1-1.06 0l-2-2a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l1.47 1.47 3.97-3.97a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path></svg> <u>When to pack:</u></span>
 		<ul>
-		  <li>I want an optimized game and avoid potential stuttering when loading new areas in-game</li>
-		  <li>I am able to resolve asset conflicts and get rid of LOD included in other mods as loose files</li>
-		</ul>
-		<span style="display:block; margin-top:8px; margin-bottom:4px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="hsl(0, 70%, 75%)" style="vertical-align: middle; margin-right: 4px;"><path d="M2.344 2.343h-.001a8 8 0 0 1 11.314 11.314A8.002 8.002 0 0 1 .234 10.089a8 8 0 0 1 2.11-7.746Zm1.06 10.253a6.5 6.5 0 1 0 9.108-9.275 6.5 6.5 0 0 0-9.108 9.275ZM6.03 4.97 8 6.94l1.97-1.97a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l1.97 1.97a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-1.97 1.97a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L6.94 8 4.97 6.03a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018Z"></path></svg> <u>When not to pack:</u></span>
+		  <li>I want an optimized game and avoid potential stuttering when loading new areas in-game.</li>
+		  <li>I am able to resolve asset conflicts and get rid of LOD included in other mods as loose files.</li>
+		</ul><br>
+		<span style="display:block; margin-top:8px; margin-bottom:4px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="24" height="24" fill="hsl(0, 70%, 75%)" style="vertical-align: middle; margin-right: 4px;"><path d="M2.344 2.343h-.001a8 8 0 0 1 11.314 11.314A8.002 8.002 0 0 1 .234 10.089a8 8 0 0 1 2.11-7.746Zm1.06 10.253a6.5 6.5 0 1 0 9.108-9.275 6.5 6.5 0 0 0-9.108 9.275ZM6.03 4.97 8 6.94l1.97-1.97a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l1.97 1.97a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-1.97 1.97a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L6.94 8 4.97 6.03a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018Z"></path></svg> <u>When not to pack:</u></span>
 		<ul>
-		  <li>I don’t want to deal with checking file conflicts</li>
+		  <li>I don’t want to deal with checking file conflicts. Skip to <a href="../finish/" style="font-family: 'Special Elite', cursive; font-size: 1.2em; color: hsl(35, 80%, 55%);">FINISHING TOUCH</a>.</li>
 		</ul>
 	  </div>
 	</div>
-  </div>
+  
 </div>  
 
-#### <a href="https://www.nexusmods.com/fallout4/mods/63243" target="_blank">BSArchPro</a>
+### <a href="https://www.nexusmods.com/fallout4/mods/63243">BSArchPro</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/1151/images/63243/63243-1769254695-1137142480.png" alt="BSArchPro">
@@ -483,7 +520,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   
 </div>
 
-#### Packing Object LOD
+### Packing Object LOD
 
 <div style="display: flex; gap: 0; margin-bottom: 20px;">
   <div style="flex: 1; background:#2b2925; padding:10px; border-radius:5px 0 0 5px;">
@@ -509,7 +546,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   </div>
 </div>
 
-#### Packing Terrain LOD
+### Packing Terrain LOD
 
 <div style="display: flex; gap: 0; margin-bottom: 20px;">
   <div style="flex: 1; background:#2b2925; padding:10px; border-radius:5px 0 0 5px;">

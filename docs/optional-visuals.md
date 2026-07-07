@@ -4,11 +4,12 @@
 <div style="background:#2b2925; border-radius:5px; margin-bottom:20px;">
 
   <div style="padding:10px;">
-    <p class="fake-h3" style="margin-top: 0;"><a href="https://www.nexusmods.com/newvegas/mods/84223" target="_blank"><b>General Lighting Overhaul &#10515;</b></a></p>
+    <p class="fake-h3" style="margin-top: 0;"><a href="https://www.nexusmods.com/newvegas/mods/84223"><b>General Lighting Overhaul &#10515;</b></a></p>
     <img src="https://staticdelivery.nexusmods.com/mods/130/images/84223/84223-1703391284-1079978809.png" alt="General Lighting Overhaul" style="width: 80px; margin-right: 15px; flex-shrink: 0; float: left;">
     <p style="margin-top: 0;">A fully scripted, fully compatible adjustment to lighting and postprocessing.</p>
     <ul>
       <li>Download the main file <span class="highlight">General Lighting Overhaul</span></li>
+	  <li>Download the optional file <span class="highlight">Compatibility INI for ALT</span> (if <span class="highlight">Atmospheric Lighting Tweaks</span> is installed)</li>
       <li>Requires <span class="highlight">AnhNVSE</span> & <span class="highlight">SUP NVSE</span>.</li>
     </ul>
   </div>
@@ -19,7 +20,7 @@
       <div class="infobox-requirement" style="margin:0; border-radius:0; border:none;">
         <div class="infobox-title"><span class="icon-requirement"></span> Additional Requirement</div>
         <div class="infobox-content" style="padding:10px;">
-          <p class="fake-h3" style="margin-top:0;"><a href="https://www.nexusmods.com/newvegas/mods/74012" target="_blank"><b>AnhNVSE &#10515;</b></a></p>
+          <p class="fake-h3" style="margin-top:0;"><a href="https://www.nexusmods.com/newvegas/mods/74012"><b>AnhNVSE &#10515;</b></a></p>
           <img src="https://staticdelivery.nexusmods.com/mods/130/images/74012/74012-1634053963-826590051.png" alt="AnhNVSE" style="width: 80px; margin-right: 15px; flex-shrink: 0; float: left;">
           <p style="margin-top: 0;">Another script extender plugin.</p>
           <ul>
@@ -33,7 +34,7 @@
       <div class="infobox-requirement" style="margin:0; border-radius:0; border:none;">
         <div class="infobox-title"><span class="icon-requirement"></span> Additional Requirement</div>
         <div class="infobox-content" style="padding:10px;">
-          <p class="fake-h3" style="margin-top:0;"><a href="https://www.nexusmods.com/newvegas/mods/73160" target="_blank"><b>SUP NVSE &#10515;</b></a></p>
+          <p class="fake-h3" style="margin-top:0;"><a href="https://www.nexusmods.com/newvegas/mods/73160"><b>SUP NVSE &#10515;</b></a></p>
           <img src="https://staticdelivery.nexusmods.com/mods/130/images/73160/73160-1627556379-72261876.gif" alt="SUP NVSE" style="width: 80px; margin-right: 15px; flex-shrink: 0; float: left;">
           <p style="margin-top: 0;">NVSE plugin which adds new functions.</p>
           <ul>
@@ -47,7 +48,14 @@
 
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/80818" target="_blank">Mojave Sandstorms - DUST Expansion Project</a>
+<div class="infobox-info">
+      <div class="infobox-title"><span class="icon-info"></span> Information</div>
+      <div class="infobox-content">
+        This lighting mod can be used together with <span class="highlight">Atmospheric Lighting Tweaks</span> (included in the <span class="highlight">Expanded</span> guide), provided the patch is installed. Alternatively, you can just replace <span class="highlight">Atmospheric Lighting Tweaks</span> with <span class="highlight">General Lighting Overhaul</span>. Use whichever option looks best to you.
+	  </div>	
+</div>
+
+## <a href="https://www.nexusmods.com/newvegas/mods/80818">Mojave Sandstorms - DUST Expansion Project</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/80818/80818-1681740549-1729298108.png" alt="This Corrosion">
@@ -63,7 +71,7 @@
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/81453" target="_blank">This Corrosion - A Dead Money Inspired Weather Mod</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/81453">This Corrosion - A Dead Money Inspired Weather Mod</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/81453/81453-1686020879-223453661.png" alt="This Corrosion">
@@ -80,7 +88,7 @@
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/87271" target="_blank">Bloodbath - ESPless</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/87271">Bloodbath - ESPless</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/87271/87271-1762369068-380876142.png" alt="Bloodbath">
@@ -96,7 +104,7 @@
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/92474" target="_blank">Screen Blood Enhanced - ESPless</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/92474">Screen Blood Enhanced - ESPless</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/92474/92474-1749710022-731224550.png" alt="Screen Blood">
@@ -113,7 +121,7 @@
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/95296" target="_blank">PipBoy Screen Effects - ESPless</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/95296">PipBoy Screen Effects - ESPless</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/95296/95296-1766777239-2007954116.png" alt="PipBoy Screen Effects">
@@ -130,7 +138,7 @@
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/84917" target="_blank">Radiation Visuals - ESPless</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/84917">Radiation Visuals - ESPless</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/84917/84917-1707539092-542334302.png" alt="Radiation Visuals">
@@ -147,7 +155,7 @@
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/84802" target="_blank">Sneak Vignette - ESPless</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/84802">Sneak Vignette - ESPless</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/84802/84802-1769465170-689910628.png" alt="Sneak Vignette">
@@ -164,7 +172,7 @@
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/84691" target="_blank">Just Loot Menu DoF - ESPless</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/84691">Just Loot Menu DoF - ESPless</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/84691/84691-1706336742-861209486.png" alt="Just Loot Menu DoF">
@@ -180,7 +188,7 @@
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/92519" target="_blank">Vanilla Plus Terrain</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/92519">Vanilla Plus Terrain</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/92519/92519-1749399570-623670531.png" alt="Vanilla Plus Terrain">
@@ -197,7 +205,7 @@
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/91500" target="_blank">Vanilla Plus Tonemapper</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/91500">Vanilla Plus Tonemapper</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/91500/91500-1742772728-352436337.png" alt="Vanilla Plus Tonemapper">
@@ -213,7 +221,7 @@
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/93408" target="_blank">Vanilla Plus Skin</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/93408">Vanilla Plus Skin</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/93408/93408-1755480729-132919852.png" alt="Vanilla Plus Skin">
@@ -229,7 +237,7 @@
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/94824" target="_blank">Vanilla Plus AO</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/94824">Vanilla Plus AO</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/94824/94824-1764718842-1492157521.png" alt="Vanilla Plus AO">
@@ -246,7 +254,7 @@
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/92708" target="_blank">Parallax Shaders - Terrain</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/92708">Parallax Shaders - Terrain</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/92708/92708-1750647112-1220861412.png" alt="Parallax Shaders - Terrain">
@@ -263,7 +271,7 @@
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/93063" target="_blank">Vanilla Terrain Parallaxed</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/93063">Vanilla Terrain Parallaxed</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/93063/93063-1753486487-1760418531.png" alt="Vanilla Terrain Parallaxed">
@@ -274,6 +282,28 @@
     <ul>
       <li>Download the main file <span class="highlight">Vanilla Terrain Parallaxed</span></li>
 	  
+    </ul>
+  		
+  </div>
+  
+</div>
+
+## <a href="https://www.nexusmods.com/newvegas/mods/97253">DUST - Custom cutscenes</a>
+<div class="guide-box">
+  
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/97253/97253-1775479187-1022461966.png" alt="DUST - Custom cutscenes">
+
+  <div style="margin-top: 0;">
+    <p>Adds pre-rendered cutscenes for DUST.</p>
+    
+    <ul>
+      <li>Download the main file <span class="highlight">DC - ESP</span></li>
+	  <li>Download the main file <span class="highlight">DC - Intro</span></li>
+	  <li>Download the optional file <span class="highlight">DC - Death</span></li>
+	  <li>Download the optional file <span class="highlight">DC - Hidden Armory</span></li>
+	  <li>Download the optional file <span class="highlight">DC - Insanity</span></li>
+	  <li>Download the optional file <span class="highlight">DC - Legion Safehouse</span></li>
+	  <li>Download the optional file <span class="highlight">DC - Followers Safehouse</span></li>
     </ul>
   		
   </div>

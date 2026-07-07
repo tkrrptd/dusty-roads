@@ -18,7 +18,7 @@
 <div style="display: flex; gap: 20px; margin-bottom: 20px;">
 
   <div style="flex: 1; background:#2b2925; padding:10px; border-radius:5px;">
-    <p class="fake-h3" style="margin-top: 0;"><a href="https://discord.gg/5t8RnNQ" target="_blank"><b>xEdit</b></a></p>
+    <p class="fake-h3" style="margin-top: 0;"><a href="https://discord.gg/5t8RnNQ"><b>xEdit</b></a></p>
 	<img src="/dusty-roads/images/xedit.png" alt="xEdit" style="width: 80px; margin-right: 15px; flex-shrink: 0; float: left;">
     <p style="margin-top: 0;">You can always find the latest build on the <span class="highlight">xEdit</span> discord server.</p>
 	
@@ -33,13 +33,13 @@
   </div>
 
   <div style="flex: 1; background:#2b2925; padding:10px; border-radius:5px;">
-    <p class="fake-h3" style="margin-top: 0;"><a href="https://tes5edit.github.io/docs/" target="_blank"><b>Tome of xEdit</b></a></p>
+    <p class="fake-h3" style="margin-top: 0;"><a href="https://tes5edit.github.io/docs/"><b>Tome of xEdit</b></a></p>
 	<img src="https://tes5edit.github.io/docs/img/tes5edit-ico-blue.png" alt="xEdit" style="width: 80px; margin-right: 15px; flex-shrink: 0; float: left;">
     <p style="margin-top: 0;">A Comprehensive Guide to using xEdit.</p>
    
   </div>
 
-</div>
+</div><br>
 
 ### GECK
 <p>The <span class="highlight">GECK</span>, or <span class="highlight">Garden of Eden Creation Kit</span>, is Bethesda’s official editor for <span class="highlight">FNV</span>, used to create and modify game content. Unlike <span class="highlight">xEdit</span>’s structured, record-based approach, the <span class="highlight">GECK</span> provides an environment where you can work with worldspaces, quests, scripts, and other gameplay elements directly. While more <em>powerful</em>, it is also more complex and less suited for quick adjustments.<br>
@@ -55,7 +55,7 @@ The <span class="highlight">GECK</span> can be installed from <span class="highl
 <div style="display: flex; gap: 20px; margin-bottom: 20px;">
 
   <div style="flex: 1; background:#2b2925; padding:10px; border-radius:5px;">
-    <p class="fake-h3" style="margin-top: 0;"><a href="https://www.nexusmods.com/newvegas/mods/64888" target="_blank"><b>GECK Extender &#10515;</b></a></p>
+    <p class="fake-h3" style="margin-top: 0;"><a href="https://www.nexusmods.com/newvegas/mods/64888"><b>GECK Extender &#10515;</b></a></p>
 	<img src="https://staticdelivery.nexusmods.com/mods/130/images/64888/64888-1524782927-1257241392.jpeg" alt="GECK Extender" style="width: 80px; margin-right: 15px; flex-shrink: 0; float: left;">
     <p style="margin-top: 0;">The GECK Extender is a project to extend the functionality and fix bugs in the Garden of Eden Creation Kit.</p>
     
@@ -68,17 +68,46 @@ The <span class="highlight">GECK</span> can be installed from <span class="highl
   </div>
 
   <div style="flex: 1; background:#2b2925; padding:10px; border-radius:5px;">
-    <p class="fake-h3" style="margin-top: 0;"><a href="https://geckwiki.com/index.php?title=Main_Page" target="_blank"><b>The Unofficial Community GECK Wiki</b></a></p>
+    <p class="fake-h3" style="margin-top: 0;"><a href="https://geckwiki.com/index.php?title=Main_Page"><b>The Unofficial Community GECK Wiki</b></a></p>
 	<img src="https://geckimg.mod.pub/7/7d/Photo_2017-04-01_00-02-45.jpg" alt="GECK Wiki" style="width: 80px; margin-right: 15px; flex-shrink: 0; float: left;">
     <p style="margin-top: 0;">An unofficial community-run wiki where you'll find everything you need to use The Garden of Eden Creation Kit and make mods for FNV.</p>
    
   </div>
 
+</div><br>
+
+### Wabbajack
+<p><span class="highlight">Wabbajack</span> is an automated modlist installer. Instead of manually downloading, installing, and configuring hundreds of mods yourself, <span class="highlight">Wabbajack</span> automates most of the process and reproduces a curated setup as intended by the modlist author. A <span class="highlight">Wabbajack</span> modlist is built around a predefined collection of mods, configuration files, load orders, patches, and installer settings.</p>
+
+<div style="display: flex; gap: 20px; margin-bottom: 20px;">
+
+  <div style="flex: 1; background:#2b2925; padding:10px; border-radius:5px;">
+    <p class="fake-h3" style="margin-top: 0;"><a href="https://www.https://www.wabbajack.org/"><b>Wabbajack &#10515;</b></a></p>
+	<img src="/dusty-roads/images/wabbajack.png" alt="Wabbajack" style="width: 80px; margin-right: 15px; flex-shrink: 0; float: left;">
+        
+	<ol>
+      <li>Download the installer using the <code>Download Now</code> button</li>
+      <li>Create a new folder outside of any default Windows folders or the game folder itself, for example: <code>D:\Wabbajack</code></li>
+	  <li>Move the downloaded <code>Wabbajack.exe</code> into this new folder</li>
+	</ol>
+	
+  </div>
+
+  <div style="flex: 1; background:#2b2925; padding:10px; border-radius:5px;">
+    <p class="fake-h3" style="margin-top: 0;"><a href="https://wiki.wabbajack.org/"><b>Wabbajack Wiki</b></a></p>
+	<img src="/dusty-roads/images/wabbajack.png" alt="Wabbajack Wiki" style="width: 80px; margin-right: 15px; flex-shrink: 0; float: left;">
+    <p style="margin-top: 0;">Official Wabbajack documentation.</p>
+   
+  </div>
+
 </div>
+<br>
+
+---
 
 ## Other Relevant Guides
 
-### <a href="https://performance.moddinglinked.com/falloutnv.html" target="_blank">FNV Performance Guide</a>
+### <a href="https://performance.moddinglinked.com/falloutnv.html">FNV Performance Guide</a>
 <div class="guide-box">
   
   <div style="margin-top: 0;">
@@ -88,7 +117,7 @@ The <span class="highlight">GECK</span> can be installed from <span class="highl
   
 </div>
 
-### <a href="https://salamand3r.fail/salvo" target="_blank">SALVO</a>
+### <a href="https://salamand3r.fail/salvo">SALVO</a>
 <div class="guide-box">
   
   <div style="margin-top: 0;">
@@ -98,7 +127,7 @@ The <span class="highlight">GECK</span> can be installed from <span class="highl
   
 </div>
 
-### <a href="https://fnvdust.fandom.com/wiki/Fallout:_Dust_Wikia" target="_blank">Fallout: DUST Wikia</a>
+### <a href="https://fnvdust.fandom.com/wiki/Fallout:_Dust_Wikia">Fallout: DUST Wikia</a>
 <div class="guide-box">
   
   <div style="margin-top: 0;">
@@ -108,7 +137,7 @@ The <span class="highlight">GECK</span> can be installed from <span class="highl
   
 </div>
 
-### <a href="https://vivanewvegas.moddinglinked.com/resources.html" target="_blank">ModdingLinked Resources</a>
+### <a href="https://vivanewvegas.moddinglinked.com/resources.html">ModdingLinked Resources</a>
 <div class="guide-box">
   
   <div style="margin-top: 0;">
@@ -118,9 +147,22 @@ The <span class="highlight">GECK</span> can be installed from <span class="highl
   
 </div>
 
-## For a vanilla playthrough...
+### <a href="https://dlpnd.github.io/nvr-wiki/">New Vegas Reloaded</a>
+<div class="guide-box">
+  
+  <div style="margin-top: 0;">
+    <p style="margin-top: 0; margin-bottom: 0;">Detailed information, FAQs, tutorials, and more for <span class="highlight">New Vegas Reloaded</span>, the graphical extender featured in the <span class="highlight">Optionals</span> section.</p>
+  		
+  </div>
+  
+</div>
+<br>
 
-### <a href="https://vivanewvegas.moddinglinked.com/intro.html" target="_blank">Viva New Vegas</a>
+---
+
+## Guides for a vanilla playthrough...
+
+### <a href="https://vivanewvegas.moddinglinked.com/intro.html">Viva New Vegas</a>
 <div class="guide-box">
   
   <div style="margin-top: 0;">
@@ -130,7 +172,7 @@ The <span class="highlight">GECK</span> can be installed from <span class="highl
   
 </div>
 
-### <a href="https://thebestoftimes.moddinglinked.com/intro.html" target="_blank">The Best of Times</a>
+### <a href="https://thebestoftimes.moddinglinked.com/intro.html">The Best of Times</a>
 <div class="guide-box">
   
   <div style="margin-top: 0;">

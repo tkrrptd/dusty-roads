@@ -1,6 +1,6 @@
 # PREPARATION
 
-<p>Before deep diving into modding, it’s essential to start with a clean and  <span class="warn">non-pirated</span> <span class="highlight">Fallout: New Vegas (FNV)</span> installation and a stable system environment. While the game itself is over 15 years old and its <a href="https://help.bethesda.net/#en/answer/16744"  target="_blank">vanilla requirements</a> are modest, a modded setup can place significantly more strain on low-end systems.</p>
+<p>Before deep diving into modding, it’s essential to start with a clean and  <span class="warn">non-pirated</span> <span class="highlight">Fallout: New Vegas (FNV)</span> installation and a stable system environment. While the game itself is over 15 years old and its <a href="https://help.bethesda.net/#en/answer/16744"  >vanilla requirements</a> are modest, a modded setup can place significantly more strain on low-end systems.</p>
 
 As a baseline, you should have at least:
 <ul>
@@ -9,7 +9,9 @@ As a baseline, you should have at least:
   <li>and a CPU and GPU roughly equivalent to a mid-range system from the past decade or newer.</li>
 </ul>
 
-## <a href="https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/" target="_blank">VC++ Redistributables</a>
+---
+
+## <a href="https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/" >VC++ Redistributables</a>
 <div class="guide-box">
   
   <div>
@@ -91,7 +93,7 @@ As a baseline, you should have at least:
     </div>
 	
 	<span style="font-weight: bold;"><u>Steam specific:</u></span><br>
-	If your Steam Library is currently located in a default Windows directory, or if you are unsure how to set up a custom library location, you can use the <a href="https://github.com/LostDragonist/steam-library-setup-tool/releases" target="_blank">Steam Library Setup Tool &#10515;</a>.</p>
+	If your Steam Library is currently located in a default Windows directory (e.g. <code>C:\Program Files (x86)</code>, or if you are unsure how to set up a custom library location, you can use the <a href="https://github.com/LostDragonist/steam-library-setup-tool/releases" >Steam Library Setup Tool &#10515;</a>.</p>
 	
 	<ol>
 	  <li>Close <span class="highlight">Steam</span></li>

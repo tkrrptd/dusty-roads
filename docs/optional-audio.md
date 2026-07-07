@@ -1,6 +1,6 @@
 # OPTIONAL MODS - AUDIO
 
-## <a href="https://www.nexusmods.com/newvegas/mods/54916" target="_blank">Digital Nightmare - Music Mod</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/54916">Digital Nightmare - Music Mod</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/54916-1-1392866582.jpg" alt="Digital Nightmare">
@@ -21,7 +21,7 @@
 
 <div style="display: flex; gap: 20px; margin-bottom: 20px;">
   <div style="flex: 1; background:#2b2925; padding:10px; border-radius:5px;">
-    <p class="fake-h3" style="margin-top: 0;"><a href="https://www.nexusmods.com/newvegas/mods/96962" target="_blank"><b>Journey of the Survivor - R.A.C.E Music Pack for DUST &#10515;</b></a></p>
+    <p class="fake-h3" style="margin-top: 0;"><a href="https://www.nexusmods.com/newvegas/mods/96962"><b>Journey of the Survivor - R.A.C.E Music Pack for DUST &#10515;</b></a></p>
     <img src="https://staticdelivery.nexusmods.com/mods/130/images/96962/96962-1773780667-648120895.png" alt="Journey of the Survivor" style="width: 80px; margin-right: 15px; flex-shrink: 0; float: left;">
     <p style="margin-top: 0;">A music pack for R.A.C.E containing 30 songs, meant to be used with DUST.</p>
     <ul>
@@ -34,7 +34,7 @@
     <div class="infobox-requirement" style="margin:0; border-radius:0; border:none; flex:1;">
       <div class="infobox-title"><span class="icon-requirement"></span> Additional Requirement</div>
       <div class="infobox-content" style="padding: 10px;">
-        <p class="fake-h3" style="margin-top:0;"><a href="https://www.nexusmods.com/newvegas/mods/34999" target="_blank"><b>Radio Active Channel Extender &#10515;</b></a></p>
+        <p class="fake-h3" style="margin-top:0;"><a href="https://www.nexusmods.com/newvegas/mods/34999"><b>Radio Active Channel Extender &#10515;</b></a></p>
         <img src="https://staticdelivery.nexusmods.com/mods/130/images/39551-5-1312876361.jpg" alt="R.A.C.E." style="width: 80px; margin-right: 15px; flex-shrink: 0; float: left;">
         <p style="margin-top: 0;">Quick & easy way to implement a new stable Radio Station.</p>
         <ul>
@@ -45,7 +45,7 @@
   </div>
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/84235" target="_blank">All Weapon Sound Overhaul Modern Edition Redone - AWSOMER</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/84235">All Weapon Sound Overhaul Modern Edition Redone - AWSOMER</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/84235/84235-1703444206-1031047692.png" alt="AWSOMER">
@@ -61,13 +61,13 @@
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/97384" target="_blank">AWSOMER - DUST Expansion Project Patch</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/97384">DUST - Patch Hub | AWSOMER - DUST Expansion Project Patch</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/97384/97384-1776239376-1169287646.png" alt="DUST Patch Hub">
 
   <div style="margin-top: 0;">
-    <p>Scriptrunner patch for AWSOMER and DUST Expansion Project (specifically weapons implemented from FO3 Weapons Restoration)</p>
+    <p>Scriptrunner patch for AWSOMER and DUST Expansion Project (specifically weapons implemented from FO3 Weapons Restoration).</p>
     
     <ul>
       <li>Download the main file <span class="highlight">AWSOMER - DUST Expansion Project Patch</span></li>
@@ -77,7 +77,7 @@
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/96777" target="_blank">A fix for AWSOMER Minigun spinning sound fix</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/96777">A fix for AWSOMER Minigun spinning sound fix</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/96777/96777-1772886927-283606685.png" alt="AWSOMER Minigun Fix">
@@ -93,20 +93,18 @@
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/87832" target="_blank">PhySFX</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/69342">Realistic SFX</a>
 <div class="guide-box">
   
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/87832/87832-1718924816-1264651376.png" alt="PhySFX Logo">
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/69342/69342-1594099154-2059896742.jpeg" alt="Realistic SFX">
 
   <div style="margin-top: 0;">
-    <p>Replaces the impact sounds of various physics objects in the game.</p>
+    <p>Replaces many old outdated low quality vanilla sound effects no other mods have covered, and adds new realistic audio.</p>
     
     <ul>
-      <li>Download the main file <span class="highlight">PhySFX</span></li>
+      <li>Download the main file <span class="highlight">Realistic SFX</span></li>
     </ul>
   		
   </div>
   
 </div>
-
-
