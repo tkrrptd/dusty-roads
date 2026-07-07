@@ -38,7 +38,7 @@ Alternatively, you can browse through the sections of the guide.</p>
 
 ### Preparation
 <div class="guide-box"> 
-  <p>It is essential to read and complete the <a href="../Preparation/" target="_blank"  style="font-family: 'Special Elite', cursive; font-size: 1.2em; color: hsl(35, 80%, 55%);">Preparation</a> section of the guide before proceeding with the <span class="highlight">Wabbajack</span> installation!</p>
+  <p>It is essential to read and complete the <a href="../preparation/" target="_blank"  style="font-family: 'Special Elite', cursive; font-size: 1.2em; color: hsl(35, 80%, 55%);">Preparation</a> section of the guide before proceeding with the <span class="highlight">Wabbajack</span> installation!</p>
    
 </div>
 
