@@ -44,7 +44,7 @@ Alternatively, you can browse through the sections of the guide.</p>
 
 ### <a href="https://www.nexusmods.com/newvegas/mods/97094?tab=files">DUSTy Roads Wabbajack</a>
 <div class="guide-box"> 
-  <p>Download the optional file <span class="highlight">DUSTy Roads Wabbajack</span>.</p>
+  <p>Download the optional file <span class="highlight">DUSTy Roads - Wabbajack</span>.</p>
 
 </div>
 
@@ -104,13 +104,18 @@ Alternatively, you can browse through the sections of the guide.</p>
 
 ### Files for the Game Root Folder
 <div class="guide-box" style="flex-direction: column;">
-  <p>Some files that are not managed by <span class="highlight">MO2</span> need to be copied manually to the game's <span class="highlight">root folder</span>:</p>
+  <p>Some files that are not managed by <span class="highlight">MO2</span> need to be copied manually to the game's <span class="highlight">root folder</span>.</p>
   
   <div>
     <ol>
 	  <li>In the installation folder of the <span class="highlight">DUSTy Roads Wabbajack</span>, open the <span class="highlight">_Manual Install</span> folder</li>
-	  <li>Copy everything from this folder to the game's <span class="highlight">root folder</span></li>
-	</il>
+	  <li>Copy everything from this folder to the game's <span class="highlight">root folder</span>:</li>
+	  	<ul>
+		  <li><span class="highlight">xNVSE</span> files</li>
+		  <li><span class="highlight">FNV BSA Decompressor</span> files</li>
+		  <li><span class="highlight">FNV 4GB Patcher</span> executable</li>
+		</ul>
+	</ol>	
   </div>	
 
   <div class="infobox-info">

@@ -279,7 +279,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 
   <div style="margin-top: 0;">
     <ul>
-      <li>Download the main file <span class="highlight">DUSTy Roads - LOD Plugin</span>. This will overwrite the LOD plugin shipped with <span class="highlight">DUST Community Fixes & Tweaks</span></li>
+      <li>Download the main file <span class="highlight">DUSTy Roads - LOD Plugin</span>. This will overwrite the LOD plugin shipped with <span class="highlight">DUST Community Fixes & Tweaks</span>.</li>
 	  
 	</ul>
   	
