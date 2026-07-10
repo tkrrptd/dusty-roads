@@ -43,9 +43,10 @@ Alternatively, you can browse through the sections of the guide.</p>
 </div>
 
 ### <a href="https://www.nexusmods.com/newvegas/mods/97094?tab=files">DUSTy Roads Wabbajack</a>
-<div class="guide-box"> 
-  <p>Download the optional file <span class="highlight">DUSTy Roads - Wabbajack</span>.</p>
-
+<div class="guide-box">
+  <p>Until <span class="highlight">DUSTy Roads</span> is approved and added to the <span class="highlight">Wabbajack UI</span>, it can only be installed from disk by first downloading the <code>.wabbajack</code> file.<br> 
+  Download the main file <span class="highlight">DUSTy Roads - Wabbajack</span>.</p>
+  
 </div>
 
 ### <a href="https://www.wabbajack.org/">Wabbajack</a>
@@ -184,7 +185,7 @@ Alternatively, you can browse through the sections of the guide.</p>
     <li><span class="highlight">DUSTy Roads - Base</span>: featuring <span class="highlight">DUST</span> and essential fixes.</li>
     <li><span class="highlight">DUSTy Roads - Expanded</span>: base version with major expansions and additional gameplay enhancements.</li>
   </ul>
-  <p>And make sure <span class="highlight">New Vegas</span> is selected in the <span class="highlight">Run</span> drop-down menu!
+  <p>And make sure <span class="highlight">New Vegas</span> is selected in the <span class="highlight">Run</span> drop-down menu, not <span class="highlight">NVSE</span>!
   <br>
   <img src="/dusty-roads/images/newvegas.png" alt="Run New Vegas"; margin:auto;"><br>
   

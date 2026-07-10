@@ -77,7 +77,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 ## The End...
 
 <p>The journey through this guide is over, but the Mojave Wasteland is still yours to explore. Use what you’ve learned to survive, mod, and shape the DUST experience your way.<br>
-<p>Oh yeah, make sure you start the game with <span class="highlight">New Vegas</span>, and not <span class="highlight">Fallout Launcher</span>!
+<p>Oh yeah, make sure you start the game with <span class="highlight">New Vegas</span>, and not <span class="highlight">NVSE</span>!
 <br>
 <img src="/dusty-roads/images/newvegas.png" alt="Run New Vegas"; margin:auto;"><br>
 <br>
