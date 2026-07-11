@@ -5,7 +5,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 
 ---
 
-## <a href="https://www.nexusmods.com/newvegas/mods/96050">NOPE - NV Optimized Patching Endeavor</a>
+## <a href="https://www.nexusmods.com/newvegas/mods/96050?tab=files&file_id=1000174241&nmm=1">NOPE - NV Optimized Patching Endeavor</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/96050/96050-1769637947-358366924.png" alt="NOPE">

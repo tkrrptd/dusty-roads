@@ -44,9 +44,12 @@ Alternatively, you can browse through the sections of the guide.</p>
 
 ### <a href="https://www.nexusmods.com/newvegas/mods/97094?tab=files">DUSTy Roads Wabbajack</a>
 <div class="guide-box">
-  <p>Until <span class="highlight">DUSTy Roads</span> is approved and added to the <span class="highlight">Wabbajack UI</span>, it can only be installed from disk by first downloading the <code>.wabbajack</code> file.<br> 
-  Download the main file <span class="highlight">DUSTy Roads - Wabbajack</span>.</p>
-  
+  <div style="margin-top: 0;">
+	  <p>Until <span class="highlight">DUSTy Roads</span> is approved and added to the <span class="highlight">Wabbajack UI</span>, it can only be installed from disk by first downloading the <code>.wabbajack</code> file.</p> 
+	  <ul>
+		<li>Download the main file <span class="highlight">DUSTy Roads - Wabbajack</span>.</li>
+	  </ul>	
+  </div>  
 </div>
 
 ### <a href="https://www.wabbajack.org/">Wabbajack</a>
