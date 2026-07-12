@@ -75,6 +75,13 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
     <ul>
       <li>Download the main file <span class="highlight">DUST Updated - Atmospheric Lighting Tweaks Patch</span></li>
     </ul>
+	
+	<div class="infobox-fomod">
+      <div class="infobox-title"><span class="icon-fomod"></span> FOMOD Installer</div>
+      <div class="infobox-content">
+        <span class="highlight">Choose version</span>: Expansion Project + Ink and Ash<br>
+	  </div>	
+    </div>
   			
   </div>
   

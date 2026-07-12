@@ -9,6 +9,13 @@ As a baseline, you should have at least:
   <li>and a CPU and GPU roughly equivalent to a mid-range system from the past decade or newer.</li>
 </ul>
 
+<div class="infobox">
+      <div class="infobox-title"><span class="icon-warning"></span> Warning</div>
+      <div class="infobox-content">
+        This guide has been developed and tested on <span class="highlight">Windows</span>. <span class="highlight">Linux</span> has not been tested or verified by me. Although the guide may work through <span class="highlight">Proton/Wine</span>, compatibility is not guaranteed, and <span class="highlight">Linux</span> installations are not supported. Support is provided only for <span class="highlight">Windows</span> installations that follow this guide.
+	  </div>	
+</div>
+
 ---
 
 ## <a href="https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/" >VC++ Redistributables</a>

@@ -81,6 +81,14 @@ Even when using <span class="highlight">MO2</span>, still need to be installed m
 	  <li>Run <code>FNVpatch.exe</code>, and a window will open with the text <code>“FalloutNV.exe patched!”</code></li>
 	  <li>Close the window and you'll see <code>FalloutNV_backup.exe</code> appeared (the original unpatched executable)</li>
     </ol>
+    
+    <div class="infobox-info">
+      <div class="infobox-title"><span class="icon-info"></span> Information</div>
+      <div class="infobox-content">
+        If you're on <span class="highlight">Linux</span>, you'll need to download <span class="highlight">FNV4GB for Linux</span>. That's about the extent of the <span class="highlight">Linux</span> support I can provide <span style="font-size: 1.4em;">☺</span>.
+      </div>
+    </div>
+  
   </div>
 
 </div><br>
