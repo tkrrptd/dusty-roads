@@ -105,7 +105,27 @@ The <span class="highlight">GECK</span> can be installed from <span class="highl
 
 ---
 
-## Other Relevant Guides
+## Other Relevant Guides and Sources of Information 
+
+### <a href="https://stepmodifications.org/wiki/Guide:Mod_Organizer">Unofficial Mod Organizer Guide</a>
+<div class="guide-box">
+  
+  <div style="margin-top: 0;">
+    <p style="margin-top: 0; margin-bottom: 0;">Although unofficial, and written for <span class="highlight">MO1</span>, many of the primary features remain the same in <span class="highlight">MO2</span>, making it a good source of general information.</p>
+  		
+  </div>
+  
+</div>
+
+### <a href="https://github.com/Nexus-Mods/Vortex/wiki">Vortex Wiki</a>
+<div class="guide-box">
+  
+  <div style="margin-top: 0;">
+    <p style="margin-top: 0; margin-bottom: 0;">The home for all of <span class="highlight">Vortex</span>'s documentation, both for users and for developers.</p>
+  		
+  </div>
+  
+</div>
 
 ### <a href="https://performance.moddinglinked.com/falloutnv.html">FNV Performance Guide</a>
 <div class="guide-box">
@@ -160,7 +180,7 @@ The <span class="highlight">GECK</span> can be installed from <span class="highl
 
 ---
 
-## Guides for a vanilla playthrough...
+## Guides for a Vanilla Playthrough
 
 ### <a href="https://vivanewvegas.moddinglinked.com/intro.html">Viva New Vegas</a>
 <div class="guide-box">

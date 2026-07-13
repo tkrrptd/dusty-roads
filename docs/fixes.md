@@ -14,7 +14,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
     <p>A modernized bug fixing mod for FNV.</p>
     
     <ul>
-      <li>Download the main file <span class="highlight">NOPE</span></li>
+      <li>Download the archived file <span class="highlight">NOPE-96050-1-0-3-1777401590.7z</span> (direct link)</li>
     </ul>
   		
   </div>
