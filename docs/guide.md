@@ -70,5 +70,6 @@ If you choose to add additional mods, always read their descriptions, instructio
   <li><span class="highlight">sw</span> for their awesome <a href="../Resources/">Perk Planner</a>;</li>
   <li><span class="highlight">The Council</span> of the <span class="highlight">DUST Discord</span> for support and ideas;</li>
   <li>The active and lively user base over at the <span class="highlight">DUST Discord</span>, and especially <span class="highlight">Stevenesque</span> and <span class="highlight">holyjay</span>;</li>
+  <li>The good people at the <span class="highlight">Wabbajack Discord</span> for their support and help;</li>
   <li>And last but not least, the storyteller extraordinaire, <a href="https://www.nexusmods.com/profile/naugrim04" >naugrim04</a>, for <span class="highlight">DUST Survival Simulator</span>, a mod that fundamentally changed what <span class="highlight">Fallout New Vegas</span> could be!</li>
 </ul>

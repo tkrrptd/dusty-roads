@@ -55,16 +55,15 @@ Alternatively, you can browse through the sections of the guide.</p>
 
 ### <a href="https://www.wabbajack.org/">Wabbajack</a>
 <div class="guide-box" style="flex-direction: column;">
-
   <div style="display: flex; gap: 20px; margin-bottom: 10px;">
     <div style="flex: 1;">
       <ol>
         <li>Download the installer using the <code>Download Now</code> button</li>
         <li>Create a new folder outside of any default Windows folders or the game folder itself, for example: <code>D:\Wabbajack</code></li>
-	    <li>Move the downloaded <code>Wabbajack.exe</code> into this new folder, and run it</li>
-		<li> Click <span class="highlight">Browse lists</span>, check <span class="highlight">Non-featured</span>, and search for <span class="highlight">dusty roads</span> in the <span class="highlight">Search for a modlist...</span> field</li>
-		<li>Click the <span class="highlight">DUSTy Roads</span> tile, and then click on the <span class="highlight">Install</span> button at the bottom</li>
-		<li>On the left-hand side, set both the <span class="highlight">Installation Location</span> and the <span class="highlight">Downloads Location</span>. These folders cannot be:
+        <li>Move the downloaded <code>Wabbajack.exe</code> into this new folder, and run it</li>
+        <li> Click <span class="highlight">Browse lists</span>, check <span class="highlight">Non-featured</span>, and search for <span class="highlight">dusty roads</span> in the <span class="highlight">Search for a modlist...</span> field</li>
+        <li>Click the <span class="highlight">DUSTy Roads</span> tile, and then click on the <span class="highlight">Install</span> button at the bottom</li>
+        <li>On the left-hand side, set both the <span class="highlight">Installation Location</span> and the <span class="highlight">Downloads Location</span>. These folders cannot be:
           <ul>
             <li>the game folder,</li>
             <li>a default Windows folder,</li>
@@ -81,7 +80,6 @@ Alternatively, you can browse through the sections of the guide.</p>
       <img src="/dusty-roads/images/wjui.png" alt="Wabbajack Installation" style="width: 80%; height: auto; border-radius: 4px;">
     </div>
   </div>
-
   <div class="infobox-info">
     <div class="infobox-title"><span class="icon-info"></span> Information</div>
     <div class="infobox-content">
@@ -89,7 +87,6 @@ Alternatively, you can browse through the sections of the guide.</p>
       The time required to download and install everything depends on your <span class="highlight">Nexus Mods</span> account type and internet speed.
     </div>
   </div>
-
 </div>
 
 ### <a href="https://www.nexusmods.com/newvegas/mods/97094?tab=files">Manual Installation</a>
