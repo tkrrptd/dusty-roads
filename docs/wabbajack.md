@@ -49,38 +49,22 @@ Alternatively, you can browse through the sections of the guide.</p>
    
 </div>
 
-### <a href="https://www.nexusmods.com/newvegas/mods/97094?tab=files">DUSTy Roads Wabbajack</a>
-<div class="guide-box">
-  <div style="margin-top: 0;">
-	  <p>Until <span class="highlight">DUSTy Roads</span> is approved and added to the <span class="highlight">Wabbajack UI</span>, it can only be installed from disk by first downloading the <code>.wabbajack</code> file.</p> 
-	  <ul>
-		<li>Download the main file <span class="highlight">DUSTy Roads - Wabbajack</span>.</li>
-	  </ul>	
-  </div>  
-</div>
-
-### <a href="https://www.wabbajack.org/">Wabbajack</a>
-<div class="guide-box">
-  <div>
-    <ol>
-      <li>Download the installer using the <code>Download Now</code> button</li>
-      <li>Create a new folder outside of any default Windows folders or the game folder itself, for example: <code>D:\Wabbajack</code></li>
-	  <li>Move the downloaded <code>Wabbajack.exe</code> into this new folder</li>
-	</ol>  
-  </div>
-  
-</div>  
-
 ---
 	  
 ## Installation
+
+### <a href="https://www.wabbajack.org/">Wabbajack</a>
 <div class="guide-box" style="flex-direction: column;">
 
   <div style="display: flex; gap: 20px; margin-bottom: 10px;">
     <div style="flex: 1;">
       <ol>
-        <li>Double-click the downloaded <code>DUSTy Roads.wabbajack</code> file</li>
-        <li>On the left side, set both the <span class="highlight">Installation Location</span> and the <span class="highlight">Downloads Location</span>. These folders cannot be:
+        <li>Download the installer using the <code>Download Now</code> button</li>
+        <li>Create a new folder outside of any default Windows folders or the game folder itself, for example: <code>D:\Wabbajack</code></li>
+	    <li>Move the downloaded <code>Wabbajack.exe</code> into this new folder, and run it</li>
+		<li> Click <span class="highlight">Browse lists</span>, check <span class="highlight">Non-featured</span>, and search for <span class="highlight">dusty roads</span> in the <span class="highlight">Search for a modlist...</span> field</li>
+		<li>Click the tile (currently it does not show the cover image due to a caching issue), and click on the <span class="highlight">Install</span> button at the bottom</li>
+		<li>On the left-hand side, set both the <span class="highlight">Installation Location</span> and the <span class="highlight">Downloads Location</span>. These folders cannot be:
           <ul>
             <li>the game folder,</li>
             <li>a default Windows folder,</li>
@@ -94,7 +78,7 @@ Alternatively, you can browse through the sections of the guide.</p>
       </ol>
     </div>
     <div style="flex: 1; display: flex; align-items: center; justify-content: center; min-height: 200px;">
-      <img src="/dusty-roads/images/wabba_ui.png" alt="Wabbajack Installation" style="width: 50%; height: auto; border-radius: 4px;">
+      <img src="/dusty-roads/images/wjui.png" alt="Wabbajack Installation" style="width: 80%; height: auto; border-radius: 4px;">
     </div>
   </div>
 
@@ -106,6 +90,18 @@ Alternatively, you can browse through the sections of the guide.</p>
     </div>
   </div>
 
+</div>
+
+### <a href="https://www.nexusmods.com/newvegas/mods/97094?tab=files">Manual Installation</a>
+<div class="guide-box">
+  <div style="margin-top: 0;">
+	  <p>Alternatively, <span class="highlight">DUSTy Roads</span> can also be installed from disk by first downloading the <code>.wabbajack</code> file.</p> 
+	  <ul>
+		<li>Download the main file <span class="highlight">DUSTy Roads - Wabbajack</span></li>
+		<li>Open <span class="highlight">Wabbajack</span>, click on <span class="highlight">Browse lists</span>, and click the <span class="highlight">Install from disk</span> button on the top-right side</li>
+		<li>Locate the downloaded <code>DUSTy Roads.wabbajack</code> file, then follow the installation instructions above.</li>
+	  </ul>	
+  </div>  
 </div>
 
 ---
