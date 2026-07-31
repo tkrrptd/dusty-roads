@@ -10,24 +10,32 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 ## <a href="https://www.nexusmods.com/newvegas/mods/97094">DUSTy Roads - A DUST Modding Guide - Resources</a>
 <div class="guide-box">
 
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/97094/97094-1775140780-122210232.png" alt="DUSTy Roads - A DUST Modding Guide - Resources">
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/97094/97094-1783506124-2057773698.png" alt="DUSTy Roads - A DUST Modding Guide - Resources">
   <div style="margin-top: 0;">
     <p>Essential files for the guide, such as configurations, conflict patch, and LOD files.</p>
 
     <p class="fake-h3" style="margin-bottom:0;"><span class="highlight">DUSTY Roads - Base</span>:</p>
-      <ul>
+      <ol>
         <li>Download the main file <span class="highlight">DUSTy Roads Base - Compatibility Patch</span></li>
-        <li>Download the main file <span class="highlight">DUSTy Roads Base - lStewieAl's Tweaks INI</span></li>
-      </ul><br>
+        <li>Download the main file <span class="highlight">DUSTy Roads Base - Configuration Files</span>, containing:</li>
+		  <ul>
+			<li>ITR INI</li>
+		    <li>lStewieAl's Tweaks INI</li>
+		  </ul>	
+      </ol><br>
     
 	<p class="fake-h3" style="margin-bottom:0;"><span class="highlight">DUSTy Roads - Expanded</span>:</p>
-      <ul>
+      <ol>
         <li>Download the main file <span class="highlight">DUSTy Roads Expanded - Compatibility Patch</span></li>
-		<li>Download the main file <span class="highlight">DUSTy Roads Expanded - Enhanced Movement INI</span></li>
-		<li>Download the main file <span class="highlight">DUSTy Roads Expanded - JAM INI</span></li>
-        <li>Download the main file <span class="highlight">DUSTy Roads Expanded - lStewieAl's Tweaks INI</span></li>	  
-        <li>Download the main file <span class="highlight">DUSTy Roads Expanded - Weapon Jamming INI</span></li>
-      </ul>
+		<li>Download the main file <span class="highlight">DUSTy Roads Expanded - Configuration Files</span>, containing:</li>
+		  <ul>
+			<li>Enhanced Movement INI</li>
+			<li>ITR INI</li>
+			<li>JAM INI</li>
+			<li>lStewieAl's Tweaks INI</li>	  
+			<li>Weapon Jamming INI</li>
+		 </ul>	
+      </ol>
 
   </div>
 

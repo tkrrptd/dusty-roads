@@ -1,11 +1,12 @@
 # PREPARATION
 
-<p>Before deep diving into modding, it’s essential to start with a clean and  <span class="warn">non-pirated</span> <span class="highlight">Fallout: New Vegas (FNV)</span> installation and a stable system environment. While the game itself is over 15 years old and its <a href="https://help.bethesda.net/#en/answer/16744"  >vanilla requirements</a> are modest, a modded setup can place significantly more strain on low-end systems.</p>
+<p>Before deep diving into modding, it’s essential to start with a clean and  <span class="warn">non-pirated</span> <span class="highlight">Fallout: New Vegas (FNV)</span> installation and a stable system environment. Only the English version of the game is supported, from either <span class="highlight">Steam</span>, <span class="highlight">GOG</span>, or the <span class="highlight">Epic Games Store</span>. <span class="highlight">Microsoft Store</span> is not supported.<br>
+While the game itself is over 15 years old and its <a href="https://help.bethesda.net/#en/answer/16744"  >vanilla requirements</a> are modest, a modded setup can place significantly more strain on low-end systems.</p>
 
 As a baseline, you should have at least:
 <ul>
   <li>8 GB of RAM,</li>
-  <li>an SSD (strongly recommended),</li>
+  <li>An SSD (strongly recommended) with approximately 20 GB of free space,</li>
   <li>and a CPU and GPU roughly equivalent to a mid-range system from the past decade or newer.</li>
 </ul>
 
@@ -79,12 +80,26 @@ As a baseline, you should have at least:
 <div class="guide-box">
 
   <div>
-    <p>A clean installation is <span class="highlight">strongly</span> recommended to make sure no leftover files from previous modding attempts can cause issues, and to guarantee the game is installed in a safe location. A safe location means avoiding Windows default directories such as <code>Program Files</code>, as well as folders managed by services like <span class="warn">OneDrive</span>, which can silently overwrite or restore files.<br>    
-    Whether you’re using <span class="highlight">Steam</span> or <span class="highlight">GOG</span>, start by uninstalling the game through your library. Then manually delete any remaining files in the installation directory (e.g. <code>steamapps\common\Fallout New Vegas</code>), as well as the <code>Documents\My Games\FalloutNV</code> folder.</p> 
-	
+    <p>A clean installation is <span class="highlight">strongly</span> recommended to make sure no leftover files from previous modding attempts can cause issues, and to guarantee the game is installed in a safe location. A safe location means avoiding Windows default directories such as <code>Program Files</code>, as well as folders managed by services like <span class="warn">OneDrive</span>, which can silently overwrite or restore files.</p> 
   </div>
   
 </div>
+
+=== "STEAM"
+    1. Open <span class="highlight">Steam</span> and go to your <span class="highlight">Library</span>
+    2. Find <span class="highlight">Fallout New Vegas</span> and right-click > <span class="highlight">Manage</span> > <span class="highlight">Uninstall</span>
+    3. Navigate to <code>...\steamapps\common\</code> and delete the <span class="highlight">Fallout New Vegas</span> folder
+    4. Navigate to <code>Documents\My Games</code> and delete the <span class="highlight">FalloutNV</span> folder
+
+=== "GOG"
+    1. Open <span class="highlight">GOG Galaxy</span> and go to your <span class="highlight">Installed games</span>
+    2. Find <span class="highlight">Fallout New Vegas</span>, click <span class="highlight">Manage Installation</span> > <span class="highlight">Uninstall</span>. In case of an offline installer, run <code>unins000.exe</code> in the game's root folder
+    3. Navigate to <code>Documents\My Games</code> and delete the <span class="highlight">FalloutNV</span> folder
+
+=== "EPIC"
+    1. Open the <span class="highlight">Epic Games Launcher</span> and go to your <span class="highlight">Library</span>
+    2. Find <span class="highlight">Fallout New Vegas</span> and click the <span class="highlight">•••</span> > <span class="highlight">Uninstall</span>
+    3. Navigate to <code>Documents\My Games</code> and delete the <span class="highlight">FalloutNV</span> folder
 
 ### Installing FNV
 <div class="guide-box">  
@@ -99,19 +114,33 @@ As a baseline, you should have at least:
 	  </div>	
     </div>
 	
-	<span style="font-weight: bold;"><u>Steam specific:</u></span><br>
+	<span style="font-weight: bold;"><u>STEAM specific:</u></span><br>
 	If your Steam Library is currently located in a default Windows directory (e.g. <code>C:\Program Files (x86)</code>, or if you are unsure how to set up a custom library location, you can use the <a href="https://github.com/LostDragonist/steam-library-setup-tool/releases" >Steam Library Setup Tool &#10515;</a>.</p>
 	
 	<ol>
 	  <li>Close <span class="highlight">Steam</span></li>
 	  <li>Run the downloaded setup tool and add a new entry (<code>Add Row</code>)</li>
 	  <li>Click <code>Accept</code>, confirm when prompted to create a new folder, and exit the tool</li>
-	  <li>Open <span class="highlight">Steam</span>, install <span class="highlight">FNV</span> and when asked for install folder, select the newly created library folder</li>
 	</ol>
 	
   </div>	
 
 </div>
+
+=== "STEAM"
+    1. Open <span class="highlight">Steam</span> and go to your <span class="highlight">Library</span>
+    2. Find <span class="highlight">Fallout New Vegas</span> and right-click > <span class="highlight">Install</span>
+    3. Select a library folder, either on a drive other than your Windows drive or one created with the <span class="highlight">Steam Library Setup Tool</span> and click <span class="highlight">Install</span>
+
+=== "GOG"
+    1. Open <span class="highlight">GOG Galaxy</span> and go to your <span class="highlight">Owned games</span>
+    2. Find <span class="highlight">Fallout New Vegas</span> and click <span class="highlight">Install</span>
+    3. In the pop-up window, set the <span class="highlight">Install to</span> location to a folder outside of any default Windows folder, and click <span class="highlight">Install</span>
+
+=== "EPIC"
+    1. Open the <span class="highlight">Epic Games Launcher</span> and go to your <span class="highlight">Library</span>
+    2. Find <span class="highlight">Fallout New Vegas</span> and click on the game to install it
+    3. In the pop-up window, set the <span class="highlight">Install to</span> location to a folder outside of any default Windows folder, and click <span class="highlight">Install</span>
 
 ### Generating INI files
 <div class="guide-box">  

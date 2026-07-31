@@ -23,6 +23,8 @@ extra_css:
 
 markdown_extensions:
   - attr_list
+  - pymdownx.tabbed:
+      alternate_style: true
 
 nav:
   - index.md
@@ -62,6 +64,6 @@ nav:
   - WABBAJACK |: wabbajack.md
   - RESOURCES |:  
     - Resources: resources.md
-    - Support & FAQ: support.md
+    - FAQ: faq.md
     - DUST Perk Planner: https://simonwdev.github.io/simonwdev/fnv/dust-planner/
   - CHANGELOG: changelog.md

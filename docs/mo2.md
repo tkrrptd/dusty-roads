@@ -6,7 +6,7 @@
 
 ---
 
-## <a href="https://www.nexusmods.com/skyrimspecialedition/mods/6194" >Installing Mod Organizer 2</a>
+## <a href="https://www.nexusmods.com/skyrimspecialedition/mods/6194" >Installing MO2</a>
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px; background:#2b2925; padding:10px; border-radius:5px;">
 
   <div>
@@ -23,7 +23,7 @@
 
 </div>
 
-## Configuring Mod Organizer 2
+## Configuring MO2
 
 ### Create an Instance
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px; background:#2b2925; padding:10px; border-radius:5px;">
@@ -171,7 +171,7 @@ bForceFullLOD=1</textarea>
 
 </div>
 
-## Using Mod Organizer 2
+## Using MO2
 
 ### Installing Mods
 <div style="background:#2b2925; padding:10px; border-radius:5px; margin-bottom:20px;">

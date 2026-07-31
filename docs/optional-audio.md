@@ -61,22 +61,6 @@
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/97384">DUST - Patch Hub | AWSOMER - DUST Expansion Project Patch</a>
-<div class="guide-box">
-  
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/97384/97384-1776239376-1169287646.png" alt="DUST Patch Hub">
-
-  <div style="margin-top: 0;">
-    <p>Scriptrunner patch for AWSOMER and DUST Expansion Project (specifically weapons implemented from FO3 Weapons Restoration).</p>
-    
-    <ul>
-      <li>Download the main file <span class="highlight">AWSOMER - DUST Expansion Project Patch</span></li>
-    </ul>
-		  		
-  </div>
-  
-</div>
-
 ## <a href="https://www.nexusmods.com/newvegas/mods/96777">A fix for AWSOMER Minigun spinning sound fix</a>
 <div class="guide-box">
   
@@ -89,6 +73,22 @@
       <li>Download the main file <span class="highlight">Fix for AWSOMER minigun spinning removal fix</span></li>
     </ul>
   		
+  </div>
+  
+</div>
+
+## <a href="https://www.nexusmods.com/newvegas/mods/97384">DUST - Patch Hub | AWSOMER - DUST Expansion Project Patch</a>
+<div class="guide-box">
+  
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/97384/97384-1776239376-1169287646.png" alt="DUST Patch Hub">
+
+  <div style="margin-top: 0;">
+    <p>Scriptrunner patch for AWSOMER and DUST Expansion Project (specifically weapons implemented from FO3 Weapons Restoration).</p>
+    
+    <ul>
+      <li>Download the main file <span class="highlight">AWSOMER - DUST Expansion Project Patch</span></li>
+    </ul>
+		  		
   </div>
   
 </div>

@@ -226,7 +226,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/76443/76443-1651870496-999897212.jpeg" alt="Better Stand Up Animation">
 
   <div style="margin-top: 0;">
-    <p>This is a beautified edit of "mt_knockdownfacedown" and "mt_knockdownfaceup" so you don't have to cringe every time you or an NPC wants to get up.</p>
+    <p>A beautified edit of "mt_knockdownfacedown" and "mt_knockdownfaceup" so you don't have to cringe every time you or an NPC wants to get up.</p>
     
     <ul>
       <li>Download the main file <span class="highlight">BetterStandUp</span></li>

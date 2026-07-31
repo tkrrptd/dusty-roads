@@ -15,9 +15,25 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
     
     <ul>
       <li>Download the main file <span class="highlight">DUST - Expansion Project</span></li>
-	  <li>Download the update file <span class="highlight">DUST Expansion Project - Updated Plugin</span></li>
+	  
     </ul>
   		
+  </div>
+  
+</div>
+
+## <a href="https://www.nexusmods.com/newvegas/mods/97095">DUST Community Fixes & Tweaks | Temporary Expansion Project Plugin Replacer</a>
+<div class="guide-box">
+  
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/97095/97095-1775169585-834887117.png" alt="DUST Community Fixes & Tweaks" style="width: 80px; margin-right: 15px; flex-shrink: 0;">
+
+  <div style="margin-top: 0;">
+    <p>Temporary Expansion Project Plugin Replacer.</p>
+    
+    <ul>
+      <li>Download the optional file <span class="highlight">Temporary Expansion Project Plugin Replacer</span></li>
+	</ul>
+
   </div>
   
 </div>
@@ -89,7 +105,7 @@ Pick one:
     <p>Changes the karma icons and Wild Wasteland icon to more immersive sanity themed icons.</p>
     
     <ul>
-      <li>Download the main file <span class="highlight">DUST - Immersive Insanity Icons</span></li>
+      <li>Download the main file <span class="highlight">DUST - Immersive Insanity Icons (CPBI)</span></li>
     </ul>
   		
   </div>

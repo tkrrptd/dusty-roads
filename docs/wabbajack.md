@@ -19,9 +19,9 @@ hide:
 <img src="/dusty-roads/images/wabbajacklist.png" alt="Pick your road" style="display:block; margin:auto;"><br>
 <br>
 
-<p><span class="highlight">Wabbajack</span> is an automated modlist installer. Instead of manually downloading, installing, and configuring hundreds of mods yourself, <span class="highlight">Wabbajack</span> automates most of the process and reproduces a curated setup as intended by the modlist author. A <span class="highlight">Wabbajack</span> modlist is built around a predefined collection of mods, configuration files, load orders, patches, and installer settings.<br>
-For the user, the process is straightforward: after installing the required tools and selecting a modlist, <span class="highlight">Wabbajack</span> automatically downloads the necessary files from sources such as <span class="highlight">Nexus Mods</span> and configures the setup with minimal manual interaction. Once completed, you receive a ready-to-play modded installation.<br>
-If you'd like to learn more about <span class="highlight">Wabbajack</span>, check out the <a href="https://wiki.wabbajack.org/">Wabbajack Wiki</a>.<br>
+<p><span class="highlight">Wabbajack</span> is an automated modlist installer. Instead of manually downloading, installing, and configuring hundreds of mods yourself, <span class="highlight">Wabbajack</span> reproduces a curated setup as intended by the modlist author.<br>
+After selecting a modlist, <span class="highlight">Wabbajack</span> downloads the required files from sites such as <span class="highlight">Nexus Mods</span>, installs them, configures <span class="highlight">Mod Organizer 2</span>, and applies the correct load order and settings automatically. Once the installation is complete, you have a ready-to-play modded setup with only a few manual steps remaining.<br>
+If you'd like to learn more about <span class="highlight">Wabbajack</span>, you can visit the <a href="https://wiki.wabbajack.org/">Wabbajack Wiki</a>.<br>
 <br>
 The <span class="highlight">DUSTy Roads Wabbajack</span> provides two profiles: 
   <ul>
@@ -30,13 +30,6 @@ The <span class="highlight">DUSTy Roads Wabbajack</span> provides two profiles:
   </ul><br>
 You can consult the mod lists on <span class="highlight">Load Order Library</span> for a complete overview of the included mods: <a href="https://loadorderlibrary.com/lists/dusty-roads-base" style="font-family: 'Special Elite', cursive; font-size: 1.2em; color: hsl(35, 80%, 55%);">DUSTy Roads - Base</a> | <a href="https://loadorderlibrary.com/lists/dusty-roads-expanded" style="font-family: 'Special Elite', cursive; font-size: 1.2em; color: hsl(35, 80%, 55%);">DUSTy Roads - Expanded</a>.<br>
 Alternatively, you can browse through the sections of the guide.</p>
-
-<div class="infobox">
-      <div class="infobox-title"><span class="icon-warning"></span> Warning</div>
-      <div class="infobox-content">
-        This <span class="highlight">Wabbajack</span> has been developed and tested on <span class="highlight">Windows</span>. <span class="highlight">Linux</span> has not been tested or verified by me. Although it may work through <span class="highlight">Proton/Wine</span>, compatibility is not guaranteed, and <span class="highlight">Linux</span> installations are not supported. Support is provided only for <span class="highlight">Windows</span> installations.
-	  </div>	
-</div>
   
 ---
 
@@ -45,7 +38,7 @@ Alternatively, you can browse through the sections of the guide.</p>
 
 ### Preparation
 <div class="guide-box"> 
-  <p>It is essential to read and complete the <a href="../preparation/" target="_blank"  style="font-family: 'Special Elite', cursive; font-size: 1.2em; color: hsl(35, 80%, 55%);">Preparation</a> section of the guide before proceeding with the <span class="highlight">Wabbajack</span> installation!</p>
+  <p>It is essential to read and complete the <a href="../preparation/" target="_blank" style="font-family: 'Special Elite', cursive; font-size: 1.2em; color: hsl(35, 80%, 55%);">Preparation</a> section of the guide before proceeding with the <span class="highlight">Wabbajack</span> installation!</p>
    
 </div>
 
@@ -106,7 +99,7 @@ Alternatively, you can browse through the sections of the guide.</p>
 ## Post-Installation
 <p>Just as before the installation, a few manual steps are required before you can start playing.</p>
 
-### Files for the Game Root Folder
+### Copy Required Root Files
 <div class="guide-box" style="flex-direction: column;">
   <p>Some files that are not managed by <span class="highlight">MO2</span> need to be copied manually to the game's <span class="highlight">root folder</span>.</p>
   
@@ -150,12 +143,12 @@ Alternatively, you can browse through the sections of the guide.</p>
   </ol>
 </div>
 
-### Mod Organizer 2 Setup
+### Configure MO2
 <div class="guide-box" style="flex-direction: column;">
   <ol>
     <li>Launch <code>ModOrganizer.exe</code> from the <span class="highlight">DUSTy Roads</span> installation folder</li>
 	<li>A <span class="highlight">Register?</span> pop-up might appear: Select <code>Yes</code></li>
-	<li>Run the game with the <span class="highlight">Fallout Launcher</span>, not <span class="highlight">New Vegas</span></li>
+	<li>Run the game with the <span class="highlight">Fallout Launcher</span> (not <span class="highlight">New Vegas</span>) once to detect your hardware and generate the configuration files required by the game</li>
 	<li>Click <code>Options</code></li>
 	<li>Select the <span class="highlight">Ultra</span> preset (or another preset accordingly to your system specifications)</li>
 	<li>Set the resolution to your monitor's native resolution</li>
@@ -188,19 +181,20 @@ Alternatively, you can browse through the sections of the guide.</p>
     <li><span class="highlight">DUSTy Roads - Base</span>: featuring <span class="highlight">DUST</span> and essential fixes.</li>
     <li><span class="highlight">DUSTy Roads - Expanded</span>: base version with major expansions and additional gameplay enhancements.</li>
   </ul>
-  <p>And make sure <span class="highlight">New Vegas</span> is selected in the <span class="highlight">Run</span> drop-down menu, not <span class="highlight">NVSE</span>!
-  <br>
+  <p>And make sure <span class="highlight">New Vegas</span> is selected in the <span class="highlight">Run</span> drop-down menu, not <span class="highlight">NVSE</span>!</p>
+  
   <img src="/dusty-roads/images/newvegas.png" alt="Run New Vegas"; margin:auto;"><br>
   
 </div>
 <br>
 
-## How to Update?
+## Updating DUSTy Roads
 <div>
   <p>Each time a new update is released, the following steps are required:</p>
     <ol>
 	  <li>Before updating, always consult the <a href="../changelog/" target="_blank"  style="font-family: 'Special Elite', cursive; font-size: 1.2em; color: hsl(35, 80%, 55%);">changelog</a> for details on new additions, removals, fixes, and any manual update instructions. Existing saves are generally compatible unless noted otherwise.</li>
 	  <li>Launch <span class="highlight">Wabbajack</span> and use the same installation folder as the existing mod list installation.</li>
+	  <li>You only need to re-run <span class="highlight">FNV 4GB Patcher</span> and <span class="highlight">FNV BSA Decompressor</span> if your game files have been restored or replaced, for example after verifying/repairing the game files or reinstalling <span class="highlight">Fallout New Vegas</span>.</li>
 	</ol>
 
     <div class="infobox">
@@ -210,6 +204,7 @@ Alternatively, you can browse through the sections of the guide.</p>
 	  </div>
 	</div>
 </div>	
+<br>
 
 ## Support
 <div>
@@ -222,7 +217,7 @@ Alternatively, you can browse through the sections of the guide.</p>
     <li>Please keep things polite and clear. I work on this in my spare time, and I don't have a lot of it.</li>
   </ul>
   
-  <p>You can also check the guide's <a href="../support/#faq" style="font-family: 'Special Elite', cursive; font-size: 1.2em; color: hsl(35, 80%, 55%);">FAQ</a> for solutions to common issues.</p>
+  <p>You can also check the guide's <a href="../faq/" style="font-family: 'Special Elite', cursive; font-size: 1.2em; color: hsl(35, 80%, 55%);">FAQ</a> for solutions to common issues.</p>
   
   <div class="infobox-info">
       <div class="infobox-title"><span class="icon-info"></span> Information</div>
@@ -233,19 +228,8 @@ Alternatively, you can browse through the sections of the guide.</p>
 		If you use a Wabbajack modlist, only go to that list's curator for support on any issues you may have."</blockquote>
 		
 	  </div>	
-  </div><br>
-  
-  <div class="infobox">
-      <div class="infobox-title"><span class="icon-warning"></span> Warning</div>
-      <div class="infobox-content">
-        <b>A WORD ABOUT <span class="warn">NEW VEGAS ANTI CRASH (NVAC)</span></b><br>
-		NVAC basically tells the game to not crash, when it wants to crash. So it forces the game to run when it shouldn't. That's not healthy as you can imagine, what may result in an unstable game and even save corruption. NVAC had its merits in the past I guess, but nowadays any scenario where NVAC would stop crashing are fixed by other mods. Except for crashes by broken meshes. But well, why would you want to run a broken mod anyway?<br> 
-		Additionally, NVAC can also contribute to crashing due to memory corruption. And when you crash with NVAC active, the crashlog that is generated will be useless. Without reliable crash information, issues cannot be properly diagnosed or fixed. As such, support will not be provided.<br>
-		<br>
-		TL;DR: If your solution is NVAC, your problem isn't solved.
-	  </div>	
   </div>
-
+    
 </div>
 
 <br>
@@ -263,5 +247,3 @@ Alternatively, you can browse through the sections of the guide.</p>
   </a>
 
 </div>
-
-

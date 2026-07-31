@@ -207,18 +207,19 @@
 
 ## <a href="https://www.nexusmods.com/newvegas/mods/91500">Vanilla Plus Tonemapper</a>
 <div class="guide-box">
-  
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/91500/91500-1742772728-352436337.png" alt="Vanilla Plus Tonemapper">
-
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/91500/91500-1742772728-352436337.png" alt="Vanilla Plus Tonemapper" style="width: 80px; margin-right: 15px; flex-shrink: 0;">
   <div style="margin-top: 0;">
     <p>A mod that fixes the vanilla tonemapping.</p>
-    
     <ul>
       <li>Download the main file <span class="highlight">Vanilla Plus Tonemapper</span></li>
     </ul>
-  		
+    <div class="infobox-info">
+      <div class="infobox-title"><span class="icon-info"></span> Information</div>
+      <div class="infobox-content">
+        Not needed if you're using <span class="highlight">New Vegas Reloaded (NVR)</span>, which already has these built in.
+      </div>
+    </div>
   </div>
-  
 </div>
 
 ## <a href="https://www.nexusmods.com/newvegas/mods/93408">Vanilla Plus Skin</a>
@@ -239,36 +240,37 @@
 
 ## <a href="https://www.nexusmods.com/newvegas/mods/94824">Vanilla Plus AO</a>
 <div class="guide-box">
-  
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/94824/94824-1764718842-1492157521.png" alt="Vanilla Plus AO">
-
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/94824/94824-1764718842-1492157521.png" alt="Vanilla Plus AO" style="width: 80px; margin-right: 15px; flex-shrink: 0;">
   <div style="margin-top: 0;">
     <p>Improves the game's shading with ambient occlusion.</p>
-    
     <ul>
       <li>Download the main file <span class="highlight">Vanilla Plus AO</span></li>
-	  <li>In case of a low-end system, download the optionaL file <span class="highlight">Vanilla Plus AO - Performance INI</span></li>
+      <li>In case of a low-end system, download the optional file <span class="highlight">Vanilla Plus AO - Performance INI</span></li>
     </ul>
-  		
+    <div class="infobox-info">
+      <div class="infobox-title"><span class="icon-info"></span> Information</div>
+      <div class="infobox-content">
+        Not needed if you're using <span class="highlight">New Vegas Reloaded (NVR)</span>, which already has these built in.
+      </div>
+    </div>
   </div>
-  
 </div>
 
 ## <a href="https://www.nexusmods.com/newvegas/mods/92708">Parallax Shaders - Terrain</a>
 <div class="guide-box">
-  
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/92708/92708-1750647112-1220861412.png" alt="Parallax Shaders - Terrain">
-
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/92708/92708-1750647112-1220861412.png" alt="Parallax Shaders - Terrain" style="width: 80px; margin-right: 15px; flex-shrink: 0;">
   <div style="margin-top: 0;">
     <p>Redefines how the game renders terrain with parallax mapping.</p>
-    
     <ul>
       <li>Download the main file <span class="highlight">Parallax Shaders - Terrain</span></li>
-	  
     </ul>
-  		
+    <div class="infobox-info">
+      <div class="infobox-title"><span class="icon-info"></span> Information</div>
+      <div class="infobox-content">
+        Not needed if you're using <span class="highlight">New Vegas Reloaded (NVR)</span>, which already includes terrain shaders.
+      </div>
+    </div>
   </div>
-  
 </div>
 
 ## <a href="https://www.nexusmods.com/newvegas/mods/93063">Vanilla Terrain Parallaxed</a>
@@ -281,6 +283,40 @@
     
     <ul>
       <li>Download the main file <span class="highlight">Vanilla Terrain Parallaxed</span></li>
+	  
+    </ul>
+  		
+  </div>
+  
+</div>
+
+## <a href="https://www.nexusmods.com/newvegas/mods/89445">Parallax Shaders - Objects</a>
+<div class="guide-box">
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/89445/89445-1728836159-4658618.png" alt="Parallax Shaders - Objects" style="width: 80px; margin-right: 15px; flex-shrink: 0;">
+  <div style="margin-top: 0;">
+    <p>Improve your visuals with this package of replacement shaders focused on parallax mapping.</p>
+    <ul>
+      <li>Download the main file <span class="highlight">Parallax Shaders - Objects</span></li>
+    </ul>
+    <div class="infobox-info">
+      <div class="infobox-title"><span class="icon-info"></span> Information</div>
+      <div class="infobox-content">
+        Not needed if you're using <span class="highlight">New Vegas Reloaded (NVR)</span>, which already has these built in.
+      </div>
+    </div>
+  </div>
+</div>
+
+## <a href="https://www.nexusmods.com/newvegas/mods/93352">Vanilla Objects Parallaxed</a>
+<div class="guide-box">
+  
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/89445/89445-1728836159-4658618.png" alt="Vanilla Objects Parallaxed">
+
+  <div style="margin-top: 0;">
+    <p>Vanilla objects now have parallax to match the Vanilla Terrain Parallaxed mod.</p>
+    
+    <ul>
+      <li>Download the main file <span class="highlight">Vanilla Objects Parallaxed</span></li>
 	  
     </ul>
   		

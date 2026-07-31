@@ -275,7 +275,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 ### <a href="https://www.nexusmods.com/newvegas/mods/97094">DUSTy Roads - LOD Plugin</a>
 <div class="guide-box">
   
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/97094/97094-1775140780-122210232.png" alt="DUSTy Roads">
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/97094/97094-1783506124-2057773698.png" alt="DUSTy Roads">
 
   <div style="margin-top: 0;">
     <ul>
@@ -301,7 +301,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 ### <a href="https://www.nexusmods.com/newvegas/mods/97094">DUSTy Roads - Pregenerated LOD</a>
 <div class="guide-box">
   
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/97094/97094-1775140780-122210232.png" alt="DUSTy Road">
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/97094/97094-1783506124-2057773698.png" alt="DUSTy Road">
 
   <div style="margin-top: 0;">
     <ul>
@@ -348,7 +348,8 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 		  <li><code>HighPriorityLOD.esp</code></li>
 		  <li><code>TreeLOD_Vanilla.esp</code></li>
 		  <li><code>DUST LOD.esp</code></li>
-		</ul>
+		</ul><br>
+		If you installed additional mods, review their documentation for any LOD-specific instructions and check for asset conflicts in the left pane of <span class="highlight">MO2</span>, before generating LOD.
       </div>	
 </div>
 

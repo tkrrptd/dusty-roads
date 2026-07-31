@@ -416,3 +416,20 @@ Right-click in the left pane of <span class="highlight">MO2</span> and select <c
   </div>
   
 </div>
+
+### <a href="https://www.nexusmods.com/newvegas/mods/96922" >ITR NVSE</a>
+<span class="badge-settings">SETTINGS</span>
+<div class="guide-box">
+  
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/96922/96922-1775681853-1828275748.png" alt="ITR NVSE">
+
+  <div style="margin-top: 0;">
+    <p>Script extender featuring new commands and event handlers, bug fixes and tweaks.</p>
+    
+    <ul>
+      <li>Download the main file <span class="highlight">itr nvse</span></li>
+    </ul>
+	  		
+  </div>
+  
+</div>

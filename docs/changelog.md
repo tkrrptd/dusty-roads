@@ -24,6 +24,97 @@
 
 	  <div class="changelog-entry">
 		<div class="changelog-dot"></div>
+		<p class="changelog-version">v2.1.0  |  31 July 2026</p>
+		
+		<b>GENERAL</b>
+		<ul>
+		  <li>General optimizations, cleanup, clarifications, FAQ expansion, and other maintenance.</li>
+		</ul><br>
+		
+		<b>UTILITIES</b>
+		<ul>
+		  <li>Added: <span class="highlight">ITR NVSE</span>.</li>
+		</ul><br>
+		
+		<b>BUG FIXES</b>
+		<ul>
+		  <li>Removed: <span class="highlight">NOPE</span>, as it has been hidden by its author. Its main functionality is now included in <span class="highlight">DUST Community Fixes and Tweaks</span>.</li>
+		</ul><br>
+		
+		<b>USER INTERFACE - EXPANDED</b>
+		<ul>
+		  <li>Added: <span class="highlight">Consistent Pip-Boy Icons v5 - Framework Plugin</span>.</li>
+		  <li>Added: <span class="highlight">Consistent Pip-Boy Icons v4</span>.</li>
+		</ul><br>
+		
+		<b>DUST PATCHES - EXPANDED</b>
+		<ul>
+		  <li>Added: <span class="highlight">Consistent Pip-Boy Icons v4 | Mod Patches</span>.</li>
+		</ul><br>
+		
+		<b>VISUALS - OPTIONAL</b>
+		<ul>
+		  <li>Added: <span class="highlight">Parallax Shaders - Objects</span>.</li>
+		  <li>Added: <span class="highlight">Vanilla Objects Parallaxed</span>.</li>
+		</ul><br>
+		
+		<b>LOD</b>
+		<ul>
+		  <li>Updated the pre-generated LOD following the recent <span class="highlight">TTW Fallout 3 LOD</span> and <span class="highlight">Decent LOD Kit</span> updates.</li>
+		</ul><br>  
+		
+		<b>WABBAJACK</b>
+		<p><span class="icon-warning"></span><span class="warn"> This update is not safe to install on an existing save!</span> <span class="icon-warning"></span></p>
+		<ul>
+		  <li>Updated to align with the changes above.</li>
+		  <li>Includes updated mods:<li>
+		    <ul>
+			  <li>Decent LOD Kit v1.12</li>
+			  <li>DUST - A World of (Less) Pain Patch v2.0.2</li>
+			  <li>DUST - Ink and Ash v1.7.0.1</li>
+			  <li>DUST Community Fixes and Tweaks v1.2.0</li>
+			  <li>DUST Community Fixes and Tweaks | Temporary Expansion Project Plugin Replacer v1.2.0</li>
+			  <li>DUSTy Roads Base - Compatibility Patch v2.1.0</li>
+			  <li>DUSTy Roads Base - Configuration Files v2.1.0</li>
+			  <li>DUSTy Roads Base - Pregenerated LOD v2.1.0</li>
+			  <li>DUSTy Roads Expanded - Compatibility Patch v2.1.0</li>
+			  <li>DUSTy Roads Expanded - Configuration Files v2.1.0</li>
+			  <li>DUSTy Roads Expanded - Pregenerated LOD v2.1.0</li>
+			  <li>NPCs Travel - DUST Patch v1.1.1</li>
+			</ul>  
+		</ul>
+		
+	  </div>
+
+  </div>
+  
+  <div class="changelog">
+
+	  <div class="changelog-entry">
+		<div class="changelog-dot"></div>
+		<p class="changelog-version">v2.0.1  |  27 July 2026</p>
+		
+		<b>WABBAJACK</b>
+		<p><span class="highlight"> This update is safe to install on an existing save.</span></p>
+		<ul>
+		  <li>Update to include updated ALT patch, to fix crashing in Ultra-Luxe.</li>
+		  <li>Includes updated mods:<li>
+		    <ul>
+			  <li>B42 Weapon Inertia v1.5</li>
+			  <li>DUST Updated - Atmospheric Lighting Tweaks Patch v1.1.4</li>
+			  <li>Third Person Aim Fix NVSE v1.2.1</li>
+			  <li>TTW Fallout 3 LOD v1.7.3</li>
+			</ul>  
+		</ul>
+		
+	  </div>
+
+  </div>
+  
+  <div class="changelog">
+
+	  <div class="changelog-entry">
+		<div class="changelog-dot"></div>
 		<p class="changelog-version">v2.0.0  |  07 July 2026</p>
 		
 		<b>GENERAL</b>

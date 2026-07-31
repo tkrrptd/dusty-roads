@@ -32,6 +32,30 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   
 </div>
 
+## <a href="https://www.nexusmods.com/newvegas/mods/65046">Consistent Pip-Boy Icons v4 | Mod Patches</a>
+<div class="guide-box">
+  
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/65046/65046-1652354812-1299390990.png" alt="Consistent Pip-Boy Icons v4">
+
+  <div style="margin-top: 0;">
+    <p>Adds support to DUST Survival Simulator.</p>
+    
+    <ul>
+      <li>Download the optional file <span class="highlight">CPI - Mod Patches</span></li>
+    </ul>
+	
+	<div class="infobox-fomod">
+      <div class="infobox-title"><span class="icon-fomod"></span> FOMOD Installer</div>
+      <div class="infobox-content">
+        <span class="highlight">Mod Patches</span>:<br>
+		  &#9745; DUST Survival Simulator
+	  </div>	
+    </div>
+  		
+  </div>
+  
+</div>
+
 ## <a href="https://www.nexusmods.com/newvegas/mods/90770">DUST - A World of (Less) Pain Patch</a>
 <div class="guide-box">
   
