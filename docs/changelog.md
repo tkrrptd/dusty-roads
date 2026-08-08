@@ -13,6 +13,14 @@
 .md-grid {
   max-width: 50% !important;
 }
+
+@media screen and (max-width: 768px) {
+  .guide-box,
+  [style*="display: flex"] {
+    flex-direction: row !important;
+  }
+}
+
 </style>
 
 # CHANGELOG
