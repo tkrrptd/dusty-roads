@@ -36,7 +36,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 			
   </div>
   
-</div><br>
+</div>
 
 ## <a href="https://www.nexusmods.com/newvegas/mods/91012">DUST - Ink and Ash</a>
 <div class="guide-box">
