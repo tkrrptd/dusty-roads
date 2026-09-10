@@ -71,7 +71,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
     <ol>
       <li>This mod is available on <span class="highlight">Mod DB</span>. Just like Nexus, navigate to the <code>Files</code> tab</li>
 	  <li>Click the file <span class="highlight">Vanilla UI Plus (New Vegas) 9.48</span> and download by clicking the red <code>Download Now</code> button</li>
-	  <li>When finished downloading, use the <code>Install from an archive</code> button in MO2, select the downloaded 7z-archive and install the mod</li>
+	  <li>When finished downloading, use the <code>Install from an archive</code> button in <span class="highlight">MO2</span>, select the downloaded 7z-archive and install the mod</li>
     </ol>
 	
 	<div class="infobox-info">
@@ -93,6 +93,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 </div>
 
 ## <a href="https://www.nexusmods.com/newvegas/mods/96240">UI Improvements</a>
+<span class="badge-settings">SETTINGS</span>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/96240/96240-1770442649-1207915860.jpg" alt="UI Improvements">

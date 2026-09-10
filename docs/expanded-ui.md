@@ -34,6 +34,22 @@
   
 </div>
 
+## <a href="https://www.nexusmods.com/newvegas/mods/85136">Vanilla Fonts Revisited</a>
+<div class="guide-box">
+  
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/85136/85136-1708635005-520169202.png" alt="Vanilla Fonts Revisited">
+
+  <div style="margin-top: 0;">
+    <p>A faithful HD remake of the vanilla Monofonto and Futura fonts.</p>
+    
+    <ul>
+      <li>Download the main file <span class="highlight">Vanilla Fonts Revisited</span></li>
+    </ul>
+		  		
+  </div>
+  
+</div>
+
 ## <a href="https://www.nexusmods.com/newvegas/mods/88478">Assorted UI Textures</a>
 <div class="guide-box">
   

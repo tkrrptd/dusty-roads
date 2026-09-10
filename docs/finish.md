@@ -21,6 +21,7 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 		  <ul>
 			<li>ITR INI</li>
 		    <li>lStewieAl's Tweaks INI</li>
+			<li>UI Improvements</li>
 		  </ul>	
       </ol><br>
     
@@ -32,7 +33,9 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
 			<li>Enhanced Movement INI</li>
 			<li>ITR INI</li>
 			<li>JAM INI</li>
-			<li>lStewieAl's Tweaks INI</li>	  
+			<li>lStewieAl's Tweaks INI</li>
+			<li>NPC Accuracy Manager INI</li>
+			<li>UI Improvements</li>
 			<li>Weapon Jamming INI</li>
 		 </ul>	
       </ol>

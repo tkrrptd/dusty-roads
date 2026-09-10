@@ -109,7 +109,7 @@ Alternatively, you can browse through the sections of the guide.</p>
 	  <li>Copy everything from this folder to the game's <span class="highlight">root folder</span>:</li>
 	  	<ul>
 		  <li><span class="highlight">xNVSE</span> files</li>
-		  <li><span class="highlight">FNV BSA Decompressor</span> files</li>
+		  <li><span class="highlight">Vanilla BSAs Patcher</span> files</li>
 		  <li><span class="highlight">FNV 4GB Patcher</span> executable</li>
 		</ul>
 	</ol>	
@@ -123,13 +123,14 @@ Alternatively, you can browse through the sections of the guide.</p>
   </div>
 </div>  
 
-### FNV BSA Decompressor
+### Vanilla BSAs Patcher
 <div class="guide-box" style="flex-direction: column;">
-  <p>Decompresses FNV's BSAs and repacks them without zlib compression for performance, and transcodes the sound effects.</p>
+  <p>Decompresses archives for better loading time and fixes vanilla audio not playing. All configurable through a simple web UI.</p>
   
   <ol>
-      <li>Run <code>FNV BSA Decompressor.exe</code></li>
-	  <li>The paths should be auto-filled. If not, complete with the path of your <span class="highlight">FNV</span> installation. Click <code>Decompress</code> and wait for it to finish</li>
+      <li>Run <code>Vanilla BSAs Patcher.exe</code></li>
+	  <li>Use the default settings. If your game is installed on a HDD, disable <code>Decompress BSAs</code></li>
+	  <li>The path should be auto-filled. If not, complete with the path of your <span class="highlight">FNV</span> installation. Click the &#9654; button and wait for it to finish</li>
   </ol>
 </div>
 

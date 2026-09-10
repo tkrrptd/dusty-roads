@@ -333,10 +333,10 @@
     <p>Adds pre-rendered cutscenes for DUST.</p>
     
     <ul>
-      <li>Download the main file <span class="highlight">DC - ESP</span></li>
-	  <li>Download the main file <span class="highlight">DC - Intro</span></li>
+      <li>Download the main file <span class="highlight">DC - ESP (UnNopeified)</span></li>
 	  <li>Download the optional file <span class="highlight">DC - Death</span></li>
 	  <li>Download the optional file <span class="highlight">DC - Hidden Armory</span></li>
+	  <li>Download the optional file <span class="highlight">DC - Intro</span></li>
 	  <li>Download the optional file <span class="highlight">DC - Insanity</span></li>
 	  <li>Download the optional file <span class="highlight">DC - Legion Safehouse</span></li>
 	  <li>Download the optional file <span class="highlight">DC - Followers Safehouse</span></li>

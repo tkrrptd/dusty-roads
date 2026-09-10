@@ -216,6 +216,45 @@
   
 </div>
 
+## <a href="https://www.nexusmods.com/newvegas/mods/98914">Hit - B42 Inject - Smoking</a>
+<div class="guide-box">
+  
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/98914/98914-1785937563-872269084.jpg" alt="B42 Inject - Smoking">
+
+  <div style="margin-top: 0;">
+    <p>Some smoking anims for Inject.</p>
+    
+    <ul>
+      <li>Download the main file <span class="highlight">Hit - B42 Inject - Smoking</span></li>
+	</ul>
+  		
+  </div>
+  
+</div>
+  
+<div class="infobox-info">
+  <div class="infobox-title"><span class="icon-info"></span> Information</div>
+  <div class="infobox-content">
+	Install only if you have also installed <a href="../optional-gameplay/#a-smoke-before-the-storm">A Smoke Before the Storm</a> or any other supported smoking mod.
+  </div>	
+</div>
+
+## <a href="https://www.nexusmods.com/newvegas/mods/99170">Dri and MrShersh - Stealth Boy Animation</a>
+<div class="guide-box">
+  
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/99170/99170-1787349013-1525480355.jpg" alt="Dri and MrShersh - Stealth Boy Animation">
+
+  <div style="margin-top: 0;">
+    <p>Stealth Boy animation for Stealth Boys & Girls.</p>
+    
+    <ul>
+      <li>Download the main file <span class="highlight">Dri StealhBoy Animation</span></li>
+	</ul>
+  		
+  </div>
+  
+</div>
+
 ## <a href="https://www.nexusmods.com/newvegas/mods/92599">Crafting and Repair Animations</a>
 <div class="guide-box">
   

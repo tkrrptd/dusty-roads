@@ -17,6 +17,30 @@
   
 </div>
 
+## <a href="https://gamebanana.com/sounds/60816">Manhunt Soundtrack Music Replacement</a>
+<div class="guide-box">
+  
+  <img src="https://i.ibb.co/YTwLnDVT/Uj-CBFRA.jpg" alt="Manhunt Soundtrack Music Replacement">
+
+  <div style="margin-top: 0;">
+    <p>This mod replaces most of FNV's music with ambient tracks from the stealth-horror game Manhunt (2003).</p>
+    
+    <ol>
+      <li>Direct download: <a href="https://drive.google.com/file/d/1JiN9Ph1hwtD-L5UWLFTVGAPEYwC5Fyd6/view?usp=share_link">Manhunt Soundtrack Music Replacement</a>. The download on <span class="highlight">GameBanana</span> only contains a Google Drive link.</li>
+	  <li>Use the <code>Install from an archive</code> button in <span class="highlight">MO2</span>, select the downloaded zip-archive and install the mod</li>
+	</ol>
+	
+	<div class="infobox">
+      <div class="infobox-title"><span class="icon-warning"></span> Warning</div>
+      <div class="infobox-content">
+        This mod depends on <span class="highlight">Digital Nightmare</span>.
+	  </div>
+    </div>
+  		
+  </div>
+  
+</div>
+
 ## Journey of the Survivor - R.A.C.E Music Pack for DUST
 
 <div style="display: flex; gap: 20px; margin-bottom: 20px;">

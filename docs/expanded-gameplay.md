@@ -184,6 +184,23 @@
   
 </div>
 
+## <a href="https://www.nexusmods.com/newvegas/mods/88215">NPC Accuracy Manager (NVSE)</a>
+<span class="badge-settings">SETTINGS</span>
+<div class="guide-box">
+  
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/88215/88215-1720806605-103270705.png" alt="NPC Accuracy Manager (NVSE)">
+
+  <div style="margin-top: 0;">
+    <p>Accuracy Manager is a simple mod that lets you modify NPC combat accuracy, based on several criteria.</p>
+    
+    <ul>
+      <li>Download the main file <span class="highlight">Accuracy Manager (NVSE)</span></li>
+    </ul>
+  		
+  </div>
+  
+</div>
+
 ## <a href="https://www.nexusmods.com/newvegas/mods/83745">NPCs Sprint kNVSE - ESPless</a>
 <div class="guide-box">
   

@@ -14,19 +14,93 @@
   max-width: 50% !important;
 }
 
-@media screen and (max-width: 768px) {
-  .guide-box,
-  [style*="display: flex"] {
-    flex-direction: row !important;
-  }
-}
-
 </style>
 
 # CHANGELOG
 
-<p class="expander-top clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">July 2026 ▼</p>
+<p class="expander-top clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">September 2026 ▼</p>
 <div class="expander-content">
+  
+  <div class="changelog">
+
+	  <div class="changelog-entry">
+		<div class="changelog-dot"></div>
+		<p class="changelog-version">v2.2.0  |  10 September 2026</p>
+		
+		<b>UTILITIES</b>
+		<ul>
+		  <li>Added: <span class="highlight">Vanilla BSAs Patcher</span>.</li>
+		  <li>Removed: <span class="highlight">FNV BSA Decompressor</span> (replaced by <span class="highlight">Vanilla BSAs Patcher</span>).</li>
+		</ul><br>
+				
+		<b>USER INTERFACE - EXPANDED</b>
+		<ul>
+		  <li>Added: <span class="highlight">Vanilla Fonts Revisited</span>.</li>
+		</ul><br>
+		
+		<b>GAMEPLAY - EXPANDED</b>
+		<ul>
+		  <li>Added: <span class="highlight">NPC Accuracy Manager (NVSE)</span>.</li>
+		</ul><br>
+		
+		<b>FINISHING TOUCH</b>
+		<ul>
+		  <li>Added: INI file for <span class="highlight">UI Improvements</span> to avoid stuttering caused by two settings.</li>
+		  <li>Added: INI file for <span class="highlight">NPC Accuracy Manager</span> (<span class="highlight">DUSTy Roads Expanded</span>).</li>
+		</ul><br>
+		
+		<b>GAMEPLAY - OPTIONAL</b>
+		<ul>
+		  <li>Removed: <span class="highlight">a Smoke before the Storm - No More Workbench</span>. The automatic conversion removes packs of cigarettes, which affects crafting recipes needing them.</li>
+		  <li>Added: <span class="highlight">A Smoke before the Storm Tweaks</span>.</li>
+		  <li>Added: <span class="highlight">Joy's ySI Icons and Patches | Smokes x ySI patch</span>.</li>
+		</ul><br>
+		
+		<b>AUDIO - OPTIONAL</b>
+		<ul>
+		  <li>Added: <span class="highlight">Manhunt Soundtrack Music Replacement</span>.</li>
+		</ul><br>
+		
+		<b>ANIMATIONS - OPTIONAL</b>
+		<ul>
+		  <li>Added: <span class="highlight">Hit - B42 Inject - Smoking</span>.</li>
+		  <li>Added: <span class="highlight">Dri and MrShersh - Stealth Boy Animation</span>.</li>
+		</ul><br>
+		
+		<b>WABBAJACK</b>
+		<p><span class="highlight"> This update is safe to install on an existing save. </span></p>
+		<ul>
+		  <li>Updated to align with the changes above.</li>
+		  <li>Includes updated mods:
+		    <ul>
+			  <li>Chemist Re-Fixed v1.1.1</li>
+			  <li>DUST - A World of (Less) Pain Patch v2.0.3</li>
+			  <li>DUSTy Roads Expanded - Compatibility Patch v2.1.1</li>
+			  <li>FNV Mod Limit Fix v7</li>
+			  <li>Iron Sights Aligned v5.4</li>
+			  <li>ITR NVSE v2.2.2</li>
+			  <li>lStewieAl's Tweaks and Engine Fixes v10.00</li>
+		    </ul>
+		</ul><br>
+		
+		<b>ADDITIONAL INSTRUCTIONS</b>
+		<p>This applies to both users of the <u>manual guide</u> and <u>Wabbajack</u>.<br>
+		If you have already patched your archives with <span class="highlight">FNV BSA Decompressor</span>, you do not really need to patch them again with <span class="highlight">Vanilla BSAs Patcher</span>. However, if you choose to do so:</p>
+		  <ol>
+			<li>Delete the <code>Sound</code> folder from your game's <code>Data</code> folder</li>
+			<li>Verify the game files to restore the original archives</li>
+			<li>Run <span class="highlight">Vanilla BSAs Patcher</span> according to the instructions in the guide</li>
+			<li>Run <span class="highlight">FNV 4GB Patcher</span> again as well</li>
+		  </ol>
+		
+	  </div>
+	  
+	</div>
+	
+</div>
+
+<p class="expander-top clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">July 2026 ▼</p>
+<div class="expander-content" style="display:none;">
   
   <div class="changelog">
 

@@ -31,12 +31,12 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
     <p>Temporary Expansion Project Plugin Replacer.</p>
     
     <ul>
-      <li>Download the optional file <span class="highlight">Temporary Expansion Project Plugin Replacer</span></li>
+      <li>Download the optional file <span class="highlight">Temporary Expansion Project Plugin Replacer.</span></li>
 	</ul>
-
+			
   </div>
   
-</div>
+</div><br>
 
 ## <a href="https://www.nexusmods.com/newvegas/mods/91012">DUST - Ink and Ash</a>
 <div class="guide-box">

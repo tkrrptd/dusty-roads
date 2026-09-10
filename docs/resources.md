@@ -180,7 +180,7 @@ The <span class="highlight">GECK</span> can be installed from <span class="highl
 
 ---
 
-## Guides for a Vanilla Playthrough
+## Guides for a non-DUST Playthrough
 
 ### <a href="https://vivanewvegas.moddinglinked.com/intro.html">Viva New Vegas</a>
 <div class="guide-box">

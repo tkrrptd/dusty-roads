@@ -29,18 +29,19 @@ Even when using <span class="highlight">MO2</span>, still need to be installed m
   </div>
 </div>
 
-### <a href="https://www.nexusmods.com/newvegas/mods/65854" >FNV BSA Decompressor</a>
+### <a href="https://www.nexusmods.com/newvegas/mods/98738" >Vanilla BSAs Patcher</a>
 <div class="guide-box">
   
-  <img src="https://staticdelivery.nexusmods.com/mods/130/images/65854/65854-1721670352-1198076595.png" alt="FNV BSA Decompressor">
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/98738/98738-1786280378-1602041215.png" alt="Vanilla BSAs Patcher">
 
   <div style="margin-top: 0;">
-    <p>Decompresses FNV's BSAs and repacks them without zlib compression for performance, and transcodes the sound effects.</p>
+    <p>Decompresses archives for better loading time and fixes vanilla audio not playing. All configurable through a simple web UI.</p>
     
     <ol>
-      <li>Download the main file <span class="highlight">FNV BSA Decompressor</span></li>
-      <li>Extract the 7z-archive and run <code>FNV BSA Decompressor.exe</code></li>
-	  <li>The paths should be auto-filled. If not, complete with the path of your <span class="highlight">FNV</span> installation. Click <code>Decompress</code> and wait for it to finish</li>
+      <li>Download the main file <span class="highlight">Vanilla BSAs Patcher</span></li>
+      <li>Extract the 7z-archive and run <code>Vanilla BSAs Patcher.exe</code></li>
+	  <li>Use the default settings. If your game is installed on a HDD, disable <code>Decompress BSAs</code></li>
+	  <li>The path should be auto-filled. If not, complete with the path of your <span class="highlight">FNV</span> installation. Click the &#9654; button and wait for it to finish</li>
     </ol>
   </div>
 
