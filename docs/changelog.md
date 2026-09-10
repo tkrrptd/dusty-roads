@@ -77,7 +77,9 @@
 		    <ul>
 			  <li>Chemist Re-Fixed v1.1.1</li>
 			  <li>DUST - A World of (Less) Pain Patch v2.0.3</li>
-			  <li>DUSTy Roads Expanded - Compatibility Patch v2.1.1</li>
+			  <li>DUSTy Roads Base - Configuration Files v2.2.0</li>
+			  <li>DUSTy Roads Expanded - Compatibility Patch v2.2.0</li>
+			  <li>DUSTy Roads Expanded - Configuration Files v2.2.0</li>
 			  <li>FNV Mod Limit Fix v7</li>
 			  <li>Iron Sights Aligned v5.4</li>
 			  <li>ITR NVSE v2.2.2</li>
