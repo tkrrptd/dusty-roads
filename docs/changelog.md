@@ -32,18 +32,12 @@
 		  <li>Updated the FAQ.</li>
 		</ul><br>
 		
-		<b>UTILITIES</b>
+		<b>UTILITIES</b> & <b>WABBAJACK</b>
 		<ul>
-		  <li>Updated <span class="highlight">Vanilla BSAs Patcher</span> instructions regarding Vorbis upgrade.</li>
+		  <li>Updated instructions for <span class="highlight">Vanilla BSAs Patcher</span> regarding Vorbis upgrade.</li>
 		</ul>
-		
-		<hr style="border-color: hsl(35, 80%, 35%); opacity: 0.6; margin: 0.8rem 0;">
-		
-		<b>WABBAJACK</b>
-		<ul>
-		  <li>Updated <span class="highlight">Vanilla BSAs Patcher</span> instructions regarding Vorbis upgrade.</li>
-		</ul><br>
-	  
+			  
+	  </div>
 	  
 	  <div class="changelog-entry">
 		<div class="changelog-dot"></div>
