@@ -1635,9 +1635,10 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="General">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#gameplay" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1647,8 +1648,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#wabbajack" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1656,6 +1657,11 @@
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1765,9 +1771,10 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="General">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#gameplay" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1777,8 +1784,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#wabbajack" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1786,6 +1793,11 @@
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1808,9 +1820,14 @@
 
 <h1 id="faq">FAQ</h1>
 <h2 id="general">General</h2>
-<p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ Do I need to run the 4GB Patcher with the GOG version of the game?</p>
+<p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ Do I need to run the <span class="highlight">4GB Patcher</span> with the <span class="highlight">GOG</span> version of the game?</p>
 <div class="expander-faq-content" style="display:none;">
   <p>Eventhough the <code>LAA</code> flag is already set in the executable of the <span class="highlight">GOG</span> version, you still need to run the <span class="highlight">4GB Patcher</span> to make the executable auto-load <span class="highlight">xNVSE</span>.</p>
+</div>
+
+<p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ When I run the <span class="highlight">Vanilla BSAs Patcher</span>, I get the error <code>Error upgrading Vorbis libraries: [WinError 32] The process cannot access the file because it is being used by another process</code></p>
+<div class="expander-faq-content" style="display:none;">
+  <p>If you have extracted <span class="highlight">Vanilla BSAs Patcher</span> into your game folder, you can untick the <code>Upgrade Vorbis libraries</code> option. The upgraded Vorbis files have already been copied to the game folder.</p>
 </div>
 
 <p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ The game crashes even before reaching the title screen.</p>
@@ -1823,17 +1840,17 @@
   <p>You probably did not install the updated plugin for <span class="highlight">DUST - Expansion Project</span> (found under <span class="highlight">Update Files</span>), or it is not placed below the main <span class="highlight">DUST - Expansion Project</span> installation in <span class="highlight">MO2</span>. Alternatively, you may have installed a <span class="highlight">DUST</span> mod that has not been updated for compatibility with <span class="highlight">DUST Community Fixes and Tweaks</span>.</p>
 </div>
 
-<p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ Vortex reports a cyclic interaction between rules.</p>
+<p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ <span class="highlight">Vortex</span> reports a cyclic interaction between rules.</p>
 <div class="expander-faq-content" style="display:none;">
   <p>See the previous question.</p>
 </div>
 
-<p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ Should I use LOOT to sort my plugins?</p>
+<p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ Should I use <span class="highlight">LOOT</span> to sort my plugins?</p>
 <div class="expander-faq-content" style="display:none;">
   <p>No, not at all. If you followed the guide religiously or installed the <span class="highlight">wabbajack</span> modlist, your plugins will already be in the correct load order. If in doubt, you can verify it against the online <span class="highlight">Load Order Library</span> files (<a href="https://loadorderlibrary.com/lists/dusty-roads-base-2">Base</a> and <a href="https://loadorderlibrary.com/lists/dusty-roads-expanded-2">Expanded</a>). If you add additional mods, follow the instructions on their <span class="highlight">Nexus Mods</span> pages, use good judgment, and check for conflicts with <a href="../resources/#xedit" target="_blank">FNVEdit</a>.</p>
 </div>
 
-<h2 id="gameplay">Gameplay</h2>
+<h3 id="gameplay">Gameplay</h3>
 <p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ There's water in Lake Mead and/or Colorado River.</p>
 <div class="expander-faq-content" style="display:none;">
   <p>This is usually caused by a load order issue. Either the guide's or your own custom LOD is being overridden by another mod's LOD files, or <code>DUST LOD.esp</code> is not the last plugin in your load order. Check for conflicts in the left pane of <span class="highlight">MO2</span> and ensure <code>DUST LOD.esp</code> loads last.</p>
@@ -1849,7 +1866,7 @@
   <p>You probably forgot to install the assets for <span class="highlight">DUST - Ink and Ash</span>. Make sure you downloaded and installed both files, and do not let <span class="highlight">MO2</span> overwrite during installation.</p>
 </div>
 
-<h2 id="wabbajack">Wabbajack</h2>
+<h3 id="wabbajack">Wabbajack</h3>
 <p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ The game crashes on startup, without generating a crash log.</p>
 <div class="expander-faq-content" style="display:none;">
   <p>Make sure to follow the steps on the <a href="../wabbajack/" target="_blank">Wabbajack</a> page, including copying the files from the <code>_Manual Install</code> folder to the game's root folder and running the included executables.</p>
