@@ -22,7 +22,7 @@
 <div class="expander-content">
   
   <div class="changelog">
-
+  
 	  <div class="changelog-entry">
 		<div class="changelog-dot"></div>
 		<p class="changelog-version">v2.2.1  |  15 September 2026</p>
@@ -37,8 +37,13 @@
 		  <li>Updated instructions for <span class="highlight">Vanilla BSAs Patcher</span> regarding Vorbis upgrade.</li>
 		</ul>
 			  
-	  </div>
-	  
+	  </div>	
+	
+  </div>
+  
+  
+  <div class="changelog">
+
 	  <div class="changelog-entry">
 		<div class="changelog-dot"></div>
 		<p class="changelog-version">v2.2.0  |  10 September 2026</p>
