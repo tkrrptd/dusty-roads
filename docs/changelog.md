@@ -25,6 +25,28 @@
 
 	  <div class="changelog-entry">
 		<div class="changelog-dot"></div>
+		<p class="changelog-version">v2.2.1  |  15 September 2026</p>
+		
+		<b>GENERAL</b>
+		<ul>
+		  <li>Updated the FAQ.</li>
+		</ul><br>
+		
+		<b>UTILITIES</b>
+		<ul>
+		  <li>Updated <span class="highlight">Vanilla BSAs Patcher</span> instructions regarding Vorbis upgrade.</li>
+		</ul>
+		
+		<hr style="border-color: hsl(35, 80%, 35%); opacity: 0.6; margin: 0.8rem 0;">
+		
+		<b>WABBAJACK</b>
+		<ul>
+		  <li>Updated <span class="highlight">Vanilla BSAs Patcher</span> instructions regarding Vorbis upgrade.</li>
+		</ul><br>
+	  
+	  
+	  <div class="changelog-entry">
+		<div class="changelog-dot"></div>
 		<p class="changelog-version">v2.2.0  |  10 September 2026</p>
 		
 		<b>UTILITIES</b>

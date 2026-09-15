@@ -43,6 +43,14 @@ Even when using <span class="highlight">MO2</span>, still need to be installed m
 	  <li>Use the default settings. If your game is installed on a HDD, disable <code>Decompress BSAs</code></li>
 	  <li>The path should be auto-filled. If not, complete with the path of your <span class="highlight">FNV</span> installation. Click the &#9654; button and wait for it to finish</li>
     </ol>
+	
+	<div class="infobox">
+      <div class="infobox-title"><span class="icon-warning"></span> Warning</div>
+      <div class="infobox-content">
+        If you have extracted <span class="highlight">Vanilla BSAs Patcher</span> into your game folder, you can untick the <code>&#9745; Upgrade Vorbis libraries</code> option. The upgraded Vorbis files have already been copied to the game folder.
+	  </div>
+    </div>
+	
   </div>
 
 </div>

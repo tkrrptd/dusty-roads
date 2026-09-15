@@ -129,7 +129,7 @@ Alternatively, you can browse through the sections of the guide.</p>
   
   <ol>
       <li>Run <code>Vanilla BSAs Patcher.exe</code></li>
-	  <li>Use the default settings. If your game is installed on a HDD, disable <code>Decompress BSAs</code></li>
+	  <li>Disable <code>Upgrade Vorbis libraries</code>. If your game is installed on a HDD, disable <code>Decompress BSAs</code> as well</li>
 	  <li>The path should be auto-filled. If not, complete with the path of your <span class="highlight">FNV</span> installation. Click the &#9654; button and wait for it to finish</li>
   </ol>
 </div>
