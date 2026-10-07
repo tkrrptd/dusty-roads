@@ -18,14 +18,50 @@
 
 # CHANGELOG
 
-<p class="expander-top clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">September 2026 ▼</p>
+<p class="expander-top clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">October 2026 ▼</p>
 <div class="expander-content">
+  
+    <div class="changelog">
+  
+	  <div class="changelog-entry">
+		<div class="changelog-dot"></div>
+		<p class="changelog-version">v2.2.2  |  07 October 2026</p><br>
+		
+		<b>ANIMATIONS - EXPANDED</b>
+		<ul>
+		  <li>Added: <span class="highlight">Hit Reactions NVSE</span>.</li>
+		</ul>
+		
+		<hr style="border-color: hsl(35, 80%, 35%); opacity: 0.6; margin: 0.8rem 0;">
+		
+		<b>WABBAJACK</b>
+		<p><span class="highlight"> This update is safe to install on an existing save. </span></p>
+		<ul>
+		  <li>Updated to align with the changes above.</li>
+		  <li>Includes updated mods:
+		    <ul>
+			  <li>DUST Community Fixes and Tweaks v1.2.3</li>
+			  <li>DUSTy Roads - LOD Plugin v2.2.1</li>
+			  <li>ITR NVSE v2.2.3</li>
+			  <li>New Vegas Script Extender v6.4.9</li>
+			  <li>NPCs Travel - DUST Patch v1.1.2</li>
+			</ul>
+		</ul>
+			  
+	  </div>	
+	
+    </div>
+  
+</div>
+
+<p class="expander-top clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">September 2026 ▼</p>
+<div class="expander-content" style="display:none;">
   
   <div class="changelog">
   
 	  <div class="changelog-entry">
 		<div class="changelog-dot"></div>
-		<p class="changelog-version">v2.2.1  |  15 September 2026</p>
+		<p class="changelog-version">v2.2.1  |  15 September 2026</p><br>
 		
 		<b>GENERAL</b>
 		<ul>
@@ -46,7 +82,7 @@
 
 	  <div class="changelog-entry">
 		<div class="changelog-dot"></div>
-		<p class="changelog-version">v2.2.0  |  10 September 2026</p>
+		<p class="changelog-version">v2.2.0  |  10 September 2026</p><br>
 		
 		<b>UTILITIES</b>
 		<ul>
@@ -133,7 +169,7 @@
 
 	  <div class="changelog-entry">
 		<div class="changelog-dot"></div>
-		<p class="changelog-version">v2.1.0  |  31 July 2026</p>
+		<p class="changelog-version">v2.1.0  |  31 July 2026</p><br>
 		
 		<b>GENERAL</b>
 		<ul>
@@ -203,7 +239,7 @@
 
 	  <div class="changelog-entry">
 		<div class="changelog-dot"></div>
-		<p class="changelog-version">v2.0.1  |  27 July 2026</p>
+		<p class="changelog-version">v2.0.1  |  27 July 2026</p><br>
 		
 		<b>WABBAJACK</b>
 		<p><span class="highlight"> This update is safe to install on an existing save.</span></p>
@@ -226,7 +262,7 @@
 
 	  <div class="changelog-entry">
 		<div class="changelog-dot"></div>
-		<p class="changelog-version">v2.0.0  |  07 July 2026</p>
+		<p class="changelog-version">v2.0.0  |  07 July 2026</p><br>
 		
 		<b>GENERAL</b>
 		<ul>
@@ -343,7 +379,7 @@
 
 	  <div class="changelog-entry">
 		<div class="changelog-dot"></div>
-		<p class="changelog-version">v1.1.5  |  16 May 2026</p>
+		<p class="changelog-version">v1.1.5  |  16 May 2026</p><br>
 		
 		<b>BUG FIXES</b>
 		<ul>
@@ -358,7 +394,7 @@
 
 	  <div class="changelog-entry">
 		<div class="changelog-dot"></div>
-		<p class="changelog-version">v1.1.4  |  15 May 2026</p>
+		<p class="changelog-version">v1.1.4  |  15 May 2026</p><br>
 		
 		<b>BUG FIXES</b>
 		<ul>
@@ -378,7 +414,7 @@
 
 	  <div class="changelog-entry">
 		<div class="changelog-dot"></div>
-		<p class="changelog-version">v1.1.3  |  28 April 2026</p>
+		<p class="changelog-version">v1.1.3  |  28 April 2026</p><br>
 		
 		<b>UTILITIES</b>
 		<ul>
@@ -393,7 +429,7 @@
 
 	  <div class="changelog-entry">
 		<div class="changelog-dot"></div>
-		<p class="changelog-version">v1.1.2  |  24 April 2026</p>
+		<p class="changelog-version">v1.1.2  |  24 April 2026</p><br>
 		
 		<b>OPTIONAL - AUDIO</b>
 		<ul>
@@ -408,7 +444,7 @@
 
 	  <div class="changelog-entry">
 		<div class="changelog-dot"></div>
-		<p class="changelog-version">v1.1.1  |  19 April 2026</p>
+		<p class="changelog-version">v1.1.1  |  19 April 2026</p><br>
 		
 		<b>GENERAL</b>
 		<ul>
@@ -432,7 +468,7 @@
 
 	  <div class="changelog-entry">
 		<div class="changelog-dot"></div>
-		<p class="changelog-version">v1.1.0  |  17 April 2026</p>
+		<p class="changelog-version">v1.1.0  |  17 April 2026</p><br>
 		
 		<b>PREPARATION</b>
 		<ul>
@@ -471,7 +507,7 @@
 
 	  <div class="changelog-entry">
 		<div class="changelog-dot"></div>
-		<p class="changelog-version">v1.0.1  |  16 April 2026</p>
+		<p class="changelog-version">v1.0.1  |  16 April 2026</p><br>
 		<b>GENERAL</b>
 		<ul>
 		  <li>Modified: corrected downloadable files for a few mods.</li>
@@ -483,7 +519,7 @@
 
 	  <div class="changelog-entry">
 		<div class="changelog-dot"></div>
-		<p class="changelog-version">v1.0.0  |  11 April 2026</p>
+		<p class="changelog-version">v1.0.0  |  11 April 2026</p><br>
 		<ul>
 		  <li>The Road begins...</li>
 		</ul>

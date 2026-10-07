@@ -29,14 +29,24 @@
 
 ### General
 
-<p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ Do I need to run the <span class="highlight">4GB Patcher</span> with the <span class="highlight">GOG</span> version of the game?</p>
+<p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ Do I need to run the 4GB Patcher with the GOG version of the game?</p>
 <div class="expander-faq-content" style="display:none;">
   <p>Eventhough the <code>LAA</code> flag is already set in the executable of the <span class="highlight">GOG</span> version, you still need to run the <span class="highlight">4GB Patcher</span> to make the executable auto-load <span class="highlight">xNVSE</span>.</p>
 </div>
 
-<p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ When I run the <span class="highlight">Vanilla BSAs Patcher</span>, I get the error <code>Error upgrading Vorbis libraries: [WinError 32] The process cannot access the file because it is being used by another process</code></p>
+<p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ When I run Vanilla BSAs Patcher, I get the error <code>Error upgrading Vorbis libraries: [WinError 32] The process cannot access the file because it is being used by another process</code></p>
 <div class="expander-faq-content" style="display:none;">
   <p>If you have extracted <span class="highlight">Vanilla BSAs Patcher</span> into your game folder, you can untick the <code>Upgrade Vorbis libraries</code> option. The upgraded Vorbis files have already been copied to the game folder.</p>
+</div>
+
+<p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ When launching the game, I get Steam Error <code>Application load error P:0000065432</code>.</p>
+<div class="expander-faq-content" style="display:none;">
+  <p>You have the <span class="highlight">PCR</span> version of <span class="highlight">FNV</span> installed. You need to override the <span class="highlight">Steam AppID</span>:</p>
+  <ol>
+    <li><img src="/dusty-roads/images/exe.png" alt="MO2 configuring executables"> Click the <code>Configuring executables</code> button in the toolbar.</li>
+    <li>Select the <span class="highlight">New Vegas</span> executable and check <code>Overwrite Steam AppID</code>.</li>
+    <li>Enter <span class="highlight">22490</span> in the field next to it.</li>
+  </ol>
 </div>
 
 <p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ The game crashes even before reaching the title screen.</p>
@@ -44,17 +54,26 @@
   <p>Make sure <span class="highlight">xNVSE</span> is installed in the game's root folder, and/or <span class="highlight">lStewieAl's Tweaks and Engine Fixes</span> is installed and enabled.</p>
 </div>
 
+<p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ The game crashes shortly after loading a save, and the crash log includes <code>Last Error: There are no more files.   (00000012)</code>.</p>
+<div class="expander-faq-content" style="display:none;">
+  <p>If you're running Windows 11, check whether the <span class="highlight">KB5124010 Preview Update</span> is installed. This update can cause crashes in some games due to an audio codec regression involving <code>msmpeg2ac3dec.dll</code>. You can resolve the issue in either of two ways:</p>
+    <ul>
+	  <li>Go to Windows Update > Update History > Uninstall Updates, find <span class="highlight">KB5124010</span> and click <span class="highlight">Uninstall</span>.</li>
+	  <li>Install <a href="https://www.nexusmods.com/newvegas/mods/99809">Sep 2026 Loading Crash Fix (Windows 11 KB5124010)</a> instead, if you would rather not modify your Windows updates.</li>
+	</ul>  
+</div>
+
 <p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ I get notified I miss certain masters: <code>YUP - Base Game + All DLC.esm</code>, <code>DUST - Manan's Tweaks.esp</code>, and <code>DUSTed DUSTesp</code>.</p>
 <div class="expander-faq-content" style="display:none;">
   <p>You probably did not install the updated plugin for <span class="highlight">DUST - Expansion Project</span> (found under <span class="highlight">Update Files</span>), or it is not placed below the main <span class="highlight">DUST - Expansion Project</span> installation in <span class="highlight">MO2</span>. Alternatively, you may have installed a <span class="highlight">DUST</span> mod that has not been updated for compatibility with <span class="highlight">DUST Community Fixes and Tweaks</span>.</p>
 </div>
 
-<p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ <span class="highlight">Vortex</span> reports a cyclic interaction between rules.</p>
+<p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ Vortex reports a cyclic interaction between rules.</p>
 <div class="expander-faq-content" style="display:none;">
   <p>See the previous question.</p>
 </div>
 
-<p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ Should I use <span class="highlight">LOOT</span> to sort my plugins?</p>
+<p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ Should I use LOOT to sort my plugins?</p>
 <div class="expander-faq-content" style="display:none;">
   <p>No, not at all. If you followed the guide religiously or installed the <span class="highlight">wabbajack</span> modlist, your plugins will already be in the correct load order. If in doubt, you can verify it against the online <span class="highlight">Load Order Library</span> files (<a href="https://loadorderlibrary.com/lists/dusty-roads-base-2">Base</a> and <a href="https://loadorderlibrary.com/lists/dusty-roads-expanded-2">Expanded</a>). If you add additional mods, follow the instructions on their <span class="highlight">Nexus Mods</span> pages, use good judgment, and check for conflicts with <a href="../resources/#xedit" target="_blank">FNVEdit</a>.</p>
 </div>
@@ -96,6 +115,11 @@
 <p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ Can I update whenever there's an update?</p>
 <div class="expander-faq-content" style="display:none;">
   <p>Consult the <a href="../changelog/" target="_blank">changelog</a> first to find out whether it is safe to update mid-game. If it isn't, this will be stated explicitly. If in doubt, don't hesitate to ask.</p>
+</div>
+
+<p class="expander-faq clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">▼ Can I just install an updated mod instead of waiting for an update of DUSTy Roads?</p>
+<div class="expander-faq-content" style="display:none;">
+  <p>Generally speaking, yes. However, <span class="highlight">DUSTy Roads</span> may contain custom edits and conflict resolution for some mods. If you update a mod yourself, you may need to resolve conflicts yourself. When in doubt, just ask.</p>
 </div>
 
 <br>

@@ -176,7 +176,7 @@ Right-click in the left pane of <span class="highlight">MO2</span> and select <c
   
 </div>
 
-## <a href="https://www.nexusmods.com/newvegas/mods/86200" target="_blank">JohnnyGuitar NVSE - INI Presets</a>
+### <a href="https://www.nexusmods.com/newvegas/mods/86200" target="_blank">JohnnyGuitar NVSE - INI Presets</a>
 <div class="guide-box">
   
   <img src="https://staticdelivery.nexusmods.com/mods/130/images/86200/86200-1713905184-2000921369.png" alt="JohnnyGuitar INI">

@@ -236,6 +236,22 @@ Right-click in the left pane of MO2 and select <code>Create separator</code>. Na
   
 </div>
 
+## <a href="https://www.nexusmods.com/newvegas/mods/97307">Hit Reactions NVSE</a>
+<div class="guide-box">
+  
+  <img src="https://staticdelivery.nexusmods.com/mods/130/images/97307/97307-1775730050-1956273899.png" alt="Hit Reactions NVSE">
+
+  <div style="margin-top: 0;">
+    <p>Procedural reactions are added to human NPCs when hit in certain locations.</p>
+    
+    <ul>
+      <li>Download the main file <span class="highlight">Hit Reactions NVSE</span></li>
+    </ul>
+  		
+  </div>
+  
+</div>
+
 ## <a href="https://www.nexusmods.com/newvegas/mods/68776">NV Compatibility Skeleton</a>
 <div class="guide-box">
   
