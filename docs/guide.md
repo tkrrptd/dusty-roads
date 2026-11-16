@@ -83,3 +83,10 @@ If you choose to add additional mods, always read their descriptions, instructio
   <li>The good people at the <span class="highlight">Wabbajack Discord</span> for their support and help;</li>
   <li>And last but not least, the storyteller extraordinaire, <a href="https://www.nexusmods.com/profile/naugrim04" >naugrim04</a>, for <span class="highlight">DUST Survival Simulator</span>, a mod that fundamentally changed what <span class="highlight">Fallout New Vegas</span> could be!</li>
 </ul>
+
+---
+
+## Generative AI Disclosure
+
+Some of the illustrative images in this guide were generated using <span class="highlight">AI tools</span>. AI was not used to generate the guide's written content or documentation.
+<br>

@@ -18,8 +18,35 @@
 
 # CHANGELOG
 
-<p class="expander-top clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">October 2026 ▼</p>
+<p class="expander-top clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">November 2026 ▼</p>
 <div class="expander-content">
+  
+    <div class="changelog">
+  
+	  <div class="changelog-entry">
+		<div class="changelog-dot"></div>
+		<p class="changelog-version">v2.2.3  |  16 November 2026</p><br>
+		
+		<b>WABBAJACK</b>
+		<p><span class="highlight"> This update is safe to install on an existing save. </span></p>
+		<ul>
+		  <li>Includes updated mods:
+		    <ul>
+			  <li>DUST Community Fixes and Tweaks v1.2.4</li>
+			  <li>ITR NVSE v2.3.0</li>
+			  <li>lStewieAl's Tweaks and Engine Fixes v10.05</li>
+			  <li>New Vegas Mesh Improvement Mod v1.14.hf2</li>
+			</ul>
+		</ul>
+			  
+	  </div>	
+	
+    </div>
+  
+</div>
+
+<p class="expander-top clickable" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">October 2026 ▼</p>
+<div class="expander-content" style="display:none;">
   
     <div class="changelog">
   
